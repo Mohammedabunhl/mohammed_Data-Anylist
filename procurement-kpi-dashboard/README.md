@@ -34,7 +34,8 @@ The project consists of two main parts:
 - `dashboard.pbix`: Final Power BI dashboard file.
 - `dashboard.png`: Screenshot of the Power BI report.
 - `README.md`: Project documentation.
-
+- `Procurement KPI Analysis Dataset.csv`: intial file.
+- `Procurement KPI Analysis Dataset.xlsx`: final file.
 ## 💡 Key Insights
 
 - Most orders were placed in mid-year months.
