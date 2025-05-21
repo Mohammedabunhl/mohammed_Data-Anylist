@@ -1,6 +1,6 @@
 gunicorn
 
 Flask
-mysql-connector-python
+mysql.connector
 pandas
 timeago
