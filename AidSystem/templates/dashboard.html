@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>سجل المساعدات</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      direction: rtl;
+      text-align: center;
+    }
+    .navbar {
+      background-color: #343a40;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .actions {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      font-size: 0;
+    }
+    .actions a.button {
+      font-size: 14px;
+      padding: 8px 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .actions a[href="/add"] { background-color: #28a745; }
+    .actions a[href="/analytics"] { background-color: #007bff; }
+    .actions a[href="/donate"] { background-color: #17a2b8; }
+    .actions a[href="/donations"] { background-color: #6f42c1; }
+    .actions a[href="/logout"] { background-color: #6c757d; }
+
+    .actions a:hover {
+      opacity: 0.9;
+    }
+
+    .notification-icon {
+      position: relative;
+      font-size: 24px;
+      cursor: pointer;
+      color: white;
+      margin-left: 15px;
+    }
+    .notification-count {
+      position: absolute;
+      top: -6px;
+      right: -10px;
+      background: #dc3545;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 50%;
+      padding: 3px 6px;
+    }
+    .notification-dropdown {
+      display: none;
+      position: absolute;
+      background: white;
+      color: #333;
+      top: 36px;
+      right: 0;
+      width: 350px;
+      max-height: 320px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 8px;
+      z-index: 100;
+      text-align: right;
+      font-size: 14px;
+      padding: 0;
+      list-style: none;
+    }
+    .notification-dropdown li {
+      padding: 10px 15px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      flex-direction: column;
+    }
+    .notification-dropdown li:last-child {
+      border-bottom: none;
+    }
+    .notification-dropdown li .notif-time {
+      color: #777;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .notification-icon.active .notification-dropdown {
+      display: block;
+    }
+
+    .container {
+      padding: 25px 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    table {
+      width: 100%;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 14px 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      vertical-align: middle;
+    }
+    th {
+      background: #007bff;
+      color: white;
+    }
+    tbody tr:hover {
+      background-color: #f1faff;
+    }
+    a.button, button.button {
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    button.button {
+      cursor: pointer;
+      border: none;
+      color: white;
+      background-color: #dc3545;
+    }
+
+    .dataTables_length,
+    .dataTables_info {
+      display: none !important;
+    }
+
+    select {
+      background: transparent;
+      border: none;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    div.dt-buttons {
+      float: left;
+      margin-top: 10px;
+    }
+
+    th select {
+      margin-top: 5px;
+    }
+
+    .dataTables_filter label {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .dataTables_filter input {
+      margin-right: 5px;
+      padding: 4px 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h1>سجل المساعدات</h1>
+    {% if user_role == 'admin' %}
+      <div class="notification-icon" id="notificationIcon" tabindex="0" aria-label="الإشعارات" role="button" aria-haspopup="true" aria-expanded="false">
+        🔔
+        {% if unread_count > 0 %}
+          <span class="notification-count" id="notifCount">{{ unread_count }}</span>
+        {% endif %}
+        <ul class="notification-dropdown" id="notifDropdown">
+          {% if notifications|length == 0 %}
+            <li>لا توجد إشعارات جديدة</li>
+          {% else %}
+            {% for notif in notifications %}
+              <li style="{% if not notif.is_read %}font-weight:bold;{% endif %}">
+                <span>{{ notif.message }}</span>
+                <span class="notif-time">{{ notif.created_at|timeago }}</span>
+              </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    {% endif %}
+    <div class="actions">
+      <a href="/add" class="button">إضافة مستفيد</a>
+      {% if user_role == 'admin' %}
+        <a href="/analytics" class="button">صفحة التحليل</a>
+        <a href="/donate" class="button">تسجيل مساعدة</a>
+        <a href="/donations" class="button">عرض المتبرعين </a>
+      {% endif %}
+      <a href="/logout" class="button">تسجيل الخروج</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <table id="beneficiariesTable" class="display nowrap" style="width:100%">
+      <thead>
+        <tr>
+          <th>الاسم رباعي</th>
+          <th>رقم الهوية</th>
+          <th>رقم الجوال</th>
+          <th>عدد الأفراد</th>
+          <th>نوع المساعدة</th>
+          <th>تاريخ التسليم</th>
+          <th>الإجراءات</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for b in data %}
+        <tr data-id="{{ b.national_id_1 }}">
+          <td>{{ b.name_male }}</td>
+          <td>{{ b.national_id_1 }}</td>
+          <td>{{ b.phone_number }}</td>
+          <td>{{ b.family_members }}</td>
+          <td>{{ b.aid_type }}</td>
+          <td>{{ b.created_at|format_datetime }}</td>
+
+          <td>
+            <a href="/details/{{ b.national_id_1 }}" class="button" style="background:#007bff;">تفاصيل</a>
+            <a href="/edit/{{ b.national_id_1 }}" class="button" style="background:#ffc107; color:#000;">تعديل</a>
+            {% if user_role == 'admin' %}
+              <button class="button delete-btn" style="background:#ff0b07;">حذف</button>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      const table = $('#beneficiariesTable').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+          {
+            extend: 'excelHtml5',
+            text: '📥 تصدير إلى Excel',
+            className: 'exportExcel',
+            exportOptions: {
+              columns: ':not(:last-child)',
+              format: {
+                header: function (data, columnIdx) {
+                  const columnNames = ['الاسم رباعي', 'رقم الهوية', 'رقم الجوال', 'عدد الأفراد', 'نوع المساعدة', 'تاريخ التسليم'];
+                  return columnNames[columnIdx] || data;
+                }
+              }
+            }
+          }
+        ],
+        language: {
+          url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/ar.json'
+        },
+        pageLength: 5,
+        lengthChange: false,
+        searching: true,
+        columnDefs: [
+          { targets: -1, orderable: false }
+        ]
+      });
+
+      // زر حذف السطر - فقط للأدمن
+      $('#beneficiariesTable tbody').on('click', 'button.delete-btn', function () {
+        if (confirm('هل أنت متأكد من حذف هذا المستفيد؟')) {
+          const row = $(this).closest('tr');
+          const nationalId = row.data('id');
+          $.ajax({
+            url: `/delete/${nationalId}`,
+            type: 'POST',
+            success: function (response) {
+              if (response.success) {
+                table.row(row).remove().draw();
+              } else {
+                alert('حدث خطأ أثناء الحذف');
+              }
+            },
+            error: function () {
+              alert('فشل الاتصال بالخادم');
+            }
+          });
+        }
+      });
+
+      // إشعارات - افتح وأغلق القائمة
+      $('#notificationIcon').on('click keydown', function (e) {
+        if (e.type === 'click' || e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          $(this).toggleClass('active');
+          const expanded = $(this).attr('aria-expanded') === 'true';
+          $(this).attr('aria-expanded', !expanded);
+        }
+      });
+
+      // إغلاق الإشعارات عند الضغط خارجها
+      $(document).on('click', function (e) {
+        if (!$(e.target).closest('#notificationIcon').length) {
+          $('#notificationIcon').removeClass('active').attr('aria-expanded', 'false');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
