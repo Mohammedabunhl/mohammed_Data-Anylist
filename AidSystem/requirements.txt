@@ -1,3 +1,5 @@
+gunicorn
+
 Flask
 mysql-connector-python
 pandas
