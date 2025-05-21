@@ -338,26 +338,30 @@ def edit_beneficiary(national_id):
 
 
 
-# حذف مستفيد
 @app.route('/delete/<national_id_1>', methods=['POST'])
 def delete(national_id_1):
     if 'user' not in session:
         return jsonify({'error': 'Unauthorized'}), 401
-    
-    cursor.execute("SELECT name_male FROM beneficiaries WHERE national_id_1 = %s", (national_id_1,))
-    name = cursor.fetchone()
-    
-    if not name:
-        return jsonify({'error': 'Record not found'}), 404
-    
+
     try:
-        cursor.execute("DELETE FROM beneficiaries WHERE national_id_1 = %s", (national_id_1,))
+        cur = db.cursor(dictionary=True, buffered=True)  # ← استخدم cursor جديد ومؤقت
+
+        cur.execute("SELECT name_male FROM beneficiaries WHERE national_id_1 = %s", (national_id_1,))
+        name = cur.fetchone()
+
+        if not name:
+            return jsonify({'error': 'Record not found'}), 404
+
+        cur.execute("DELETE FROM beneficiaries WHERE national_id_1 = %s", (national_id_1,))
         db.commit()
+
         save_notification(f"تم حذف المستفيد: {name['name_male']}")
         return jsonify({'success': True}), 200
+
     except Exception as e:
         db.rollback()
         return jsonify({'error': str(e)}), 500
+
 
 
 @app.route('/donate', methods=['GET', 'POST'])
@@ -534,7 +538,7 @@ def analytics():
     total = cursor.fetchone()['total']
 
     # 2- عدد المصابين
-    cursor.execute("SELECT COUNT(*) as injured FROM beneficiaries WHERE injured = 'نعم'")
+    cursor.execute("SELECT sum(family_members_injured) as injured FROM beneficiaries ")
     injured = cursor.fetchone()['injured']
 
     # 3- عدد المتضررين كلياً
