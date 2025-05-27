@@ -1,176 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>تعديل البيانات</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-</head>
-<body>
-  <div class="navbar">
-    <h1>تعديل بيانات المستفيد</h1>
-    <div class="nav-links">
-      <li><a href="/" class="button">الصفحة الرئيسية</a></li>
-      <li><a href="/analysis" class="button">صفحة التحليل</a></li>
-      <li><a href="/logout" class="button">تسجيل الخروج</a></li>
-      <div class="notification-icon">
-        <span>🔔</span>
-        <ul class="notification-dropdown">
-          {% for notif in notifications %}
-          <li>{{ notif.message }} - {{ notif.created_at }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <form action="/edit/{{ record.national_id_1 }}" method="POST">
-    <label>الاسم رباعي :</label>
-    <input type="text" name="name_male" value="{{ record.name_male }}" required>
-
-    <label>رقم الهوية:</label>
-    <input type="text" name="national_id_1" value="{{ record.national_id_1 }}" required>
-
-    <label>رقم الجوال:</label>
-    <input type="text" name="phone_number" value="{{ record.phone_number }}" required>
-
-    <label>الحالة الاجتماعية:</label>
-    <select name="marital_status" id="maritalStatus" onchange="handleMaritalStatus()" required>
-      <option value="">اختر الحالة</option>
-      <option value="أعزب" {% if record.marital_status == 'أعزب' %}selected{% endif %}>أعزب</option>
-      <option value="متزوج" {% if record.marital_status == 'متزوج' %}selected{% endif %}>متزوج</option>
-      <option value="مطلق" {% if record.marital_status == 'مطلق' %}selected{% endif %}>مطلق</option>
-      <option value="أرمل" {% if record.marital_status == 'أرمل' %}selected{% endif %}>أرمل</option>
-    </select>
-
-    <div id="wivesSection" style="display:none;">
-      <label>كم زوجة؟</label>
-      <select name="wives_count" id="wivesCount" onchange="handleWivesCount()">
-        <option value="1" {% if record.wives_count == '1' %}selected{% endif %}>1</option>
-        <option value="2" {% if record.wives_count == '2' %}selected{% endif %}>2</option>
-        <option value="3" {% if record.wives_count == '3' %}selected{% endif %}>3</option>
-        <option value="4" {% if record.wives_count == '4' %}selected{% endif %}>4</option>
-      </select>
-
-      <div id="wife1">
-        <label>اسم الزوجة 1:</label>
-        <input type="text" name="name_female" value="{{ record.name_female }}">
-        <label>رقم هوية الزوجة 1:</label>
-        <input type="text" name="national_id_2" value="{{ record.national_id_2 }}">
-      </div>
-
-      <div id="wife2" style="display:none;">
-        <label>اسم الزوجة 2:</label>
-        <input type="text" name="wife2_name" value="{{ record.wife2_name }}">
-        <label>رقم هوية الزوجة 2:</label>
-        <input type="text" name="wife2_national_id" value="{{ record.wife2_national_id }}">
-      </div>
-
-      <div id="wife3" style="display:none;">
-        <label>اسم الزوجة 3:</label>
-        <input type="text" name="wife3_name" value="{{ record.wife3_name }}">
-        <label>رقم هوية الزوجة 3:</label>
-        <input type="text" name="wife3_national_id" value="{{ record.wife3_national_id }}">
-      </div>
-
-      <div id="wife4" style="display:none;">
-        <label>اسم الزوجة 4:</label>
-        <input type="text" name="wife4_name" value="{{ record.wife4_name }}">
-        <label>رقم هوية الزوجة 4:</label>
-        <input type="text" name="wife4_national_id" value="{{ record.wife4_national_id }}">
-      </div>
-    </div>
-
-    <label>عدد أفراد العائلة:</label>
-    <input type="number" name="family_members" value="{{ record.family_members }}" min="0" required>
-
-    <label>عدد الافراد المصابين:</label>
-    <input type="number" name="family_members_injured" value="{{ record.family_members_injured }}" min="0" required>
-
-    <label>هل هو مصاب؟</label>
-    <select name="injured" required>
-        <option value="نعم" {% if record.injured == 'نعم' %}selected{% endif %}>نعم</option>
-        <option value="لا" {% if record.injured == 'لا' %}selected{% endif %}>لا</option>
-    </select>
-
-    <label>حالة الضرر:</label>
-    <select name="damage_status" required>
-        <option value="كلي" {% if record.damage_status == 'كلي' %}selected{% endif %}>كلي</option>
-        <option value="جزئي" {% if record.damage_status == 'جزئي' %}selected{% endif %}>جزئي</option>
-        <option value="غير متضرر" {% if record.damage_status == 'غير متضرر' %}selected{% endif %}>غير متضرر</option>
-    </select>
-
-    <label>نوع المساعدة:</label>
-    <select name="aid_type" id="aidType" required onchange="toggleAidFields()">
-        <option value="">اختر نوع المساعدة</option>
-        <option value="قيمة مالية" {% if record.aid_type == 'قيمة مالية' %}selected{% endif %}>قيمة مالية</option>
-        <option value="سلة غذائية" {% if record.aid_type == 'سلة غذائية' %}selected{% endif %}>سلة غذائية</option>
-        <option value="دواء" {% if record.aid_type == 'دواء' %}selected{% endif %}>دواء</option>
-        <option value="بطانيات" {% if record.aid_type == 'بطانيات' %}selected{% endif %}>بطانيات</option>
-        <option value="اخرى" {% if record.aid_type == 'اخرى' %}selected{% endif %}>اخرى</option>
-    </select>
-
-    <div id="amountDiv" style="display:none;">
-        <label>قيمة المساعدة (شيكل):</label>
-        <input type="number" name="aid_amount" value="{{ record.aid_amount }}" min="0">
-    </div>
-
-    <div id="otherDiv" style="display:none;">
-        <label>نوع المساعدة (اخرى):</label>
-        <input type="text" name="other_type_help" value="{{ record.other_type_help }}">
-    </div>
-
-    <label>المنطقة:</label>
-    <input type="text" name="area" value="{{ record.area }}" required>
-
-    <label>أقرب معلم (مثال: مسجد، مدرسة، بناية...):</label>
-    <input type="text" name="landmark" value="{{ record.landmark }}" required>
-
-    <label>الجنس:</label>
-    <select name="gender" required>
-      <option value="">اختر</option>
-      <option value="ذكر" {% if record.gender == 'ذكر' %}selected{% endif %}>ذكر</option>
-      <option value="أنثى" {% if record.gender == 'أنثى' %}selected{% endif %}>أنثى</option>
-    </select>
-
-    <label>مقيم/نازح:</label>
-<select name="Resident_displaced" required>
-  <option value="مقيم" {% if record.Resident_displaced == 'مقيم' %}selected{% endif %}>مقيم</option>
-  <option value="نازح" {% if record.Resident_displaced == 'نازح' %}selected{% endif %}>نازح</option>
-</select>
-
-    <label>ملاحظات (اختياري):</label>
-    <textarea name="notes" rows="3">{{ record.notes }}</textarea>
-
-    <button type="submit">تعديل</button>
-  </form>
-
-  <script>
-    function toggleAidFields() {
-        const aidType = document.getElementById("aidType").value;
-        document.getElementById("amountDiv").style.display = aidType === "قيمة مالية" ? "block" : "none";
-        document.getElementById("otherDiv").style.display = aidType === "اخرى" ? "block" : "none";
-    }
-
-    function handleMaritalStatus() {
-      const status = document.getElementById("maritalStatus").value;
-      const wivesSection = document.getElementById("wivesSection");
-      wivesSection.style.display = status === "متزوج" ? "block" : "none";
-      handleWivesCount();
-    }
-
-    function handleWivesCount() {
-      const count = parseInt(document.getElementById("wivesCount").value);
-      for (let i = 1; i <= 4; i++) {
-        document.getElementById("wife" + i).style.display = i <= count ? "block" : "none";
-      }
-    }
-
-    // تفعيل الحقول تلقائيًا عند تحميل الصفحة
-    window.onload = function () {
-      handleMaritalStatus();
-      toggleAidFields();
-    };
-  </script>
-</body>
-</html>

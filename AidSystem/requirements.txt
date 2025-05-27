@@ -1,6 +1,0 @@
-gunicorn
-
-Flask
-mysql.connector
-pandas
-timeago
