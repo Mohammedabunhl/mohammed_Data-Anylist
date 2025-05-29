@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>
+<html lang="ar" dir="rtl">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نموذج الإدخال</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/cssAdd.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="navbar">
+    <h1>سجل المساعدات</h1>
+    <ul class="nav-links">
+      <li><a href="/logout" class="button">تسجيل الخروج</a></li>
+      
+      <li><a href="/donate" class="button">تسجيل مساعدة</a></li>
+      <li><a href="/donate" class="button">اضافة متبرع</a></li>
+      <li><a href="/donations" class="button">عرض المتبرعين</a></li>
+      <li><a href="/manage_moderators" class="button">عرض المشرفين</a></li>
+      <li><a href="/analytics" class="button">صفحة التحليل</a></li>
+      <li><a href="/" class="button">الصفحة الرئيسية</a></li>
+      
+    </ul>
+  </div>
+
+  <form action="/add" method="POST">
+
+    <label>الاسم رباعي :</label>
+    <input type="text" name="name_male" required>
+
+    <label>رقم الهوية:</label>
+    <input type="text" name="national_id_1" required pattern="\d{9}" title="يجب أن يتكون رقم الهوية من 9 أرقام">
+
+    <label>رقم الجوال:</label>
+    <input type="text" name="phone_number" required pattern="05[69]\d{7}" title="يجب أن يبدأ رقم الجوال بـ 059 أو 056 ويحتوي على 10 أرقام">
+
+    <label>الحالة الاجتماعية:</label>
+    <select name="marital_status" id="maritalStatus" onchange="handleMaritalStatus()" required>
+      <option value="">اختر الحالة</option>
+      <option value="أعزب">أعزب</option>
+      <option value="متزوج">متزوج</option>
+      <option value="مطلق">مطلق</option>
+      <option value="أرمل">أرمل</option>
+    </select>
+
+    <div id="wivesSection" style="display:none;">
+      <label>كم زوجة؟</label>
+      <select name="wives_count" id="wivesCount" onchange="handleWivesCount()">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+
+      <div id="wife1">
+        <label>اسم الزوجة 1:</label>
+        <input type="text" name="name_female">
+        <label>رقم هوية الزوجة 1:</label>
+        <input type="text" name="national_id_2" pattern="\d{9}" title="رقم الهوية يجب أن يتكون من 9 أرقام">
+      </div>
+
+      <div id="wife2" style="display:none;">
+        <label>اسم الزوجة 2:</label>
+        <input type="text" name="wife2_name">
+        <label>رقم هوية الزوجة 2:</label>
+        <input type="text" name="wife2_national_id" pattern="\d{9}" title="رقم الهوية يجب أن يتكون من 9 أرقام">
+      </div>
+
+      <div id="wife3" style="display:none;">
+        <label>اسم الزوجة 3:</label>
+        <input type="text" name="wife3_name">
+        <label>رقم هوية الزوجة 3:</label>
+        <input type="text" name="wife3_national_id" pattern="\d{9}" title="رقم الهوية يجب أن يتكون من 9 أرقام">
+      </div>
+
+      <div id="wife4" style="display:none;">
+        <label>اسم الزوجة 4:</label>
+        <input type="text" name="wife4_name">
+        <label>رقم هوية الزوجة 4:</label>
+        <input type="text" name="wife4_national_id" pattern="\d{9}" title="رقم الهوية يجب أن يتكون من 9 أرقام">
+      </div>
+    </div>
+
+    <label>عدد أفراد العائلة:</label>
+    <input type="number" name="family_members" min="1" required>
+
+    <label>عدد الافراد المصابين:</label>
+    <input type="number" name="family_members_injured" id="injuredCount" min="0" required>
+
+    <label>هل هو مصاب؟</label>
+    <select name="injured" id="injuredSelect" required>
+        <option value="نعم">نعم</option>
+        <option value="لا">لا</option>
+    </select>
+
+    <label>مقيم / نازح</label>
+    <select name="Resident_displaced" required>
+        <option value="مقيم">مقيم</option>
+        <option value="نازح">نازح</option>
+    </select>
+
+    <label>حالة الضرر:</label>
+    <select name="damage_status" required>
+        <option value="كلي">كلي</option>
+        <option value="جزئي">جزئي</option>
+        <option value="غير متضرر">غير متضرر</option>
+    </select>
+
+    <label>نوع المساعدة:</label>
+    <select name="aid_type" id="aidType" required onchange="toggleAidFields()">
+        <option value="">اختر نوع المساعدة</option>
+        <option value="قيمة مالية">قيمة مالية</option>
+        <option value="سلة غذائية">سلة غذائية</option>
+        <option value="دواء">دواء</option>
+        <option value="بطانيات">بطانيات</option>
+        <option value="اخرى">اخرى</option>
+    </select>
+
+    <div id="amountDiv" style="display:none;">
+        <label>قيمة المساعدة (شيكل):</label>
+        <input type="number" name="aid_amount" min="0">
+    </div>
+
+    <div id="otherDiv" style="display:none;">
+        <label>نوع المساعدة (اخرى):</label>
+        <input type="text" name="other_type_help">
+    </div>
+
+    <label>المنطقة:</label>
+    <input type="text" name="area" required>
+
+    <label>أقرب معلم (مثال: مسجد، مدرسة، بناية...):</label>
+    <input type="text" name="landmark" required>
+
+    <label>الجنس:</label>
+    <select name="gender" required>
+      <option value="">اختر</option>
+      <option value="ذكر">ذكر</option>
+      <option value="أنثى">أنثى</option>
+    </select>
+
+    <label>ملاحظات (اختياري):</label>
+    <textarea name="notes" rows="3"></textarea>
+
+    <button type="submit">إضافة</button>
+  </form>
+
+ 
+  <script src="{{ url_for('static', filename='js/form_add.js') }}"></script>
+</body>
+</html>

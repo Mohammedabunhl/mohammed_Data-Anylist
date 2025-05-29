@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>لوحة التحليل</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/analaystic_css.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>لوحة تحليل البيانات</h1>
+    <nav class="nav-links">
+      <a href="/">الصفحة الرئيسية</a>
+      <a href="/add">إضافة مستفيد</a>
+      <a href="/donate" class="button">تسجيل مساعدة</a>
+      <a href="/donations" class="button">عرض المتبرعين</a>
+      <a href="/delete_requests" class="button">قائمة الطلبات</a>
+      <a href="/logout">تسجيل الخروج</a>
+    </nav>
+  </div>
+
+  <div class="content">
+    <div class="stats">
+      <div class="stat-box">
+        <h3>إجمالي المستفيدين</h3>
+        <p>{{ total }}</p>
+      </div>
+      <div class="stat-box">
+        <h3>عدد المصابين</h3>
+        <p>{{ injured }}</p>
+      </div>
+      <div class="stat-box">
+        <h3>المتضررين كليًا</h3>
+        <p>{{ fully_damaged }}</p>
+      </div>
+      <div class="stat-box">
+        <h3>عدد المقيمين</h3>
+        <p>{{ residents }}</p>
+      </div>
+      <div class="stat-box">
+        <h3>عدد النازحين</h3>
+        <p>{{ displaced }}</p>
+      </div>
+    </div>
+
+    <canvas id="aidChart" height="100"></canvas>
+    <canvas id="genderChart" height="100"></canvas>
+    <canvas id="damageChart" height="100"></canvas>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+  // مخطط نوع المساعدات
+  new Chart(document.getElementById('aidChart'), {
+    type: 'bar',
+    data: {
+      labels: {{ aid_labels|tojson|safe }},
+      datasets: [{
+        label: 'عدد المستفيدين',
+        data: {{ aid_counts|tojson|safe }},
+        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'أنواع المساعدات وعدد المستفيدين'
+        },
+        datalabels: {
+          anchor: 'end',
+          align: 'top',
+          color: '#333',
+          font: {
+            weight: 'bold'
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    },
+    plugins: [ChartDataLabels]
+  });
+
+  // مخطط الإقامة والنزوح
+  new Chart(document.getElementById('genderChart'), {
+    type: 'pie',
+    data: {
+      labels: {{ status_labels|tojson|safe }},
+      datasets: [{
+        data: {{ status_counts|tojson|safe }},
+        backgroundColor: ['#36a2eb', '#ff6384']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'توزيع المستفيدين حسب الإقامة والنزوح'
+        },
+        datalabels: {
+          formatter: (value, ctx) => {
+            let sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+            let percentage = (value * 100 / sum).toFixed(1) + '%';
+            return percentage;
+          },
+          color: '#fff',
+          font: {
+            weight: 'bold',
+            size: 14
+          }
+        }
+      }
+    },
+    plugins: [ChartDataLabels]
+  });
+
+  // مخطط حالة الضرر
+  new Chart(document.getElementById('damageChart'), {
+    type: 'bar',
+    data: {
+      labels: {{ damage_labels|tojson|safe }},
+      datasets: [{
+        label: 'عدد المتضررين',
+        data: {{ damage_counts|tojson|safe }},
+        backgroundColor: 'rgba(255, 99, 132, 0.6)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'حالة الضرر وعدد المستفيدين'
+        },
+        datalabels: {
+          anchor: 'end',
+          align: 'top',
+          color: '#333',
+          font: {
+            weight: 'bold'
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    },
+    plugins: [ChartDataLabels]
+  });
+
+});
+  </script>
+</body>
+</html>

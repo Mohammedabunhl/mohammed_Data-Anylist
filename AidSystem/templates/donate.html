@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>{% if donation %}تعديل مساعدة{% else %}تسجيل مساعدة{% endif %}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/cssdonate.css') }}">
+</head>
+<body>
+<div id="loader"></div>
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>سجل المساعدات</h1>
+    <ul class="nav-links">
+      <li><a href="/">الصفحة الرئيسية</a></li>
+      <li><a href="/add">اضافة مستفيد</a></li>
+      <li><a href="/donations">عرض المتبرعين</a></li>
+      <li><a href="/create_supervisor">اضافة حساب مشرف</a></li>
+      <li><a href="/create_supervisor">عرض المشرفين</a></li>
+      <li><a href="/analytics">صفحة التحليل</a></li>
+      
+      <li><a href="/logout">تسجيل الخروج</a></li>
+    </ul>
+  </div>
+
+  <!-- Form Container -->
+  <div class="container">
+    <h2>{% if donation %}تعديل مساعدة{% else %}تسجيل مساعدة من متبرع{% endif %}</h2>
+    <form action="{% if donation %}{{ url_for('edit_donate', id=donation.id) }}{% else %}{{ url_for('donate') }}{% endif %}" method="post">
+      <label for="donor_name">اسم المتبرع</label>
+      <input type="text" name="donor_name" id="donor_name" required value="{{ donation.donor_name if donation else '' }}" />
+
+      <label for="contact">وسيلة التواصل</label>
+      <input type="text" name="contact" id="contact" required value="{{ donation.contact if donation else '' }}" />
+
+      <label for="aid_type">نوع المساعدة</label>
+      <input type="text" name="aid_type" id="aid_type" required value="{{ donation.aid_type if donation else '' }}" />
+
+      <label for="amount">قيمة / كمية المساعدة</label>
+      <input type="text" name="amount" id="amount" required value="{{ donation.amount if donation else '' }}" />
+
+      <label for="description">وصف إضافي</label>
+      <textarea name="description" id="description" rows="3">{{ donation.description if donation else '' }}</textarea>
+
+      <label for="beneficiary_national_id">رقم هوية المستفيد (اختياري)</label>
+      <input type="text" name="beneficiary_national_id" id="beneficiary_national_id" value="{{ donation.beneficiary_national_id if donation else '' }}" />
+
+      <label for="status">حالة التوزيع</label>
+      <select name="status" id="status" required>
+        <option value="لم يتم" {% if donation and donation.status == 'لم يتم' %}selected{% endif %}>لم يتم</option>
+        <option value="تم" {% if donation and donation.status == 'تم' %}selected{% endif %}>تم</option>
+      </select>
+
+      <button type="submit">{% if donation %}تعديل المساعدة{% else %}تسجيل المساعدة{% endif %}</button>
+    </form>
+  </div>
+  <button id="scrollTopBtn" title="للأعلى">↑</button>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

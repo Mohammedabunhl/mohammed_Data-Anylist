@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>سجل المساعدات</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cssDontations.css') }}">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="/" class="button">الصفحة الرئسية</a>
+    <a href="/add" class="button">إضافة مستفيد</a>
+    <a href="/donate" class="button">تسجيل مساعدة</a>
+    <a href="/donations" class="button">عرض المتبرعين</a>
+    <a href="/create_supervisor" class="button">انشاء حساب مشرف</a>
+    <a href="/manage_moderators" class="button">عرض المشرفين</a>
+    <a href="/analytics" class="button">صفحة التحليل</a>
+    
+    <a href="/logout" class="button">تسجيل الخروج</a>
+</div>
+
+<h2>سجل المساعدات</h2>
+<table id="donationTable" class="display">
+    <thead>
+        <tr>
+            <th>اسم المتبرع</th>
+            <th>وسيلة التواصل</th>
+            <th>نوع المساعدة</th>
+            <th>حالة التوزيع</th>
+            <th>تاريخ الإضافة</th>
+            <th>الإجراءات</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for d in donations %}
+        <tr>
+            <td>{{ d.donor_name }}</td>
+            <td>{{ d.contact }}</td>
+            <td>{{ d.aid_type }}</td>
+            <td>{{ d.status }}</td>
+            <td>{{ d.created_at.strftime('%Y-%m-%d') if d.created_at else '' }}</td>
+            <td>
+                <a href="{{ url_for('donation_details', id=d.id) }}" class="action-button details">تفاصيل</a>
+                <a href="/donate/{{ d.id }}">
+                    <button class="edit_type" type="button">تعديل</button>
+                </a>
+                <button class="delete-btn delete" data-id="{{ d.id }}">حذف</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="{{ url_for('static', filename='js/jsdontations.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>إنشاء حساب مشرف</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/supervisor.css') }}">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <div class="navbar">
+        <div class="right">
+            <a href="/donate">تسجيل المساعدات</a>
+        </div>
+        <div class="left">
+            <a href="/" class="button">الصفحة الرئيسية</a>
+            <a href="/analytics">صفحة التحليل</a>
+            <a href="/donate">تسجيل مساعدة</a>
+            <a href="/donations">عرض المتبرعين</a>
+            
+            <a href="/logout">تسجيل الخروج</a>
+        </div>
+    </div>
+
+    <!-- نموذج إنشاء الحساب -->
+    <form method="POST">
+        <h2>إنشاء حساب مشرف</h2>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash">{{ messages[0] }}</div>
+            {% endif %}
+        {% endwith %}
+        <label for="username">اسم المستخدم:</label>
+        <input type="text" name="username" required>
+
+        <label for="password">كلمة المرور:</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">إنشاء الحساب</button>
+    </form>
+
+</body>
+</html>

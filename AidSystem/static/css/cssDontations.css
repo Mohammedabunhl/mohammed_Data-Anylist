@@ -1,0 +1,156 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f9f9f9);
+    color: #2c3e50;
+    margin: 20px;
+    direction: rtl;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
+
+/* شريط التنقل */
+.navbar {
+    background: rgba(41, 128, 185, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 12px 30px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .button {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.6);
+}
+.navbar .button:hover {
+    background: linear-gradient(135deg, #1d6fa5, #145374);
+    transform: translateY(-3px) scale(1.05);
+}
+
+/* عنوان الصفحة */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #34495e;
+    font-weight: 800;
+    font-size: 28px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+/* الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.1);
+    font-size: 15px;
+    border-radius: 16px;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+thead tr {
+    background: linear-gradient(to left, #2c3e50, #34495e);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+thead th, tbody td {
+    padding: 14px 18px;
+    text-align: center;
+}
+
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f7fc;
+}
+
+tbody tr:hover {
+    background-color: #d1eaff;
+}
+
+/* أزرار الإجراءات */
+a.action-button,
+button.delete-btn,
+button.edit_type {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* التفاصيل */
+a.action-button.details {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    text-decoration: none;
+}
+a.action-button.details:hover {
+    background: linear-gradient(135deg, #27ae60, #1e8449);
+    transform: translateY(-2px) scale(1.05);
+}
+
+/* الحذف */
+button.delete-btn {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+}
+button.delete-btn:hover {
+    background: linear-gradient(135deg, #c0392b, #922b21);
+    transform: translateY(-2px) scale(1.05);
+}
+
+/* التعديل */
+button.edit_type {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    font-size: 15px;
+}
+button.edit_type:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 86, 179, 0.5);
+}
+button.edit_type:active {
+    transform: scale(0.95);
+}
+
+/* DataTables */
+div.dataTables_wrapper {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* تحريك عند الدخول */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

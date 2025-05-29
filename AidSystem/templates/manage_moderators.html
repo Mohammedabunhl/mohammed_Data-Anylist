@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة المشرفين</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* ✅ تأثيرات CSS إضافية */
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- ✅ Navbar -->
+    <nav class="bg-white shadow-md py-4 px-6 mb-10 sticky top-0 z-40 fade-in">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-2xl font-bold text-blue-700">لوحة التحكم</div>
+            <ul class="flex gap-6 text-sm font-medium text-gray-700">
+                <li><a href="/" class="hover:text-blue-600 transition">الرئيسية</a></li>
+                <li><a href="/add" class="hover:text-blue-600 transition">إضافة مستفيد</a></li>
+                <li><a href="/donate" class="hover:text-blue-600 transition">إضافة متبرع</a></li>
+                <li><a href="/donations" class="hover:text-blue-600 transition">عرض المتبرعين</a></li>
+                <li><a href="/create_supervisor" class="hover:text-blue-600 transition">إنشاء حساب مشرف</a></li>
+                <li><a href="/analytics" class="hover:text-blue-600 transition">صفحة التحليل</a></li>
+                <li><a href="/delete_requests" class="hover:text-blue-600 transition">قائمة الطلبات</a></li>
+                <li><a href="/logout" class="text-red-600 hover:text-red-700 transition">تسجيل الخروج</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ✅ Heading -->
+    <div class="px-6 fade-in">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">إدارة المشرفين</h1>
+
+        <!-- ✅ Flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="mb-4">
+                    {% for category, message in messages %}
+                        <li class="text-white px-4 py-2 rounded bg-green-500 mb-2 fade-in">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        <!-- ✅ Table -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden card-hover">
+            <table class="min-w-full text-sm text-right">
+                <thead class="bg-blue-50 text-blue-700">
+                    <tr>
+                        <th class="px-4 py-3">اسم المستخدم</th>
+                        <th class="px-4 py-3">الإجراءات</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                    {% for user in moderators %}
+                    <tr class="hover:bg-gray-50 fade-in">
+                        <td class="px-4 py-3 font-medium text-gray-800">{{ user.username }}</td>
+                        <td class="px-4 py-3 flex gap-3">
+                            <!-- زر حذف -->
+                            <form action="{{ url_for('delete_moderator', id=user.id) }}" method="POST" onsubmit="return confirmDelete(this);">
+                                <button type="submit" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition">
+                                    حذف المشرف
+                                </button>
+                            </form>
+
+                            <!-- زر تغيير كلمة المرور -->
+                            <a href="{{ url_for('change_password', id=user.id) }}"
+                               class="bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition">
+                                تغيير كلمة المرور
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ✅ JavaScript for confirmation -->
+    <script>
+        function confirmDelete(form) {
+            return confirm('هل أنت متأكد من حذف هذا المشرف؟');
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>سجل المساعدات</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
+  <!-- Toastr CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+<body>
+  
+  <div class="navbar">
+    <h1>سجل المساعدات</h1>
+    {% if user_role == 'admin' %}
+      <div class="notification-icon" id="notificationIcon" tabindex="0" aria-label="الإشعارات" role="button" aria-haspopup="true" aria-expanded="false">
+        🔔
+        {% if unread_count > 0 %}
+          <span class="notification-count" id="notifCount">{{ unread_count }}</span>
+        {% endif %}
+        <ul class="notification-dropdown" id="notifDropdown">
+          {% if notifications|length == 0 %}
+            <li>لا توجد إشعارات جديدة</li>
+          {% else %}
+            {% for notif in notifications %}
+              <li style="{% if not notif.is_read %}font-weight:bold;{% endif %}">
+                <span>{{ notif.message }}</span>
+                <span class="notif-time">{{ notif.created_at|timeago }}</span>
+              </li>
+            {% endfor %}
+                
+          {% endif %}
+          <a href="/allnotifications" class="view-all-btn">عرض الكل</a>
+
+        </ul>
+      </div>
+    {% endif %}
+    <div class="actions">
+      <a href="/add" class="button">إضافة مستفيد</a>
+      {% if user_role == 'admin' %}
+        <a href="/analytics" class="button">صفحة التحليل</a>
+        <a href="/donate" class="button">تسجيل مساعدة</a>
+        <a href="/donations" class="button">عرض المتبرعين </a>
+        <a href="/create_supervisor" class="button"> انشاء حساب مشرف</a>
+        <a href="/manage_moderators" class="button"> عرض المشرفين</a>
+        <a href="/delete_requests" class="button"> قائمة الطلبات</a>
+        
+      {% endif %}
+      <a href="/logout" class="button">تسجيل الخروج</a>
+      
+
+    </div>
+  </div>
+
+  <div class="container">
+    <table id="beneficiariesTable" class="display nowrap" style="width:100%">
+      <thead>
+        <tr>
+          <th>الاسم رباعي</th>
+          <th>رقم الهوية</th>
+          <th>رقم الجوال</th>
+          <th>عدد الأفراد</th>
+          <th>نوع المساعدة</th>
+          <th>تاريخ التسليم</th>
+          <th>الإجراءات</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for b in data %}
+        <tr data-id="{{ b.national_id_1 }}">
+          <td>{{ b.name_male }}</td>
+          <td>{{ b.national_id_1 }}</td>
+          <td>{{ b.phone_number }}</td>
+          <td>{{ b.family_members }}</td>
+          <td>{{ b.aid_type }}</td>
+          <td>{{ b.created_at }}</td>
+
+          <td>
+            <a href="/details/{{ b.national_id_1 }}" class="button details-btn">تفاصيل</a>
+            <a href="/edit/{{ b.national_id_1 }}" class="button edit-btn">تعديل</a>
+            
+              <button class="button delete-btn" style="background:#ff0b07;">حذف</button>
+            
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+  
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* الخطوط والاتجاه */
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #1f2937, #3b82f6);
+  color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #0b3954, #03506f);
+  color: #fff;
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 15px 15px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-weight: 800;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links .button {
+  background: linear-gradient(145deg, #ff7f50, #ff5722);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 15px rgba(255, 127, 80, 0.5);
+  transition: all 0.35s ease;
+  user-select: none;
+}
+
+.nav-links .button:hover,
+.nav-links .button:focus {
+  background: linear-gradient(145deg, #ff5722, #e64a19);
+  box-shadow: 0 8px 20px rgba(230, 74, 25, 0.7);
+  transform: translateY(-3px);
+  outline: none;
+}
+
+/* Form container */
+form {
+  max-width: 700px;
+  margin: 40px auto 60px;
+  background: #1e293b;
+  padding: 35px 40px;
+  border-radius: 20px;
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.7),
+    inset 0 0 10px rgba(255, 255, 255, 0.05);
+  color: #e0e7ff;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.85),
+    inset 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Labels */
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #f9fafb;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Inputs, selects, textarea */
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  margin-top: 8px;
+  border-radius: 12px;
+  border: 1.5px solid #64748b;
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+  box-shadow:
+    inset 2px 2px 6px rgba(255, 255, 255, 0.1),
+    inset -2px -2px 6px rgba(0, 0, 0, 0.7);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #3b82f6;
+  box-shadow:
+    0 0 8px 2px #3b82f6,
+    inset 2px 2px 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Buttons */
+form button {
+  margin-top: 30px;
+  width: 100%;
+  background: linear-gradient(145deg, #0b3954, #0369a1);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow:
+    0 8px 20px rgba(3, 105, 161, 0.7);
+  transition: all 0.35s ease;
+  user-select: none;
+}
+
+form button:hover,
+form button:focus {
+  background: linear-gradient(145deg, #03416b, #052f54);
+  box-shadow:
+    0 12px 30px rgba(5, 47, 84, 0.85);
+  transform: translateY(-4px);
+  outline: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  form {
+    margin: 20px 15px;
+    padding: 25px 25px;
+  }
+}

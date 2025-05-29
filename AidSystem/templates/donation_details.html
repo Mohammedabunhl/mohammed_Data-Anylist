@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تفاصيل المساعدة</title>
+    <style>
+        body {
+            direction: rtl;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 40px;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        .box {
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            max-width: 650px;
+            margin: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            color: #222;
+            font-weight: 700;
+            margin-bottom: 30px;
+            letter-spacing: 1.5px;
+        }
+
+        .field {
+            margin-bottom: 22px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+
+        .label {
+            font-weight: 700;
+            color: #007BFF;
+            min-width: 150px;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 30px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>تفاصيل المساعدة</h2>
+
+    {% if donation.donor_name %}
+    <div class="field"><span class="label">اسم المتبرع:</span> {{ donation.donor_name }}</div>
+    {% endif %}
+
+    {% if donation.contact %}
+    <div class="field"><span class="label">وسيلة التواصل:</span> {{ donation.contact }}</div>
+    {% endif %}
+
+    {% if donation.aid_type %}
+    <div class="field"><span class="label">نوع المساعدة:</span> {{ donation.aid_type }}</div>
+    {% endif %}
+
+    {% if donation.amount is not none and donation.amount != '' %}
+    <div class="field"><span class="label">قيمة المساعدة:</span> {{ donation.amount }}</div>
+    {% endif %}
+
+    {% if donation.description %}
+    <div class="field"><span class="label">الوصف:</span> {{ donation.description }}</div>
+    {% endif %}
+
+    {% if donation.beneficiary_national_id and donation.beneficiary_national_id != 'None' and donation.beneficiary_national_id != '' %}
+    <div class="field"><span class="label">رقم هوية المستفيد:</span> {{ donation.beneficiary_national_id }}</div>
+    {% endif %}
+
+    {% if donation.status %}
+    <div class="field"><span class="label">حالة التوزيع:</span> {{ donation.status }}</div>
+    {% endif %}
+
+    {% if donation.created_at %}
+    <div class="field"><span class="label">تاريخ الإضافة:</span> {{ donation.created_at.strftime('%Y-%m-%d %H:%M') }}</div>
+    {% endif %}
+
+    <br>
+    <a href="{{ url_for('donations') }}">🔙 العودة إلى السجل</a>
+</div>
+
+</body>
+</html>
