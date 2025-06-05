@@ -1,0 +1,1001 @@
+employee_id,full_name,gender,birth_date,hire_date,department,position,salary,email,phone_number,city,country,status
+1,"Allison Hill",Male,1979-07-03,2017-09-08,Finance,Consultant,54752.64,garzaanthony@robinson.org,"(838) 637 9402",Petersonberg,Cuba,Active
+2,"Gabrielle Davis",Female,1970-11-23,2021-06-02,Finance,Analyst,38432.57,lindsay784@gmail.com,"(184) 959 3103 x4131",Ramirezstad,"Central African Republic",Active
+3,"Daniel Adams",Female,1969-03-04,2018-03-23,HR,Intern,83033.91,stevennelson@watts.com,"(056) 413 9537",Wilkersonmouth,Cambodia,Active
+4,"David Hoffman",Male,1982-03-12,2025-04-04,R&D,Executive,39198.92,icox@hotmail.com,"(101) 226 9166 x9784","Lake Jenniferside","Sao Tome and Principe",Resigned
+5,"Martin Rodriguez",Female,1993-11-25,2018-01-01,Sales,Analyst,117580.42,mckaynancy@yahoo.com,"(281) 489 3252 x88095",Smithstad,Turkey,Resigned
+6,"Dr. Cynthia Allen",Female,2002-12-03,2016-08-26,Sales,Manager,93411.47,wcabrera@cannon.net,"(489) 638 3465",Lammouth,"British Indian Ocean Territory (Chagos Archipelago)",Active
+7,"Austin Smith",Male,2002-01-03,2019-03-24,Marketing,Executive,70806.93,jonescrystal@jones.com,"(834) 738 2997","Port Thomas",Ireland,Resigned
+8,"Brent Jordan",Male,1993-02-20,2022-04-22,Sales,Consultant,45402.48,nuneztracey@gmail.com,"(651) 333 8726","West Steven",Tunisia,Terminated
+9,"Jessica Callahan",Male,2001-10-06,2016-12-23,Operations,Executive,105856.67,novaksara@martin.info,"(602) 606 4746",Mooreport,Cuba,Active
+10,"Lauren Daniels",Male,1985-08-27,2016-04-14,Sales,Consultant,58321.01,hshaw@brown.com,"(191) 361 9399","New Christophershire",Monaco,Terminated
+11,"Taylor Harris",Male,1985-09-11,2019-05-17,HR,Consultant,80523.13,panderson@yahoo.com,"(510) 799 1183 x842",Nicolebury,"Heard Island and McDonald Islands",Resigned
+12,"Jeffrey Daniels",Male,1984-11-25,2024-04-23,Sales,Intern,38181.85,sarah12@wilson-rodriguez.net,"(449) 353 4874","North Cynthiaview",Aruba,Active
+13,"Ray Walsh",Male,1982-02-20,2018-01-23,Marketing,Intern,83629.96,hhoffman@gmail.com,"(001) 280 5982 620x450",Jasonbury,"Papua New Guinea",Resigned
+14,"Richard Henson",Male,2000-01-01,2017-12-10,Operations,Engineer,97579.00,theresacochran@johnson-doyle.com,"(342) 160 7337 x54330","South Mark",Tonga,Terminated
+15,"Raymond Bell",Female,1998-12-24,2022-02-10,Sales,Manager,75691.35,wilsontara@gmail.com,"(001) 401 9655 698","South Rachelborough","Equatorial Guinea",Active
+16,"Jeffrey Meyer",Male,2000-12-15,2018-08-31,IT,Manager,78544.11,qjones@yahoo.com,"(151) 484 6564 8x236",Byrdburgh,"New Zealand",Terminated
+17,"Jennifer Bass",Female,1984-12-28,2020-03-11,R&D,Executive,51550.71,mfloyd@morris.net,"(214) 895 1343 x3200","South Cheryl",Seychelles,Active
+18,"Jason Soto",Male,1977-07-18,2021-11-04,R&D,Engineer,98925.10,psanchez@hotmail.com,"(163) 287 0831",Andersonmouth,"Papua New Guinea",Active
+19,"Kristin Stewart",Female,1994-06-07,2023-11-25,HR,Engineer,97973.87,vmerritt@yahoo.com,"(434) 873 4714 x345",Patricialand,Burundi,Terminated
+20,"James Hernandez",Female,1978-11-15,2016-05-28,Sales,Intern,40890.38,drivera9@yahoo.com,"(366) 909 6705",Karenchester,Martinique,Active
+21,"Kimberly Morrison",Male,1979-04-28,2023-08-14,Operations,Consultant,35298.64,ryan06@caldwell-yates.com,"(298) 069 9016 x272","West Nicholasborough",Korea,Active
+22,"Philip Gray",Female,1993-01-01,2019-08-09,HR,Engineer,41908.07,ismith@cooke.com,"(110) 033 0923 2x7193",Lyonsstad,Chad,Terminated
+23,"Tracey Higgins",Male,1975-06-17,2020-08-08,Finance,Consultant,68794.61,hickmanbarbara@sanders-espinoza.com,"(001) 314 9190 586",Caseymouth,"American Samoa",Resigned
+24,"Samantha Garcia",Male,1988-12-17,2023-02-18,Finance,Intern,95539.22,hthompson@nelson.info,"(694) 531 4737 x996",Anthonymouth,"Cocos (Keeling) Islands",Active
+25,"Mr. David Ramirez",Female,2004-11-18,2020-01-05,Marketing,Manager,108703.74,christophercortez@peters-allen.info,"(177) 014 3634 9x5788",Ronaldside,Greenland,Active
+26,"Jesse Parker",Male,1980-01-02,2017-05-13,Finance,Manager,44968.00,david82@robinson.com,"(001) 989 4134 352x4082",Brandonton,Mexico,Resigned
+27,"Tony Little",Male,1997-09-19,2017-01-21,Marketing,Executive,113386.63,taylor75@sheppard.info,"(167) 190 2294","East Davidchester",Netherlands,Resigned
+28,"Lisa Rowe",Female,1990-03-14,2022-12-23,HR,Manager,56703.70,michelle64@hotmail.com,"(109) 133 4123 2x812","South Shannonfort","French Guiana",Active
+29,"Dwayne Campbell",Female,1995-03-19,2016-07-10,Sales,Engineer,44168.95,kristin93@wilson-walker.com,"(210) 249 9471 x746",Vincentfort,Kazakhstan,Terminated
+30,"Andrew Reynolds",Male,1986-04-01,2019-07-28,Marketing,Analyst,114743.65,perezemily@matthews.com,"(001) 027 8742 967","South Michaelmouth",Gibraltar,Terminated
+31,"Shannon Rivera",Female,1998-01-11,2020-03-19,IT,Manager,90275.34,gibsonleonard@yahoo.com,"(680) 876 0385",Garrettton,"Costa Rica",Resigned
+32,"Carlos Roberts",Female,1997-04-19,2017-05-18,R&D,Analyst,30838.39,jennifercollins@tran.com,"(712) 748 4677","South Andrea",Hungary,Terminated
+33,"Kyle Francis",Female,1973-08-08,2016-07-01,HR,Executive,109277.78,ymorgan@hotmail.com,"(044) 997 2787 x558",Gibsonmouth,"Trinidad and Tobago",Active
+34,"Michael Armstrong",Male,1980-03-17,2022-04-20,Operations,Engineer,56944.09,julie66@sparks.com,"(895) 171 8702",Pittsberg,Belarus,Terminated
+35,"Wayne Morgan",Male,1991-05-13,2016-09-05,IT,Executive,84434.68,ofinley@hotmail.com,"(001) 780 9134 316x11724","North Markton","French Polynesia",Terminated
+36,"Jeffrey Sanchez",Female,1992-05-09,2024-12-09,R&D,Analyst,38306.86,gregorylynch@harvey-allen.org,"(374) 740 7482","South Sierrashire","French Southern Territories",Resigned
+37,"Jessica Wright",Female,1984-11-15,2018-09-13,HR,Consultant,69765.20,yrodriguez2@hotmail.com,"(944) 064 0909 x743",Jefferyborough,Nicaragua,Terminated
+38,"Perry Saunders",Male,1973-08-15,2016-12-18,Sales,Analyst,105113.55,kristina09@oconnor-davis.com,"(623) 285 8842 x47451",Mccartyberg,"Saudi Arabia",Terminated
+39,"Shannon Ramsey",Male,1991-05-11,2024-10-17,IT,Manager,91386.00,gibbsalexander@hotmail.com,"(754) 965 1370",Rosebury,Oman,Terminated
+40,"Rodney Blankenship",Male,1984-11-16,2022-04-05,HR,Manager,117858.54,brandonjohnson6@wilson-young.net,"(675) 869 2617",Crosbyview,"Antigua and Barbuda",Active
+41,"Claudia Wallace",Male,1980-05-19,2021-06-25,IT,Manager,100863.71,amy50@hill-donaldson.info,"(390) 053 2931","New Jason","Trinidad and Tobago",Active
+42,"Raymond Kramer",Female,2004-11-14,2015-05-12,IT,Executive,103848.27,vanessafernandez@gmail.com,"(020) 539 5024","East Judyhaven",Brazil,Active
+43,"Karen Strickland",Male,1999-03-29,2017-03-02,R&D,Executive,61603.15,soniawilliams@hotmail.com,"(470) 076 6177 x11592","East Joshuashire",Mayotte,Terminated
+44,"Jane Harper",Male,1984-05-19,2023-01-12,IT,Manager,82253.08,mcguiredanny@hotmail.com,"(183) 673 6576 6x1565",Nicholasberg,Poland,Resigned
+45,"Andrea Decker",Female,1970-08-29,2022-08-29,Sales,Engineer,40408.12,lisa80@frye.biz,"(604) 945 1983 x273","West Meganstad",Brazil,Terminated
+46,"Laura Aguirre",Male,2002-06-27,2024-10-13,IT,Intern,36297.64,anthony44@bell-white.com,"(001) 612 0183 667",Ericport,"Saint Helena",Terminated
+47,"Todd Carlson",Female,1967-11-23,2017-12-16,Sales,Executive,90020.36,craigjoseph@coleman.com,"(001) 815 6149 784x03690","East Kevinborough",Seychelles,Resigned
+48,"David Murphy",Female,1964-11-03,2023-10-10,Operations,Consultant,111252.50,davidpatel@gmail.com,"(851) 606 0715 x96966",Dariustown,Greece,Terminated
+49,"Travis Stevens",Male,1988-12-08,2016-10-23,Marketing,Engineer,84599.54,sanchezbrianna@hotmail.com,"(645) 352 1818","Port Michael","Saint Lucia",Resigned
+50,"Maria Hernandez",Male,1971-04-24,2017-10-20,Operations,Analyst,55540.78,glennhernandez@hotmail.com,"(277) 997 9955","South Carlos",Kenya,Terminated
+51,"Rebecca Vargas",Female,1988-04-06,2023-12-11,HR,Manager,43261.86,steven00@decker-jones.com,"(198) 679 8079 3x597","North Shannon",Sudan,Active
+52,"Gwendolyn Klein",Female,1998-08-25,2018-04-01,Operations,Engineer,47499.17,jasmineritter@mills.com,"(659) 051 5186 x4492",Christopherberg,"United States Virgin Islands",Terminated
+53,"Walter Hale",Male,1990-12-27,2017-07-04,R&D,Intern,49695.70,angelica52@warner.net,"(685) 054 2357","East Zoe","Cape Verde",Terminated
+54,"Ryan Garcia",Female,2001-01-17,2024-04-08,HR,Intern,90082.00,nancy92@bennett.org,"(706) 537 9473","West Tammy",Slovenia,Terminated
+55,"Russell Richardson",Female,2003-02-17,2022-10-22,R&D,Engineer,70132.23,kimberly88@yahoo.com,"(392) 407 5818","West Christopherburgh","Faroe Islands",Active
+56,"Jose Guerra",Female,1970-07-22,2019-02-02,R&D,Engineer,73613.73,sarah60@yahoo.com,"(536) 153 0515 x22047","Port Janice",Kiribati,Active
+57,"Susan Smith",Female,1978-12-28,2017-11-09,Sales,Analyst,42453.67,parsonsjohn@gmail.com,"(369) 711 7980","Lake Douglas",Japan,Active
+58,"Harry Duncan",Female,1977-01-22,2016-10-07,Sales,Intern,67419.68,ashleyamy@hotmail.com,"(106) 706 5405 1",Johnville,"Sierra Leone",Active
+59,"Nicole Anderson",Male,1988-04-15,2024-08-07,R&D,Engineer,64234.29,mariacohen@hotmail.com,"(221) 704 3030 x5486",Kingborough,France,Active
+60,"Richard Glenn",Female,1986-11-26,2019-12-17,Sales,Consultant,96117.07,samuel67@morgan-lopez.info,"(841) 616 9284 x511",Donnaport,Kiribati,Terminated
+61,"Jessica Norris",Female,1988-03-27,2022-12-02,IT,Consultant,91122.77,christina64@whitney.biz,"(820) 297 0213 x556","New Ericmouth",Yemen,Resigned
+62,"Jeremy Jones",Male,1973-09-07,2024-04-26,Marketing,Engineer,80795.28,redwards@gmail.com,"(027) 868 1447","New Justin","United States Virgin Islands",Active
+63,"Mrs. Brandy Jones MD",Female,1994-08-09,2016-10-21,Marketing,Executive,49049.43,jenna88@yahoo.com,"(225) 831 3237 x0589",Tannerside,Bulgaria,Resigned
+64,"Angelica Parker",Female,1996-11-20,2024-04-03,IT,Analyst,72327.62,emorrow@gmail.com,"(177) 852 8922 x68018","West Fred",Gibraltar,Terminated
+65,"Courtney Meza",Male,1999-08-17,2020-02-23,R&D,Analyst,115465.06,james84@weber.net,"(829) 922 9959","Port Michelleland",Aruba,Active
+66,"Patricia Baker",Male,1978-08-29,2025-01-17,Sales,Manager,71853.06,jimenezcourtney@yahoo.com,"(147) 364 7102 7x6773",Catherinemouth,Tokelau,Resigned
+67,"Morgan Valencia",Male,1991-06-13,2017-07-15,R&D,Manager,116824.87,floressteven@yahoo.com,"(321) 046 9632 x595","Port Erik",Malawi,Active
+68,"Shawn Jimenez",Female,1970-06-11,2022-01-01,Marketing,Consultant,47849.68,jasongomez@gmail.com,"(797) 480 1624 x5650",Williamsside,Congo,Terminated
+69,"Dylan Hughes",Male,1994-12-17,2024-08-31,R&D,Engineer,100437.18,andersoncolin@yahoo.com,"(852) 398 6800 x02578",Hernandezhaven,Burundi,Resigned
+70,"Louis Martin",Male,1984-09-04,2021-01-13,R&D,Intern,104009.78,thomas05@yahoo.com,"(116) 940 9749 9x30972",Hernandezbury,"Antigua and Barbuda",Active
+71,"Melody Lee",Male,1994-04-30,2020-08-25,Marketing,Manager,96041.58,robertharris@hotmail.com,"(001) 970 2838 578x65278",Amyview,"New Caledonia",Terminated
+72,"Dr. Douglas Evans",Female,1984-07-26,2020-03-24,R&D,Consultant,83322.72,wstewart@peck.com,"(001) 866 5240 415",Douglasfort,Croatia,Resigned
+73,"Joshua Fitzpatrick",Male,1982-10-19,2017-08-24,R&D,Intern,81286.47,johnsantiago6@perez.com,"(001) 712 0826 773x454","Port Christophershire",Djibouti,Terminated
+74,"Miranda Zuniga",Female,1976-03-24,2022-06-03,IT,Executive,109228.80,osbornrandy@lopez-curry.com,"(049) 915 4788",Smallberg,Thailand,Terminated
+75,"Denise Lamb",Male,1986-10-26,2018-01-28,Operations,Intern,73972.01,jennifer05@yahoo.com,"(001) 329 6685 161","East Thomas",Vietnam,Active
+76,"Dean Young",Male,1982-06-26,2020-12-02,IT,Manager,66396.10,greenmichael@gmail.com,"(174) 268 4145","East Susan",Lesotho,Active
+77,"Paul Obrien",Female,1992-08-11,2024-08-27,Operations,Engineer,59771.22,kathleenbecker@hotmail.com,"(878) 519 1088","New Amanda",Chad,Terminated
+78,"Joseph Wilson",Female,1978-04-17,2025-03-26,Finance,Consultant,78227.76,nolansean@gmail.com,"(286) 790 8740 x640","New Charles",Jamaica,Terminated
+79,"Arthur Mcknight",Female,1969-01-04,2023-05-06,Finance,Manager,56662.18,robert269@haney-reyes.biz,"(182) 512 8682 x3004",Nunezside,Jamaica,Resigned
+80,"Samantha Wright",Male,1987-11-14,2017-12-13,Sales,Executive,92767.57,sharonhardy@gmail.com,"(690) 331 1907","East Joyfurt",Kazakhstan,Active
+81,"Daniel Shields",Female,1968-02-26,2017-09-11,Marketing,Intern,69642.19,lisadennis@yahoo.com,"(001) 953 4283 644","New Stacyburgh",Nigeria,Active
+82,"Kristi Williams",Male,1987-10-02,2021-10-18,Marketing,Intern,36667.40,trussell@yahoo.com,"(873) 342 7086",Grantberg,Iceland,Terminated
+83,"Dalton Lucas",Male,1994-12-03,2021-08-16,HR,Analyst,80226.57,brettbennett@morrison.org,"(001) 837 3540 331x7393",Hermanside,Gibraltar,Resigned
+84,"Jamie Ferguson",Female,1988-10-05,2020-07-23,Marketing,Executive,107415.00,william77@gmail.com,"(001) 753 5560 932x0489",Phillipsborough,Greenland,Resigned
+85,"Kelly Sanchez",Male,2000-01-01,2021-01-20,Operations,Manager,53818.15,plevy@hotmail.com,"(725) 228 7280 x8010","South Derrickbury",Bangladesh,Active
+86,"Alexa Wagner",Female,1989-09-16,2016-05-04,Operations,Engineer,72292.12,ismith@hotmail.com,"(008) 484 0862 x11823","New Alisha",Suriname,Active
+87,"Robert Miller",Male,1991-12-11,2023-02-14,IT,Consultant,83081.06,kevinclayton@valdez.com,"(666) 870 0217",Newmanmouth,Monaco,Active
+88,"Valerie Jacobson",Male,1967-03-18,2019-03-22,Finance,Analyst,44933.05,enelson@frost.com,"(503) 926 1429","New Mary",Iceland,Resigned
+89,"Kimberly Reyes",Female,1973-11-02,2016-08-24,Operations,Executive,92976.03,davisjesse@gmail.com,"(999) 650 4773 x58662",Millerport,"South Georgia and the South Sandwich Islands",Resigned
+90,"Benjamin Adams",Female,1990-03-04,2017-12-08,Operations,Executive,84334.23,michael10@yahoo.com,"(541) 212 6788 x861","North Michaelland",Nauru,Active
+91,"Erika Cruz",Male,1984-03-04,2022-05-09,R&D,Consultant,103927.91,hardyanita@gmail.com,"(001) 826 2244 472","East Ryanchester","French Southern Territories",Terminated
+92,"Mr. David Wright",Female,1998-01-20,2018-08-22,HR,Engineer,69229.65,tayloradam@yahoo.com,"(965) 756 9245 x93752",Novakport,"Saint Pierre and Miquelon",Resigned
+93,"Katherine Johnston",Male,1980-10-23,2020-11-08,R&D,Manager,59682.33,lisa65@gmail.com,"(001) 398 2807 374","Port Melaniechester",Peru,Terminated
+94,"Mr. David Hopkins DDS",Male,1989-12-20,2016-07-27,Marketing,Analyst,58306.54,iaguilar@hotmail.com,"(001) 680 5891 135x290",Rasmussenmouth,"South Africa",Resigned
+95,"Adam Green",Male,1999-01-24,2024-02-20,Operations,Engineer,71577.87,dbrooks@chapman.com,"(146) 112 5457 x3875",Davismouth,Ghana,Active
+96,"Andrew Page",Male,1965-11-07,2021-02-23,HR,Executive,79429.77,sarahyang@thompson.info,"(622) 660 9379",Priceborough,"Costa Rica",Resigned
+97,"Michael Flynn",Male,2003-08-09,2017-01-16,Operations,Manager,57967.51,mark71@lambert-burns.com,"(169) 691 5579 2x499","Lake Dennisville","Dominican Republic",Active
+98,"Clayton Steele",Female,1999-01-28,2021-12-02,Finance,Consultant,104892.89,baileyhenderson@yahoo.com,"(182) 827 4225 7x9050",Taylorfurt,Moldova,Resigned
+99,"Kathleen Cohen",Female,1992-08-06,2022-11-11,Marketing,Manager,71110.78,christopherjohnson@gmail.com,"(043) 842 7978 x8191",Kimberlystad,Mauritania,Active
+100,"Amanda Ball",Male,2001-06-29,2019-01-11,IT,Intern,60588.77,fitzgeralddesiree5@gmail.com,"(074) 517 1339 x5962","Port Jamie","Costa Rica",Terminated
+101,"Laura Patel",Female,2004-12-05,2024-06-23,R&D,Manager,70189.27,tiffany44@adams.com,"(604) 223 2536",Thomasview,Nigeria,Resigned
+102,"Jesse Schultz",Female,1970-08-25,2022-03-02,R&D,Manager,118269.72,shawn75@hotmail.com,"(175) 186 3637",Marcusport,Guadeloupe,Active
+103,"Bianca Phelps",Female,1987-09-15,2016-02-19,Operations,Intern,64747.09,simsmary@martinez.info,"(063) 242 4154 x152","South Conniebury",Japan,Terminated
+104,"Michele Smith",Male,1996-10-05,2016-08-21,Sales,Engineer,59879.52,aprilwallace@dominguez.biz,"(001) 271 3611 155x426","Lake Victoria",Cambodia,Active
+105,"Justin Bishop",Male,1975-06-26,2022-10-19,Marketing,Consultant,117296.11,courtneyhernandez@yahoo.com,"(173) 112 1965 6x523",Deannabury,Mexico,Active
+106,"Michelle Mitchell",Male,1966-02-20,2020-06-11,R&D,Executive,106710.72,juliephillips@bowers.info,"(137) 918 0552 x6965","Port Thomas","Sierra Leone",Terminated
+107,"Kevin Smith",Male,1978-12-30,2015-12-28,Sales,Analyst,51129.32,ohunter@mason.com,"(188) 924 1418 3x2856","West Hollybury",Azerbaijan,Terminated
+108,"Tim Wilson",Male,1968-01-22,2020-07-28,R&D,Consultant,93350.17,smithderrick@martin.net,"(425) 241 0564 x81491",Gibsonstad,Azerbaijan,Active
+109,"Mr. Jacob Scott Jr.",Male,2003-05-15,2017-04-10,IT,Executive,63735.70,williamsmichelle@williams.biz,"(208) 635 3654","New Nathanhaven",Peru,Active
+110,"Cassie Brock",Male,1967-06-10,2022-02-18,Finance,Engineer,108375.56,xcline@murphy-tran.com,"(349) 493 7597 x383","North Sarah",Anguilla,Terminated
+111,"Gregory Franco",Female,1964-12-19,2021-01-04,Marketing,Executive,90015.66,usweeney@garcia-moreno.com,"(702) 410 3865 x71918","Lake Lori",Belarus,Resigned
+112,"Amy Bates",Female,1973-03-17,2019-05-05,Sales,Executive,87504.48,melissa65@yahoo.com,"(431) 329 1212 x775",Martinezstad,"Sierra Leone",Resigned
+113,"Eric Baker",Female,1972-06-22,2016-11-06,Finance,Manager,64322.79,margaret90@huff.com,"(356) 804 4206",Hawkinsside,Egypt,Resigned
+114,"Brian Leon",Female,1972-07-30,2015-07-08,IT,Analyst,80933.61,davidcolon@parks-pace.com,"(001) 941 0137 215","North Sheriton",Chile,Terminated
+115,"Jessica Ramsey",Female,1998-01-28,2015-10-25,R&D,Manager,84635.85,nthompson@gmail.com,"(472) 099 9347 x687","North Joshuaberg",Italy,Resigned
+116,"Stephen Fox",Male,2001-04-23,2015-08-24,Operations,Analyst,111306.33,timothy75@hotmail.com,"(564) 205 9304 x07859","East Craig","Palestinian Territory",Terminated
+117,"Joseph Moody",Male,1968-02-13,2019-01-17,Finance,Executive,59404.72,savannah22@gmail.com,"(001) 559 0599 293",Weaverburgh,Liechtenstein,Resigned
+118,"Anthony Guzman",Female,1965-09-02,2024-04-08,R&D,Manager,53127.31,riverachristina@gmail.com,"(250) 029 2185 x15691",Kevinberg,"Cayman Islands",Resigned
+119,"Jessica Fowler",Female,1997-06-20,2020-09-16,Finance,Manager,97873.63,jeffrey92@parker-barker.com,"(096) 902 9593","South Donaldland",Dominica,Active
+120,"Francisco Fields",Female,1970-05-09,2021-01-09,Finance,Intern,31252.68,bakerjohn@gmail.com,"(410) 067 6267 x658",Garciafort,"Solomon Islands",Terminated
+121,"Marilyn Mcdaniel",Female,1975-05-20,2022-12-28,R&D,Consultant,114626.27,phillipslucas@jones.biz,"(181) 599 7062",Mooreville,Greenland,Active
+122,"Colton Terry",Female,2001-01-25,2019-10-29,Sales,Manager,88288.71,john06@hotmail.com,"(172) 050 6149 7","North Anthony",Chile,Terminated
+123,"Vanessa Wells",Male,1972-03-04,2020-07-23,Finance,Analyst,57392.81,qburns@yahoo.com,"(862) 565 2704",Marshallbury,Taiwan,Resigned
+124,"Antonio Goodwin",Female,1970-11-23,2016-10-08,Operations,Consultant,92683.56,larellano@gmail.com,"(106) 868 7937 4","South Raventon",Macao,Terminated
+125,"Kellie Duncan",Male,1974-05-07,2017-05-11,R&D,Intern,85408.70,stacyjackson@gmail.com,"(206) 163 2945","North Paulfurt",Mexico,Resigned
+126,"Donald Ellis",Female,1965-02-26,2025-04-23,Finance,Consultant,63060.15,perryeddie@hotmail.com,"(001) 119 1485 646",Armstrongfort,Argentina,Terminated
+127,"Jamie Montgomery",Female,1991-08-26,2015-12-21,Finance,Consultant,49089.52,hannah076@yahoo.com,"(054) 447 1324 x754",Jacobsland,Comoros,Terminated
+128,"Thomas Russell",Male,1997-04-13,2024-02-06,Finance,Engineer,48644.16,robertsonerik@yahoo.com,"(001) 862 8902 330x307","West Janetview","Heard Island and McDonald Islands",Active
+129,"Kathy Reid",Male,1972-09-28,2015-10-31,IT,Manager,118877.46,tracy72@matthews-bailey.com,"(140) 602 9333 x346","Port Kimberlytown",Lebanon,Terminated
+130,"Maria Burke",Male,1964-11-21,2019-02-13,IT,Manager,82996.76,jennifer46@yahoo.com,"(743) 748 9691 x085",Kennethville,Liberia,Active
+131,"William Davidson",Male,1983-02-27,2019-10-03,Marketing,Intern,100021.53,edwardcannon@gmail.com,"(165) 207 4466 6x099","West Jessica",Cyprus,Terminated
+132,"Margaret Alvarez",Female,1988-09-16,2023-12-11,Marketing,Consultant,116762.36,marywalter@gmail.com,"(172) 482 5135 x3465",Jorgeport,"Kyrgyz Republic",Active
+133,"Julie Delacruz",Female,2004-01-10,2025-03-08,Finance,Analyst,58990.06,gpreston@dillon.net,"(602) 235 6972 x5217",Crystalburgh,Germany,Active
+134,"Abigail Hill",Female,1975-10-15,2025-02-11,Marketing,Engineer,77750.12,xglover@anderson.biz,"(676) 008 3505 x8300","East Heather",Guatemala,Resigned
+135,"Brian Gordon",Male,1985-02-22,2018-02-25,Marketing,Intern,109928.19,evanskelly@meyer.com,"(753) 260 3323 x09821",Jenniferton,Honduras,Resigned
+136,"Dawn Nichols",Female,1967-08-15,2016-02-17,IT,Consultant,52940.08,williamsdarrell@james-kelley.info,"(001) 230 4618 499x261","West Danielville",Luxembourg,Active
+137,"Curtis Baker",Female,1999-11-30,2018-09-29,Finance,Consultant,96491.64,cphillips@hotmail.com,"(375) 300 1197 x2181","West Dawnmouth","French Polynesia",Active
+138,"Anthony Li",Male,1966-12-31,2020-04-03,Marketing,Executive,108624.66,ronald11@gmail.com,"(225) 579 4155","North Richard",Korea,Resigned
+139,"James Jefferson",Female,1993-01-05,2018-02-24,Finance,Engineer,75667.13,heatherbrown@garcia.info,"(001) 729 6590 277","South Scottland",Eritrea,Active
+140,"Alexandria Oneill",Female,2000-01-11,2025-02-14,Finance,Executive,81669.00,april91@stanley-wright.com,"(162) 890 0287 7x21753",Taraton,Macedonia,Resigned
+141,"Mason Powell",Male,1980-04-21,2016-08-26,Sales,Consultant,104651.47,csolis@gmail.com,"(751) 701 6608 x8019",Pamelaside,"Costa Rica",Resigned
+142,"Joy Peterson",Female,1968-01-04,2019-02-08,Finance,Manager,108287.64,ann99@yahoo.com,"(001) 571 1305 548x851","East Travischester",Botswana,Terminated
+143,"Craig Martinez",Male,1991-01-19,2018-12-24,Operations,Engineer,49361.96,jenniferrodriguez@yahoo.com,"(917) 798 2708","New Savannahshire",Liberia,Resigned
+144,"Priscilla Kent",Male,2003-09-08,2018-04-08,Finance,Manager,44166.89,hughescaroline@gordon-cruz.org,"(001) 346 5472 269x848",Jenniferside,Niue,Terminated
+145,"Daniel Klein",Female,1987-10-24,2017-07-27,Marketing,Executive,49401.21,jennifer58@aguilar-bender.biz,"(184) 608 1062 0x03424",Dwayneton,Portugal,Terminated
+146,"Christina Weaver",Female,1988-09-21,2023-01-05,Sales,Consultant,NULL,juliahoffman@dixon.com,"(001) 066 6580 043x973",Kariside,"Saint Vincent and the Grenadines",Active
+147,employee_147,Male,1984-05-01,2022-12-12,R&D,Executive,56050.24,lopezglenn@wilson.com,"(294) 057 2025","Port Sarahport",Liechtenstein,Active
+148,"Krista Jones",Male,1985-12-11,2024-04-01,Sales,Engineer,105001.88,abigailhartman@perry.biz,"(533) 555 4398",Barajastown,Brazil,Resigned
+149,"Jill Conway",Male,1980-11-27,2015-12-28,R&D,Executive,81818.32,hmoon@yahoo.com,"(840) 858 8770 x435","North Garyside","Marshall Islands",Terminated
+150,"Austin Santiago",Female,1978-10-27,2022-07-12,HR,Engineer,71408.72,amandapark@rowe.com,"(750) 110 2481","West Rickey",Korea,Terminated
+151,"Jessica Smith",Female,1972-05-13,2024-05-30,Sales,Analyst,65619.00,avilabrenda@charles.com,"(149) 147 6607 2x83268",Susanberg,"French Southern Territories",Resigned
+152,"Suzanne Norton",Male,1989-09-15,2015-07-03,Sales,Engineer,47451.33,williamsashley@medina-arroyo.com,"(536) 822 2394","North Howard","South Georgia and the South Sandwich Islands",Resigned
+153,"Amy Potter",Male,2001-08-30,2023-02-28,HR,Executive,47754.46,emily41@swanson.com,"(231) 491 3577 x594","New Ashley","Sri Lanka",Terminated
+154,"Jeffrey Smith",Female,1981-01-24,2019-01-30,Marketing,Engineer,98388.94,mary25@yahoo.com,"(754) 781 2914 x283",Jessicaland,"Saint Lucia",Resigned
+155,"Albert Hunter",Female,1966-06-09,2025-03-18,R&D,Consultant,58452.50,rebeccaarnold@hotmail.com,"(172) 563 9427 8","South Michaeltown",Panama,Resigned
+156,"Victor Holden",Male,1975-08-08,2024-01-22,IT,Engineer,36677.16,kmoore@hopkins.info,"(037) 314 5303 x856",Hardinton,Armenia,Resigned
+157,"Mrs. Michele Boyd",Male,1982-12-04,2019-10-17,Sales,Engineer,75636.10,xvaldez@valdez.biz,"(865) 577 9082",Martinland,Malawi,Resigned
+158,"Christine Lopez",Male,1988-12-18,2017-04-29,IT,Engineer,72806.61,ushepherd@olson.info,"(926) 030 2992","Lake William",Uganda,Active
+159,"Amy Scott",Male,1976-07-25,2024-02-07,Sales,Consultant,45530.30,johnsjessica@yahoo.com,"(379) 772 3692","New Donna",Estonia,Active
+160,"Michael Nielsen",Female,2004-11-27,2016-06-25,IT,Executive,64867.49,gcruz@harris.biz,"(912) 799 0881","South Donnaside",Sweden,Resigned
+161,"Todd Gregory",Female,1993-09-04,2024-03-11,Finance,Engineer,91054.14,nancy86@gmail.com,"(659) 916 2473 x1498",Scotttown,"Russian Federation",Resigned
+162,"Adrienne Mills",Male,1999-09-07,2015-06-08,IT,Analyst,82446.56,gwendolynstewart@yahoo.com,"(269) 448 6959",Victoriafurt,"Saudi Arabia",Active
+163,"Juan Grant",Male,1976-06-23,2021-08-11,Sales,Consultant,114420.20,vanessa95@hotmail.com,"(213) 721 3865 x8902",Oconnelltown,Spain,Resigned
+164,employee_164,Male,1993-12-10,2016-10-23,Operations,Consultant,68106.57,jeffrey19@ramsey.org,"(184) 902 7703 8x4309","New Gavin",Argentina,Resigned
+165,"Matthew Cantrell",Female,1970-03-23,2020-01-03,HR,Manager,119997.90,elizabeth69@gmail.com,"(011) 848 9554 x39376","West Gregoryhaven",Botswana,Active
+166,"Kathy Morgan",Male,1972-04-11,2024-01-17,Operations,Executive,108875.35,heather69@yahoo.com,"(001) 357 7907 141x63356",Zacharytown,Reunion,Terminated
+167,"Danielle Davis",Male,1987-08-03,2016-08-09,Operations,Intern,33932.32,nedwards@adams.com,"(333) 433 3395 x2111",Austinside,Armenia,Resigned
+168,"Jacqueline Stewart",Female,2003-05-30,2019-12-27,HR,Engineer,51525.16,traceymoon@yahoo.com,"(392) 086 7808 x5627","Lake Aprilmouth",Portugal,Resigned
+169,"Michael Gray",Female,1971-03-04,2020-11-06,Marketing,Executive,100031.16,jacob43@yahoo.com,"(955) 276 3655 x6472","New Gina",Suriname,Terminated
+170,"Devin Young",Male,1993-09-22,2021-10-16,R&D,Executive,34696.18,laurenrodgers@shaffer-thompson.info,"(885) 744 8906","Lake Frankborough",Suriname,Resigned
+171,"Ryan Davis",Male,1987-02-01,2019-09-25,IT,Analyst,98680.51,ann45@gmail.com,"(159) 399 8245 x58771",Austinmouth,Niue,Resigned
+172,"Sheena Davidson",Male,1987-04-10,2022-06-28,R&D,Intern,109616.68,millermatthew@yahoo.com,"(449) 647 5987 x62202","Lake Johnathan",Samoa,Active
+173,"Angela Jackson",Male,1971-04-29,2016-12-08,IT,Manager,32536.88,bkelley@warren-ferrell.com,"(921) 643 3472 x282","North Elizabethmouth",Tonga,Active
+174,"William Fernandez",Female,1982-11-07,2024-08-23,R&D,Intern,92646.48,tarawolfe@gmail.com,"(001) 979 6884 578","Port Christopher",Gambia,Active
+175,"David Torres",Male,1964-04-27,2024-03-19,IT,Manager,105146.68,justin80@weeks.com,"(001) 649 3085 368x66326",Walkerland,Jamaica,Terminated
+176,"Kellie Marsh",Male,1982-10-25,2020-02-26,IT,Analyst,34297.45,elopez@gmail.com,"(417) 974 9735","East Brandonside",Angola,Resigned
+177,"Brian Adams",Female,2000-01-01,2015-06-14,Sales,Engineer,31479.18,hernandeztristan@fisher-floyd.info,"(705) 120 4618 x723",Lisatown,"British Virgin Islands",Terminated
+178,"Michelle Cruz",Female,1994-06-16,2019-07-08,HR,Engineer,67491.08,stevenwise@wade.com,"(208) 814 7435 x03136",Alexisview,Mozambique,Terminated
+179,"Richard Smith",Male,1967-03-04,2025-03-13,Marketing,Intern,33918.10,nathandavis@gmail.com,"(195) 005 2812 x7358",Lindamouth,"Saint Martin",Resigned
+180,"Michael Howard",Female,1973-06-25,2019-07-30,HR,Consultant,89139.40,jmann@daniels-henry.org,"(855) 749 8218","South Kenneth",Estonia,Active
+181,"Jordan Parsons",Female,1998-09-29,2021-10-05,R&D,Consultant,45758.02,harveymichael@allen.net,"(387) 829 4565 x1181","Port Sharonburgh",Tunisia,Terminated
+182,"Brian Lee",Male,1966-06-24,2025-01-10,Operations,Intern,33328.54,sfox@hotmail.com,"(053) 910 3717 x058",Shortton,Swaziland,Active
+183,"Kendra Navarro",Female,1984-12-29,2016-08-21,R&D,Engineer,72605.98,garciajerry@lopez-fox.com,"(001) 288 6195 761","Port Henry",Iran,Active
+184,"Mary Ferguson",Female,2005-02-19,2022-11-06,IT,Analyst,101940.82,andrea55@yahoo.com,"(001) 659 3983 684x57760","West Caitlinhaven","Burkina Faso",Resigned
+185,"Elizabeth Evans MD",Male,1985-09-28,2015-09-06,Marketing,Consultant,74777.11,clintonstevens@gmail.com,"(459) 334 4196","Lake Chris",Greece,Terminated
+186,"Carrie Petersen",Male,2003-07-12,2016-12-07,Sales,Executive,58909.03,crossbarbara@gmail.com,"(001) 055 6613 906x04805","West Wayne",Cyprus,Active
+187,"Michael Osborn",Male,1994-08-21,2025-02-05,Operations,Intern,61639.23,ryanhartman@anderson.info,"(001) 086 4168 622",Hansenfort,Indonesia,Active
+188,"Christina Gilbert",Male,1999-12-28,2019-07-03,Finance,Consultant,87376.13,adamsrussell@glass.biz,"(535) 590 4259 x792",Williamsbury,"Cook Islands",Resigned
+189,"Brittney Chandler",Female,1970-02-25,2017-03-23,Finance,Manager,36051.00,stacymcintosh@smith-benson.com,"(770) 538 3388 x4879","Lake Holly",Andorra,Terminated
+190,"Taylor Rose",Female,1981-09-12,2018-03-18,IT,Executive,69954.54,james94@marshall.com,"(451) 046 3681 x5798","East Jamesmouth",Moldova,Active
+191,"Alison Wright",Male,2000-05-04,2020-07-01,Finance,Analyst,96210.74,klong@gmail.com,"(554) 384 0460 x843","West Penny","Palestinian Territory",Resigned
+192,"Nicholas Meyer",Female,1979-10-16,2022-05-31,HR,Engineer,55701.92,ronaldedwards@murphy.com,"(001) 832 4826 292",Carlosside,Yemen,Resigned
+193,"Cathy Franco",Female,1974-03-20,2015-10-25,Finance,Consultant,117080.51,tali@yahoo.com,"(001) 423 1220 994x9993","East Grace",Guinea-Bissau,Resigned
+194,"Richard Anderson",Female,1996-03-19,2021-09-03,R&D,Manager,94062.82,ihenry@lee.biz,"(001) 046 3331 279x75736",Parsonsfurt,"Saint Helena",Terminated
+195,"Logan Newton",Male,2004-09-21,2024-06-07,R&D,Manager,51306.26,hayesmargaret@rich.net,"(160) 868 0347 6",Kimport,"Kyrgyz Republic",Resigned
+196,"Edward Ellison",Male,1999-06-30,2017-09-24,Sales,Analyst,35917.33,gdavis@gmail.com,"(982) 665 7027","South Christopher",Gibraltar,Resigned
+197,"Susan Hogan",Male,1972-09-20,2016-11-11,HR,Executive,87810.47,fwalters@zimmerman.org,"(686) 025 9222","Port Jennifer",Italy,Resigned
+198,"Nicholas Woodward",Male,1983-12-19,2018-05-21,R&D,Manager,68935.65,susansmith@smith-jimenez.info,"(109) 733 9776 7","New Carolbury",Turkmenistan,Active
+199,"Lisa Grant",Male,1978-06-11,2016-02-22,IT,Engineer,110543.33,brianbailey@nash.org,"(145) 101 6224 9x998","South Kara",Guyana,Active
+200,"Anna Evans",Female,1989-05-24,2021-10-04,Sales,Engineer,38408.56,ebridges@ruiz-martinez.com,"(868) 339 0198 x17946",Jordanshire,Niger,Terminated
+201,"Carl Hart",Female,1999-09-06,2023-10-12,R&D,Engineer,33707.49,nicolehall@yahoo.com,"(010) 713 9660",Michaelborough,Algeria,Active
+202,"Melissa King",Male,1968-12-06,2020-07-19,R&D,Engineer,67492.81,katie15@yahoo.com,"(990) 235 5770 x2727",Stevenchester,Vanuatu,Terminated
+203,"Sandy Evans",Female,1985-10-13,2024-10-03,Marketing,Manager,102421.93,barbararivera@jones-hernandez.com,"(682) 996 2914 x50461",Wileystad,Korea,Terminated
+204,"Elizabeth Warren",Female,1976-03-22,2017-03-22,Marketing,Intern,48362.07,stricklandrobin@yahoo.com,"(078) 235 7845 x21823","South Paulhaven",Brazil,Terminated
+205,"Timothy Mcdaniel",Female,2004-10-03,2016-10-17,Marketing,Manager,98459.85,gsmall@hotmail.com,"(001) 409 4353 344x85714","East Joshua","American Samoa",Terminated
+206,"Kristin Garcia",Male,2001-03-26,2021-04-09,HR,Analyst,34554.48,donald49@gmail.com,"(149) 587 0207","North Patrickland",Japan,Resigned
+207,"Michael Vance",Female,1994-08-27,2021-05-12,Sales,Consultant,58144.34,lisa81@yahoo.com,"(001) 217 1747 733","Port Paula",Eritrea,Active
+208,"Jenna Lyons",Male,1986-10-17,2020-11-01,Finance,Intern,75490.00,ejohnson@gmail.com,"(772) 459 9281 x615","Port Kevinmouth",Iran,Active
+209,"Cynthia Sanchez",Female,1975-02-19,2023-07-09,IT,Engineer,30735.97,petersonlisa@hotmail.com,"(695) 832 1971 x99758","Port Seanport",Zimbabwe,Active
+210,"Kyle Jennings",Female,2004-11-24,2021-10-04,Finance,Intern,34604.19,dnewman@gmail.com,"(290) 227 8469",Gonzalezmouth,"French Southern Territories",Terminated
+211,"Susan Torres",Female,1993-11-24,2021-03-03,R&D,Engineer,91235.88,carrwilliam@phelps.com,"(100) 851 4036 9",Garrettfurt,Iraq,Active
+212,"Joshua Bates",Female,1996-08-17,2017-09-05,R&D,Manager,47915.21,xbridges@moore-bright.com,"(010) 276 2126",Englishchester,Niger,Terminated
+213,"Jordan Arnold",Female,1994-12-09,2021-11-09,Sales,Intern,43404.66,jacobjacobs@hotmail.com,"(384) 689 5009 x7519",Nixonland,Cambodia,Terminated
+214,"Kelsey Villarreal",Female,1983-05-01,2023-03-23,Sales,Executive,75658.35,sanchezcrystal@horne.org,"(905) 807 7879 x5654",Garyport,"Saint Lucia",Terminated
+215,"Debbie Soto",Female,2003-08-28,2018-03-10,IT,Consultant,39864.41,lisa90@washington-martinez.com,"(429) 444 0192 x927",Lindseyview,Slovenia,Resigned
+216,"Kari Lloyd",Male,1966-07-26,2021-02-22,Sales,Intern,53897.74,caitlinunderwood@mullins-gutierrez.biz,"(723) 950 4102",Rossport,Lebanon,Terminated
+217,"Nicole Patel",Female,1990-02-27,2021-12-12,HR,Engineer,86612.27,dustin60@yahoo.com,"(658) 018 5694 x544","West Destinyfurt","Kyrgyz Republic",Terminated
+218,"Nicole Navarro",Male,2004-05-17,2018-08-18,HR,Analyst,69693.47,lawrencesmith@gmail.com,"(061) 817 5344","North Andrew",Bermuda,Resigned
+219,"Kristopher Shannon",Female,1979-01-26,2017-05-20,R&D,Consultant,95466.19,gatesdavid@gallagher.com,"(244) 717 4654","Port Charles",Singapore,Terminated
+220,"James Ferrell",Female,1981-11-20,2019-10-25,IT,Manager,71369.72,mjones@long.net,"(001) 639 1741 011x94707","Lake Danielle",Venezuela,Terminated
+221,"James Hernandez",Female,1986-10-04,2021-12-20,Sales,Intern,47303.78,zmendoza@norman.com,"(719) 855 4601 x5851",Hodgesport,Oman,Active
+222,"Julian Ponce",Female,1977-04-24,2020-05-25,Operations,Manager,92121.59,mccoymichael@gmail.com,"(173) 203 0937 6x1847",Levytown,Argentina,Resigned
+223,"George Le",Female,1991-11-28,2017-04-28,IT,Analyst,81612.91,ibentley@figueroa.com,"(270) 790 3202","West Loriville",Korea,Terminated
+224,"Sara Brown",Male,1971-07-20,2017-04-03,IT,Analyst,55886.73,bryanharris@yahoo.com,"(001) 651 9825 309x2511",Donaldchester,Chile,Terminated
+225,"Kristen Gonzales",Male,2003-12-02,2016-01-02,HR,Engineer,54401.94,moodycrystal@strickland-smith.info,"(002) 194 6723","Lake Joseph",Korea,Terminated
+226,"Todd Bishop",Male,1966-11-16,2018-05-17,Finance,Consultant,111466.58,burtonkimberly@yahoo.com,"(083) 318 1958 x83734","East Danielberg",Poland,Active
+227,"Susan Jimenez",Male,1975-03-09,2016-01-17,Operations,Manager,30466.33,justin64@jensen-wu.info,"(108) 220 7811","Lake Sean",Morocco,Terminated
+228,"Cristian Rhodes",Female,1986-06-23,2019-03-24,Marketing,Consultant,47951.04,jeremy36@bennett.com,"(970) 623 9726 x5273",Theresaborough,Grenada,Resigned
+229,"Michael Brown",Male,1973-08-08,2017-03-15,Sales,Consultant,95080.59,wbarnes@yahoo.com,"(492) 929 8316",Atkinsborough,Namibia,Active
+230,"Joel Smith",Male,1993-06-12,2019-07-05,R&D,Intern,100916.46,ryan39@mcintyre.biz,"(078) 068 6717",Allenside,"Sao Tome and Principe",Active
+231,"Nicholas Dodson",Male,1973-05-06,2021-05-30,IT,Engineer,84250.47,deborahdavis@yahoo.com,"(142) 799 0772 6x25701",Barrymouth,Malta,Resigned
+232,"Jeffery Nelson",Male,2001-03-24,2025-02-05,R&D,Engineer,72121.87,olivermatthew@robertson.com,"(165) 790 5528","New Jennaborough",Burundi,Active
+233,"Mrs. Ashley Mendoza",Male,2003-10-16,2018-11-18,Finance,Consultant,60340.10,michael48@henderson.info,"(881) 788 4795 x1371","South Rachaelport",Zimbabwe,Resigned
+234,"Christopher Rodriguez",Female,1974-05-20,2023-10-04,R&D,Intern,76375.26,abigailburton@butler-fleming.com,"(567) 043 1038 x5695",Toddhaven,Tajikistan,Active
+235,"Judith Bradley",Male,1985-03-03,2018-03-27,Finance,Executive,64521.70,toddarellano@gmail.com,"(547) 292 8422","East John",Armenia,Resigned
+236,"Laura Alexander MD",Male,1978-04-11,2024-11-18,IT,Consultant,62359.69,tiffany25@fernandez-martin.com,"(067) 275 2088",Deborahport,Lebanon,Active
+237,"Tracy Webster",Female,2003-05-11,2017-10-24,Operations,Analyst,87484.02,hannah70@gmail.com,"(181) 406 9375 1x50939","Port Shari",Fiji,Resigned
+238,"Bradley Atkinson",Female,1970-04-05,2024-01-08,Operations,Engineer,63626.24,tracymorrison@hotmail.com,"(562) 656 5045",Kylemouth,Tunisia,Terminated
+239,"Cindy Barron",Male,1992-08-06,2022-11-03,R&D,Manager,91230.77,lindawaller@yahoo.com,"(001) 629 9123 478x5196","North Robertview",Israel,Terminated
+240,"Joel Bradley",Male,1973-08-19,2018-09-14,Sales,Analyst,35558.22,froberts@carson.org,"(787) 300 2447 x1462",Knoxbury,"Antarctica (the territory South of 60 deg S)",Terminated
+241,"Donald Gamble",Female,1968-11-08,2021-06-19,Finance,Consultant,48486.13,ooneill@hotmail.com,"(158) 904 2902 x5725","North Joseph",Italy,Terminated
+242,"Tina Williams",Male,1984-02-29,2024-04-27,Sales,Intern,71111.86,katiewhite@george.net,"(544) 518 9520 x28457",Petersonburgh,"Bosnia and Herzegovina",Active
+243,"Jonathan Decker",Female,2002-05-01,2024-04-03,R&D,Analyst,97122.40,estevens@fuentes.info,"(452) 798 5240 x132","Lake Jeremy","Brunei Darussalam",Terminated
+244,"William Coleman",Male,1971-12-01,2016-08-20,Finance,Intern,32856.14,ctodd@rodriguez.net,"(001) 071 4014 011","New Rachel",Colombia,Resigned
+245,"Alyssa Thomas",Female,1983-03-11,2025-03-05,IT,Intern,70368.34,ethan89@gmail.com,"(911) 908 3342 x80138",Richardsonshire,Colombia,Resigned
+246,"Tyler White",Female,2000-01-01,2021-10-08,Finance,Manager,119356.21,willierussell@yahoo.com,"(718) 275 4801",Tristanfurt,Finland,Resigned
+247,"Noah Mcdaniel",Male,1994-07-11,2019-02-26,IT,Intern,90614.99,traci63@gmail.com,"(520) 716 7811 x2669","Lake Saraburgh",Bahrain,Terminated
+248,"Curtis Gonzalez",Male,1991-10-29,2017-05-26,IT,Manager,114366.93,rhardy@miranda.biz,"(796) 784 2711 x477","Lake Sherri","Antarctica (the territory South of 60 deg S)",Terminated
+249,"Anthony Jones",Male,1966-02-18,2018-05-11,HR,Manager,36056.18,eric99@gmail.com,"(001) 187 7347 784x85880","South Nicoleville",Hungary,Terminated
+250,"Samuel Ramos",Male,1966-10-06,2015-11-15,Marketing,Intern,51090.54,nicole27@taylor-baldwin.info,"(001) 197 8897 782x80647",Jensenstad,Seychelles,Active
+251,"Erica Johnson",Male,1967-05-21,2017-06-29,R&D,Consultant,81849.93,lisa90@hotmail.com,"(616) 556 5033 x34911",Dannyburgh,Angola,Terminated
+252,"Amanda Barrett",Male,1993-01-23,2024-12-22,Operations,Engineer,49893.85,andrew79@gmail.com,"(696) 591 7135 x78529",Michaelchester,"Cook Islands",Resigned
+253,"Ryan Cobb PhD",Male,2000-10-11,2018-12-15,Operations,Consultant,68448.05,brandon96@gmail.com,"(119) 195 4198 7x635","Lake Madisonhaven",Spain,Resigned
+254,"Matthew Edwards",Female,1992-07-04,2022-02-26,Operations,Intern,66743.33,jpowers@gmail.com,"(829) 737 4896","New Jamesmouth",Cameroon,Resigned
+255,"Paul Cannon",Female,1993-12-10,2022-04-17,R&D,Consultant,42991.66,waltersmeghan@yahoo.com,"(249) 363 1230 x3477",Hendersonton,"Cook Islands",Resigned
+256,"Chad Green",Male,1983-03-21,2024-09-05,Marketing,Manager,52949.61,stuarttodd@brown.com,"(141) 651 6231 9x818",Tylerland,Dominica,Resigned
+257,"Patricia Edwards",Male,2004-01-29,2021-12-12,Finance,Executive,63945.12,grobinson@lewis.info,"(490) 785 1586 x73425",Baldwinport,Angola,Terminated
+258,"Susan Johnson",Male,1968-01-13,2019-05-23,Marketing,Manager,108252.65,sparker@yahoo.com,"(118) 376 0644 1x34327",Natashachester,Somalia,Resigned
+259,"Sean Morrow",Male,1997-10-10,2023-04-30,Operations,Intern,112299.72,jennifer12@hotmail.com,"(815) 698 5700 x272","South Jamesport",Germany,Terminated
+260,"Ashley Wright",Female,1973-03-02,2022-04-17,Marketing,Intern,78028.51,vmendoza@gmail.com,"(295) 431 6526 x693","North Sandrabury","United States of America",Resigned
+261,"Joel Green",Female,1975-10-19,2016-02-28,R&D,Executive,112289.74,jburke@gmail.com,"(291) 086 7713 x334",Juliefurt,Bulgaria,Resigned
+262,"Daniel Lewis",Male,1983-07-28,2018-07-14,IT,Engineer,114128.24,rickythomas@yahoo.com,"(397) 359 7107 x256","Lake Patrick",Jamaica,Terminated
+263,"Dawn Davis",Male,1968-04-24,2016-03-13,Marketing,Engineer,88914.72,thomasgomez@hotmail.com,"(190) 048 9646 5x28092",Geoffreyfort,Venezuela,Terminated
+264,"John Davis",Female,2000-05-29,2022-09-05,Marketing,Manager,95949.50,darryl02@savage-davenport.com,"(449) 485 6257 x28703","North Jerry",Argentina,Resigned
+265,"Christopher Mcdonald",Male,1972-03-17,2023-09-25,Sales,Analyst,105516.16,tkelly@washington.com,"(513) 422 8499","New Whitney",Albania,Active
+266,"Laura Butler",Male,1969-07-17,2019-07-02,Finance,Consultant,43592.67,clayanthony@hotmail.com,"(116) 591 5201 7x77490",Taramouth,Greece,Active
+267,"Zoe Meadows",Female,2003-01-17,2017-07-06,Operations,Intern,31415.86,solisjustin9@manning.org,"(164) 236 1032 x6642","West Travischester","Saint Pierre and Miquelon",Terminated
+268,"Emily Cohen",Female,1973-04-01,2021-06-03,Finance,Engineer,103184.15,william77@alvarez-hart.biz,"(659) 266 1085",Rhodesberg,Venezuela,Terminated
+269,"Mark Warren IV",Male,1994-01-28,2016-08-29,HR,Manager,85780.28,edgar24@gmail.com,"(649) 081 0818 x66179",Michaelshire,Belgium,Resigned
+270,"Alexis Yang",Female,1995-10-24,2018-05-14,Marketing,Engineer,51888.71,awilliams@evans.info,"(145) 232 1941 6x800",Wilsonburgh,Palau,Terminated
+271,"Michael Melton",Male,2005-04-09,2023-08-05,Finance,Intern,64133.76,hannah64@gmail.com,"(203) 103 0372","South Megan",Togo,Terminated
+272,"Cheryl Turner",Female,1995-11-07,2017-10-31,Operations,Executive,80927.10,kjohnson@gmail.com,"(001) 777 0793 349x6050","Lake Melaniechester",Israel,Active
+273,"Nancy Larson",Female,2002-01-13,2020-04-04,IT,Analyst,113174.33,gross@hardy.info,"(080) 695 8146",Wilsonstad,Kiribati,Terminated
+274,"Alisha Roberts",Female,1977-05-24,2023-04-18,Finance,Manager,82833.25,ohall@hotmail.com,"(159) 724 6657 2x93417","East James",Netherlands,Terminated
+275,"Ricky Hahn MD",Female,1980-04-14,2018-11-16,Operations,Engineer,59855.69,howardjose@moore.com,"(561) 931 8374",Kristenton,"Sierra Leone",Terminated
+276,"Debra Hernandez",Female,1999-05-22,2017-01-31,Finance,Analyst,69337.94,wlloyd@villegas.org,"(808) 121 3524",Gillfort,"Saint Martin",Active
+277,"Brittany Cox",Female,1973-09-09,2017-05-28,Finance,Consultant,54599.43,xmontes@sanchez.com,"(821) 456 5328 x6326",Hardinmouth,Zambia,Resigned
+278,"Rebecca Cox",Female,1966-05-04,2022-11-04,Finance,Engineer,56584.15,robbinszachary@miller.biz,"(001) 260 6029 084x66845",Alanview,"United Arab Emirates",Active
+279,"Tami Graves",Male,1994-09-05,2018-10-20,Operations,Intern,58501.04,pam63@yahoo.com,"(085) 628 8431",Adrienneburgh,Angola,Active
+280,"Robert Vargas",Male,1980-09-26,2020-06-25,HR,Analyst,46865.26,dennismckenzie@yahoo.com,"(185) 101 7490 7x5399","West Kevin","Papua New Guinea",Resigned
+281,employee_281,Male,1990-01-05,2024-02-26,Sales,Engineer,100599.49,murphybrandi@gibson-thomas.biz,"(110) 627 3715 x86988",Wigginsshire,Luxembourg,Resigned
+282,"Whitney Barker",Male,1997-08-17,2022-05-28,Sales,Engineer,45262.46,williamwashington@anderson-bush.net,"(377) 028 5196","North Mikeport",Armenia,Resigned
+283,"Autumn Torres",Male,1989-10-18,2020-06-21,Marketing,Executive,67899.21,jjohnson@gmail.com,"(001) 604 4327 018",Carloston,Israel,Resigned
+284,"Mr. Jesse Morgan",Female,1989-12-27,2023-05-25,Sales,Engineer,47599.34,williammurray7@contreras-hernandez.com,"(996) 636 5807",Debbieburgh,"Russian Federation",Active
+285,"Mark Ingram",Female,1985-05-01,2024-11-09,Marketing,Executive,68755.46,leechristine@todd.info,"(018) 204 3397 x18956","South Michelletown",Guam,Terminated
+286,"Jason Heath",Male,1985-11-29,2021-10-23,Marketing,Executive,45987.35,wilsoncory@gmail.com,"(224) 124 6209 x5200",Petermouth,Cambodia,Resigned
+287,"Frederick Bennett",Male,1972-07-18,2016-03-12,IT,Intern,55227.01,karenwillis@romero-gordon.com,"(057) 861 7063 x048","East Kathrynberg",Gabon,Resigned
+288,"Jill Mathis",Male,1998-05-15,2018-10-10,Operations,Engineer,32422.45,amber23@cisneros.com,"(794) 200 7494",Kiddborough,Mozambique,Terminated
+289,"Diana Martin",Male,2000-08-28,2024-11-21,R&D,Intern,90567.99,christopher12@hawkins.org,"(554) 743 5537 x95020",Smithtown,Peru,Active
+290,"Justin Horton",Female,1997-08-03,2021-12-29,Finance,Intern,119163.06,ryanpatricia@wallace.biz,"(156) 201 7537 0x304",Jamesport,"Sri Lanka",Resigned
+291,"Cynthia Snyder",Female,1989-01-06,2015-12-09,Sales,Analyst,101164.88,tconway@hotmail.com,"(036) 149 8728","Lake Joanne",Peru,Resigned
+292,"Krystal Jones",Male,1973-01-15,2016-06-02,R&D,Manager,89184.15,sarah38@casey.net,"(148) 706 0566 4x187",Wardton,"Turks and Caicos Islands",Resigned
+293,"Amber Hull",Female,2000-07-18,2022-12-13,R&D,Executive,116914.51,myersmatthew@hotmail.com,"(361) 332 5411","South Ryantown",Namibia,Resigned
+294,"Taylor Pittman",Male,1981-02-18,2017-02-23,Marketing,Executive,65202.08,susanwall@yahoo.com,"(319) 971 7911 x00651","North Samantha",Kenya,Terminated
+295,"Leslie Reynolds",Male,1971-03-30,2016-04-05,IT,Intern,112849.28,melissa61@walton.org,"(767) 699 1507",Brianaville,"Bosnia and Herzegovina",Active
+296,"Micheal Watkins",Female,1977-06-28,2025-01-23,R&D,Manager,76900.33,michael79@lopez-taylor.com,"(249) 685 4982","South Kyle",Guam,Resigned
+297,"Wesley Holmes",Female,1974-02-26,2016-04-15,Finance,Consultant,40357.67,hendersonjames@davidson.com,"(377) 959 9594 x65217","South Jeffreytown","Northern Mariana Islands",Resigned
+298,"David Hanson",Male,1980-07-30,2023-06-29,Sales,Manager,79671.93,lharris@gmail.com,"(015) 081 2473 x950","East Jamesburgh",Cyprus,Resigned
+299,"Michelle Morgan",Male,2002-01-18,2019-07-01,HR,Consultant,89157.71,andrewcameron@smith.com,"(153) 473 5528 x9611","East Laura",Congo,Resigned
+300,"Melissa Stewart",Female,1993-07-18,2019-06-22,Finance,Consultant,49331.65,melissaphillips@murphy.com,"(897) 317 9128",Potterhaven,"Holy See (Vatican City State)",Resigned
+301,"Mr. Frank Brooks DDS",Male,1997-12-26,2023-05-16,IT,Executive,47736.68,ylittle@hotmail.com,"(103) 337 3634 6x6925",Andreaberg,"Sao Tome and Principe",Active
+302,"Jeremy Bell",Female,2004-01-20,2016-01-05,Sales,Intern,82830.42,ronald76@yahoo.com,"(754) 602 7341 x514","Port Joshuabury",Bolivia,Resigned
+303,"Isaac Payne",Female,1987-01-10,2018-08-28,Sales,Engineer,37627.68,kevin43@hotmail.com,"(128) 404 4566 9x078","Port Raymond",Denmark,Active
+304,"Christine Hall",Male,2004-04-05,2024-09-17,Sales,Intern,67641.52,fpeterson@yahoo.com,"(663) 778 0529","West Sherry",Algeria,Active
+305,"Mr. Henry Perez MD",Male,1991-10-06,2024-06-16,Sales,Manager,74067.78,brenda90@gmail.com,"(599) 996 6361",Lopezville,Greenland,Active
+306,"Jocelyn Kline",Male,1970-08-29,2018-03-25,Marketing,Manager,47561.56,antoniobarker@johnson-gonzalez.biz,"(334) 817 0580 x2566","North David",Italy,Resigned
+307,"Benjamin Friedman",Female,1978-05-14,2017-07-10,Operations,Intern,73982.96,ryan72@andrews.info,"(302) 716 9385 x977",Johnstonland,France,Active
+308,"Tamara Reed",Male,1984-07-22,2021-12-19,Sales,Executive,45138.81,nwright@reynolds.org,"(603) 248 4137",Riddleside,"British Virgin Islands",Resigned
+309,"Angela Garcia PhD",Male,1986-07-02,2022-04-16,IT,Engineer,104095.45,johnnyhunter@yahoo.com,"(176) 563 6004","Lake Sallymouth",Paraguay,Resigned
+310,"Kari Jones",Male,2001-08-20,2019-06-08,Marketing,Analyst,96238.98,thomasramirez@gmail.com,"(091) 241 8621","Lake Joshuamouth",Guinea-Bissau,Terminated
+311,"Miguel Stafford",Female,2000-07-15,2018-12-28,R&D,Analyst,69516.29,copelandlisa@hotmail.com,"(116) 470 9006 3x35331","South Anthonytown",Guadeloupe,Active
+312,"Melanie Brown",Female,1970-11-21,2018-03-03,R&D,Consultant,84923.56,perrydaniel@morris-sims.org,"(866) 133 1552","South Destinytown",Iceland,Resigned
+313,"Daniel Barrett",Male,1983-04-07,2021-08-03,Sales,Executive,77905.27,mcclurerobert@porter.org,"(419) 562 5257","West Andresshire",Kiribati,Terminated
+314,"Martin Hall",Female,2004-04-16,2015-07-16,R&D,Engineer,118693.95,jensenpenny@young-patterson.com,"(110) 257 4326 3x039",Stevensonmouth,"Burkina Faso",Terminated
+315,"Mason Hodges",Male,1999-10-05,2022-05-16,IT,Consultant,41419.94,perezjessica@yahoo.com,"(380) 339 6852",Sotoland,"Trinidad and Tobago",Active
+316,"Troy Williams DVM",Female,1978-03-18,2017-06-13,Marketing,Manager,81968.30,brittanyguerra@young.biz,"(001) 742 3362 934x4973",Michellefort,Belgium,Resigned
+317,"Heather Gray",Male,1996-05-06,2022-10-27,Marketing,Engineer,97482.21,ywolf@yahoo.com,"(661) 498 2824",Fordmouth,Finland,Terminated
+318,"Larry Jones",Male,1973-08-12,2023-04-18,R&D,Consultant,38382.75,sabrinasmith@cross.biz,"(567) 491 6016 x9236",Kelseystad,Madagascar,Resigned
+319,"Madison Richardson",Female,1968-03-29,2021-11-13,HR,Intern,104236.29,johnjohnson@yahoo.com,"(102) 497 2439 9x2011",Sandersshire,"United Arab Emirates",Resigned
+320,"Theodore Liu",Female,1975-08-07,2022-07-29,R&D,Executive,110473.92,vincent86@hotmail.com,"(611) 952 4364 x0270","North Kimchester",Mali,Active
+321,"Dylan Jordan",Male,1976-04-26,2021-09-08,Marketing,Intern,30060.83,jameswhite@hayes.com,"(023) 467 9121",Christopherville,"Falkland Islands (Malvinas)",Resigned
+322,"Allen Young",Male,1997-05-01,2017-01-10,R&D,Executive,38400.60,adamsstephanie@aguilar.net,"(698) 477 5965",Evelynmouth,Germany,Resigned
+323,"Teresa Ortega",Female,1990-01-25,2016-04-14,Operations,Executive,95338.95,linda07@hotmail.com,"(209) 184 3579 x7863","Lake Susanmouth",Andorra,Active
+324,"Shelley Montes",Male,1986-06-19,2022-11-14,HR,Engineer,50357.18,nross6@bailey.com,"(001) 649 3289 802x7148",Jacksonmouth,Zimbabwe,Terminated
+325,"Matthew Allen",Female,1978-09-19,2018-03-19,Operations,Manager,72993.02,grahamjennifer@hickman.biz,"(001) 434 7128 715x39915",Kentfurt,Palau,Active
+326,"Kristina Chase",Female,1980-03-12,2019-02-12,HR,Intern,99611.44,carterdaniel@yahoo.com,"(001) 931 9525 690x4098","Port Paul",Jamaica,Active
+327,"Jacob Shelton",Male,1972-11-28,2024-02-26,Marketing,Executive,95018.88,fosteramanda@stewart-cabrera.com,"(772) 942 0954","West Wendyshire",Lesotho,Terminated
+328,"Cindy Carter",Male,1989-12-13,2016-04-24,Finance,Analyst,42601.18,mariaclark@hotmail.com,"(027) 642 0865",Gregorystad,"Saudi Arabia",Active
+329,"Benjamin Acosta",Male,1983-07-13,2018-08-19,HR,Executive,88015.85,andersonkaren@hotmail.com,"(472) 927 7423","Port Kaitlin","Saint Pierre and Miquelon",Active
+330,"Heidi Chase",Male,1971-04-02,2017-10-28,R&D,Consultant,108824.45,kshelton@gmail.com,"(572) 018 5962",Sanchezville,"Dominican Republic",Active
+331,"Eric Carlson",Male,1976-01-20,2021-09-12,R&D,Manager,74539.89,phancock@hill-delgado.com,"(111) 178 3099",Hillville,"South Africa",Active
+332,"Janet Cooke",Male,1993-10-28,2020-05-21,IT,Executive,41878.46,nguyenjennifer@lopez.net,"(187) 189 8131 2","North Angela","South Georgia and the South Sandwich Islands",Terminated
+333,"Andrew Andrews",Male,1975-04-14,2016-10-21,Finance,Engineer,36077.93,millerdavid@yahoo.com,"(826) 034 0848 x729",Nealhaven,"United States Minor Outlying Islands",Resigned
+334,"Mrs. Kimberly Clark",Female,1971-01-19,2016-01-27,Operations,Consultant,75094.41,lopezkevin@bernard.net,"(954) 296 1844",Santosburgh,Iran,Resigned
+335,"Tony Rhodes",Male,1974-01-23,2024-06-05,IT,Analyst,57891.62,sotojoseph@terry.net,"(126) 256 6093 1x418","Lake Amyland",Greenland,Terminated
+336,"Heidi Cook",Male,1982-11-28,2017-10-20,IT,Consultant,69373.74,alejandro63@lynn-patton.com,"(849) 718 5948",Catherineton,Chile,Active
+337,"Paul White",Male,2000-06-30,2024-09-11,IT,Consultant,96752.42,qvargas3@gmail.com,"(182) 226 9405 3x96727",Laurenhaven,France,Terminated
+338,"Jeffrey David",Female,1979-11-18,2020-07-03,Sales,Engineer,100468.84,richard51@miller.com,"(001) 014 8706 827",Robertsonside,Qatar,Terminated
+339,"Adrian Lee",Male,1964-10-23,2022-07-17,R&D,Analyst,60150.99,virginiaguerrero@hotmail.com,"(190) 972 8321 5x28506",Graystad,"Bouvet Island (Bouvetoya)",Resigned
+340,"Michael Decker",Male,1972-05-02,2020-03-31,Marketing,Intern,75970.37,ncarter@gmail.com,"(001) 963 4807 970x5097",Kennethville,Albania,Active
+341,"Nathan Morales",Male,1964-12-01,2017-01-13,Sales,Consultant,95050.05,hgonzalez1@hotmail.com,"(617) 024 3765",Michaelburgh,Martinique,Active
+342,"Ashley Gonzales",Female,1994-03-19,2018-01-24,HR,Manager,113804.41,julie05@gonzalez.biz,"(502) 374 1678 x72568",Andersonville,Somalia,Active
+343,"Christopher Porter",Female,1980-05-29,2016-03-13,HR,Intern,112426.93,vbray@gmail.com,"(744) 716 3928 x23414","Lake Lori",Congo,Resigned
+344,"Richard Garcia",Male,1998-07-01,2018-05-24,HR,Manager,102390.42,jeromeanderson@hill.com,"(093) 106 6843 x35670",Schneiderport,"Bouvet Island (Bouvetoya)",Active
+345,"Douglas Bell",Female,1992-10-06,2019-07-07,IT,Analyst,79778.23,whiteaaron@hotmail.com,"(001) 534 7491 624x7554","North Elizabethside","Sierra Leone",Active
+346,"Erin Figueroa",Male,1988-11-27,2024-04-23,Marketing,Executive,83252.18,debraclark@yahoo.com,"(129) 109 3371","New Christineport","Saint Kitts and Nevis",Resigned
+347,"Philip Ferguson",Male,1974-10-09,2016-01-22,HR,Analyst,113915.78,robertdawson@hester.com,"(176) 880 2942 x40903",Simpsonside,"Trinidad and Tobago",Active
+348,"Angela Kim",Female,1998-12-21,2021-11-06,Finance,Consultant,63864.73,nlawson@gmail.com,"(293) 908 7884",Melissaport,"Russian Federation",Terminated
+349,"Bryan Walker",Female,2000-08-15,2019-05-14,Finance,Manager,94048.72,bowmansheri@yahoo.com,"(403) 381 0595",Christopherside,Estonia,Active
+350,"Jennifer Carr",Female,1986-05-28,2016-04-14,Marketing,Consultant,37641.22,jeffrey42@bonilla-medina.org,"(649) 837 3543",Moorebury,"Saint Lucia",Active
+351,"Jackie Barrera",Male,1970-09-09,2023-10-01,Marketing,Consultant,116779.64,llopez@hudson.com,"(140) 422 6931 2x1637",Garciahaven,Burundi,Active
+352,"Rhonda Morrison",Female,1990-01-11,2021-11-05,IT,Intern,54476.03,serranokathryn@michael.com,"(900) 185 1327",Ochoaport,Greenland,Active
+353,"David Stephens",Male,1982-07-07,2024-07-23,HR,Intern,71944.96,bryancurtis@garcia-tanner.biz,"(030) 366 2543",Mcdanielville,Liechtenstein,Resigned
+354,"Brian Garcia",Female,1983-06-29,2021-05-23,IT,Analyst,38137.88,david10@hernandez.com,"(162) 494 5147 5x41022",Dylanmouth,"Saint Helena",Terminated
+355,"Vanessa Briggs",Female,1972-01-06,2025-02-21,HR,Analyst,94004.17,duane52@gmail.com,"(001) 655 7676 952x36687",Patelbury,Hungary,Resigned
+356,"Miguel Rose",Male,1979-03-29,2016-10-18,Finance,Intern,106914.12,aaron05@wells.com,"(247) 286 3330 x212",Quinnchester,"Holy See (Vatican City State)",Terminated
+357,"Brian Perkins",Male,1996-10-05,2018-01-01,Finance,Analyst,35550.23,michaelmiller@smith.com,"(001) 272 8476 570x41200","New Ethan",Indonesia,Active
+358,"Melanie Liu",Male,2002-01-09,2019-09-14,Sales,Engineer,53293.86,rodneymoore@gmail.com,"(623) 690 3628 x91775",Wilcoxburgh,Austria,Active
+359,"Maria Lee",Male,1971-09-10,2017-02-01,Finance,Executive,41027.49,carrie50@campbell.com,"(390) 438 3034","New Annetteshire",Somalia,Resigned
+360,"Mr. Brandon Parker",Female,1988-08-01,2020-02-12,Finance,Intern,91489.16,leonardmyers@yahoo.com,"(156) 818 2096",Williston,"French Guiana",Active
+361,"Michael Miller",Male,1970-08-30,2019-04-02,Finance,Engineer,85725.89,kaylamartin@black.com,"(254) 596 0633 x991","New Courtney",Luxembourg,Active
+362,"Adrian Miranda",Male,1985-05-18,2024-08-14,IT,Intern,42351.24,udavis@villa.com,"(955) 112 7474 x721",Williamsport,Iran,Active
+363,"Manuel Becker",Male,1994-04-24,2021-07-20,Marketing,Consultant,62320.09,christopher68@yahoo.com,"(090) 380 2146 x296","East Paulmouth",Paraguay,Terminated
+364,"John Day",Female,1995-12-12,2017-03-03,HR,Analyst,58698.98,jessicalowery@tate-gonzalez.com,"(559) 737 1470","South Dustin",Croatia,Active
+365,"Andre Burke",Female,1990-03-12,2016-05-16,Sales,Executive,99015.80,nirwin@gmail.com,"(064) 421 2146","West Morganmouth",Tunisia,Active
+366,"Daniel Orozco",Male,1976-11-03,2016-03-23,R&D,Manager,81812.29,wpeterson@martin-bailey.biz,"(782) 659 6089 x3199","West Elizabeth",Swaziland,Resigned
+367,"Natalie Doyle",Female,1985-11-08,2015-07-22,R&D,Consultant,92786.39,fpeck@wilson-cordova.biz,"(807) 279 1033 x682",Robinsonborough,Zambia,Terminated
+368,"Michael Friedman",Male,1989-07-05,2021-07-02,R&D,Intern,78791.21,peggy81@porter.com,"(868) 512 7652 x892",Jameschester,"Norfolk Island",Active
+369,"Marc Buckley",Female,1971-01-25,2016-10-20,Finance,Executive,112610.66,bankschristina@garcia-brady.org,"(117) 890 4633 7",Wilsonfort,Zambia,Active
+370,"Walter Sloan",Female,1992-05-31,2022-01-17,Finance,Analyst,43294.08,kimberly84@hobbs-baker.biz,"(130) 600 0258 9x55296","New Teresa",Congo,Terminated
+371,"Jennifer Williams",Male,2003-08-21,2022-08-12,IT,Consultant,114773.09,lmadden@strong-holmes.biz,"(128) 196 4825","North Christopher",Jordan,Resigned
+372,"Randy Hernandez",Female,2001-04-24,2016-08-26,R&D,Consultant,116459.59,newtondavid@yahoo.com,"(152) 334 3836 4x0412","Lake Traciville","Bouvet Island (Bouvetoya)",Terminated
+373,"Kyle Rodriguez",Female,1983-07-15,2019-10-08,HR,Consultant,83005.51,jonesmegan@myers.com,"(171) 366 5722 x40299","North Theresastad",Liberia,Active
+374,"Lindsay Smith DDS",Male,1981-08-19,2017-05-19,Operations,Engineer,65244.13,herreraapril@robinson.com,"(052) 312 4473","West Jeanport","Lao People's Democratic Republic",Terminated
+375,"Kathleen Hunt",Male,1991-07-13,2018-08-06,Operations,Engineer,39369.92,jamesmathis@hotmail.com,"(619) 942 3767 x694",Cindyfurt,Japan,Resigned
+376,"Harry Hurst",Male,1968-09-08,2022-12-16,Operations,Analyst,103949.56,rubiojohnny@carter-serrano.net,"(601) 256 2531 x355","Port Leonard",Algeria,Terminated
+377,"Adam Murphy",Male,1995-12-25,2024-12-19,Operations,Analyst,61543.30,annacruz@hotmail.com,"(831) 849 1966",Lisaborough,Congo,Active
+378,"Johnny Williams",Male,1982-12-27,2022-06-24,Marketing,Intern,109359.36,chavezcarolyn@reyes.org,"(742) 608 8050","South Codychester","Saint Kitts and Nevis",Resigned
+379,"Evan Reed",Male,1969-09-28,2024-10-11,HR,Intern,36633.85,zsalazar@yahoo.com,"(001) 771 5910 300x215",Perezland,Comoros,Active
+380,"Robin Cabrera",Male,2000-11-23,2015-05-25,Marketing,Manager,95878.66,nicole01@valentine.com,"(964) 229 7125 x29671","New Timothy",Liechtenstein,Terminated
+381,"Erica Simon",Female,1979-09-07,2016-11-15,Operations,Analyst,68819.10,jennifer58@gmail.com,"(131) 170 3037 6x37153",Kathleenport,"Russian Federation",Terminated
+382,"Christian Wagner",Male,1973-03-01,2019-01-13,HR,Intern,92747.70,nhester@hotmail.com,"(631) 462 4912",Walterville,"Dominican Republic",Terminated
+383,"Joel Adams",Male,1996-09-21,2024-05-05,Finance,Intern,81459.28,joseph81@yahoo.com,"(326) 868 5074 x51066","West Jaime","Christmas Island",Resigned
+384,"Kendra Snyder",Female,1993-10-26,2017-03-03,HR,Analyst,32316.21,susanrobinson@jacobson.com,"(181) 439 6661","Lake Madison","Puerto Rico",Active
+385,"Daniel Floyd",Female,1987-12-21,2020-03-18,Marketing,Intern,110538.97,daviswesley@hotmail.com,"(174) 325 1225 7x207",Cookburgh,Estonia,Resigned
+386,"Carolyn Wolf",Female,1964-12-22,2021-04-21,HR,Intern,34015.52,freemanjohn@gmail.com,"(094) 388 2211",Lindamouth,Korea,Resigned
+387,"Gregory Gardner DDS",Male,1981-07-26,2021-07-05,Finance,Consultant,60941.22,careykevin@yahoo.com,"(971) 480 2632 x57039",Howardland,Congo,Terminated
+388,"Jamie Rodriguez",Female,1982-12-15,2024-07-31,R&D,Engineer,67676.89,josephshelton@yahoo.com,"(964) 430 9859 x1679",Keithtown,Luxembourg,Terminated
+389,"Bridget Becker",Female,1999-12-01,2020-03-29,Finance,Intern,111249.95,tommy14@chavez.com,"(001) 107 4065 004","West Natasha","Solomon Islands",Terminated
+390,"Mary Mack",Male,1974-11-12,2016-10-10,Finance,Intern,45559.11,wendygonzalez@hotmail.com,"(430) 753 6661",Samanthaport,China,Active
+391,"Meghan Morris",Female,2003-08-29,2017-09-05,HR,Consultant,43309.04,derek83@torres-evans.info,"(126) 612 8758 5",Gomezmouth,Italy,Terminated
+392,"Julia Gaines",Female,1966-02-10,2022-06-22,Sales,Intern,79684.88,christinaturner@carpenter.com,"(189) 406 2607 8x701","West Mariaville",Grenada,Resigned
+393,"Samantha Cunningham",Female,1986-11-10,2016-05-07,Finance,Intern,43467.81,mileszachary@yang.com,"(407) 931 1029 x1813","North Thomas","Syrian Arab Republic",Terminated
+394,"Jeanette Howe",Male,1984-09-21,2022-03-12,R&D,Executive,108072.77,loriskinner@hotmail.com,"(979) 162 0223 x288","South Timothy","French Guiana",Resigned
+395,"Tina Vasquez",Female,1983-01-15,2021-12-19,Finance,Manager,54787.27,marshalllisa@gmail.com,"(471) 960 9409",Williamsstad,Burundi,Active
+396,"Nathan Hill",Female,1975-02-01,2021-05-25,Operations,Manager,34436.19,rachel86@brown.org,"(724) 461 7679 x29884","Lake Mario",Zimbabwe,Resigned
+397,"Lauren Gallegos",Female,1968-11-29,2016-01-29,IT,Executive,105856.19,jesseortega@villa-alvarez.com,"(001) 312 6610 941x01759","East Manuelmouth",Honduras,Terminated
+398,"Mark Hawkins",Female,1977-08-19,2019-08-10,R&D,Executive,54247.80,oshelton@gmail.com,"(001) 268 3190 130x2056","West Jacobhaven",Luxembourg,Resigned
+399,"Daniel Carey",Female,1998-05-25,2021-04-20,Operations,Intern,98354.40,lauriegonzales@hotmail.com,"(191) 284 1173 x0985","East Loriport",Uzbekistan,Resigned
+400,"Jeanette Howard",Female,1975-01-21,2020-03-18,HR,Engineer,109139.93,melissafrederick@collins.com,"(001) 740 0564 350","East Amy","Saint Martin",Active
+401,"Peter Gaines",Male,1968-07-22,2019-04-28,Marketing,Analyst,112622.80,shafferanne@hotmail.com,"(001) 051 6991 872x401","South Williamstad",Jersey,Terminated
+402,"Richard Walter",Male,1979-10-24,2015-09-05,Operations,Analyst,51774.43,ayalalisa@franklin.com,"(170) 662 6682 1",Wilsonstad,Guinea,Resigned
+403,"Jeffrey Brown",Female,1980-02-08,2016-11-16,IT,Manager,105388.84,robertgoodwin@bradley.com,"(102) 724 0559","West David",Indonesia,Resigned
+404,"Bryan Jones",Male,1981-05-04,2024-07-24,R&D,Engineer,100184.71,wthornton@wallace.com,"(001) 843 8458 810x56974","East Rhondahaven",Djibouti,Active
+405,employee_405,Female,1973-12-22,2015-12-03,Sales,Analyst,107816.69,dsantos@smith.com,"(964) 104 9670 x667","East Jamieburgh","Palestinian Territory",Terminated
+406,"Anthony Torres",Male,2001-03-02,2021-03-25,HR,Executive,84750.95,sandra49@todd.org,"(601) 864 8769 x98426",Reesebury,Bulgaria,Resigned
+407,"Diana Fleming",Female,1982-12-27,2016-10-07,Marketing,Executive,49638.81,matthew60@hill.org,"(149) 542 7707","South Benjaminstad",Lesotho,Resigned
+408,"Kristin Ortiz",Female,2003-10-03,2016-08-31,Sales,Consultant,83439.53,stephanie72@yahoo.com,"(001) 447 2322 903x10287",Bobbybury,Bahamas,Resigned
+409,"Wendy Hester",Female,1965-05-30,2021-04-28,R&D,Executive,53503.22,michaeljones@wilson-jones.com,"(956) 164 2059 x55657",Christyburgh,"Heard Island and McDonald Islands",Terminated
+410,"Timothy Buck",Male,1966-01-19,2017-02-13,Finance,Engineer,66368.86,william89@cooper.com,"(126) 113 9898 6x81809",Hopkinshaven,Kazakhstan,Resigned
+411,"Cory Johnston",Female,1980-12-02,2020-11-26,Marketing,Intern,64944.74,jerry51@allen.com,"(588) 157 9376","New Maria","Brunei Darussalam",Active
+412,"Danielle Blankenship",Male,2004-02-09,2017-08-30,Operations,Engineer,87448.22,matthew11@yahoo.com,"(829) 732 7021 x64871","Port Austin",Jersey,Resigned
+413,"Christopher Jones",Male,1999-05-09,2024-04-26,IT,Analyst,72370.28,zgomez@hotmail.com,"(134) 155 9991 0","Lake Samanthamouth","United States Minor Outlying Islands",Terminated
+414,"Jerry Davenport",Female,1984-01-01,2023-06-06,Operations,Analyst,50002.82,jenniferlawrence@miller.com,"(176) 572 8941 3x47509",Mitchellfurt,Ghana,Active
+415,"Tiffany Williams",Female,1978-08-26,2022-08-21,Sales,Executive,71738.46,cory42@gmail.com,"(477) 324 4913 x4213","North Carmen",Armenia,Active
+416,"Kimberly Lloyd",Male,1964-10-07,2023-08-15,Marketing,Manager,75042.96,james96@wallace.com,"(001) 176 7412 415x131",Ericmouth,"Falkland Islands (Malvinas)",Terminated
+417,"Nicolas Powers",Male,1969-05-10,2020-09-01,HR,Executive,66827.27,tgarcia@stewart.com,"(103) 296 3347 2x7274","East Cynthia",Benin,Terminated
+418,"Shannon Curry",Male,1964-07-13,2022-09-13,R&D,Analyst,73882.28,ngrant@thompson.biz,"(193) 578 2434 7x7695",Phillipsbury,"Bouvet Island (Bouvetoya)",Terminated
+419,"Stephanie Gallagher",Male,1992-11-13,2022-12-02,R&D,Manager,81865.10,elainewilson@yahoo.com,"(156) 277 9630 x44836","New Kelseyview",Peru,Active
+420,employee_420,Female,1991-06-12,2019-09-30,Marketing,Intern,116879.51,todd35@cardenas.org,"(831) 995 2980","Port Nicholasmouth","United States Minor Outlying Islands",Resigned
+421,employee_421,Female,1967-08-31,2024-02-19,R&D,Engineer,47151.90,amanda28@heath-perez.com,"(563) 830 0081 x867","East Justintown",Denmark,Terminated
+422,"Melissa Johnson",Female,1972-09-23,2021-09-27,HR,Analyst,64519.54,lorettamcdowell@gmail.com,"(186) 008 9219",Leeport,Slovenia,Terminated
+423,"Jose Johnson",Female,1982-12-18,2023-02-13,Operations,Engineer,83673.29,bakerdiana@bennett-jordan.com,"(847) 488 3607 x65817","New Theresa",Indonesia,Resigned
+424,employee_424,Female,1971-09-23,2020-08-06,IT,Manager,44839.52,lisadaugherty@gmail.com,"(123) 793 1269 7","North Katrina","El Salvador",Resigned
+425,"Patrick Flowers",Male,1966-10-19,2020-10-12,Sales,Engineer,45208.63,adamsjason@hotmail.com,"(875) 357 7881 x1616","Port Alexander",Maldives,Resigned
+426,"Carol Kim",Male,1972-01-19,2015-12-23,Sales,Analyst,89577.29,zjackson@hotmail.com,"(286) 604 1644 x8595","East Kelly",Poland,Terminated
+427,"Lucas Klein",Male,1999-08-29,2019-08-03,Sales,Executive,NULL,vclark@hotmail.com,"(001) 228 7056 227x1043","Lake Clifford",Kuwait,Active
+428,"Antonio Harrison",Female,1974-12-17,2016-06-12,Sales,Engineer,93065.37,michaelsmith@gmail.com,"(469) 459 6488 x319","North Jessica",Fiji,Resigned
+429,"Justin Martinez",Male,1999-11-10,2025-04-21,R&D,Analyst,74796.52,barbara99@yahoo.com,"(001) 973 2033 192x2270",Christianton,Burundi,Terminated
+430,"Jessica Ortega",Female,1986-07-28,2020-06-17,IT,Manager,33546.51,annbennett@mccarthy-kelly.net,"(819) 324 2687 x74186",Gregorystad,Timor-Leste,Resigned
+431,"Michael Chandler",Male,1978-11-11,2024-11-01,Operations,Analyst,111619.20,vbrooks@gonzalez.net,"(094) 515 4809",Arthurview,Norway,Terminated
+432,"Andrew Dominguez",Male,1981-07-14,2019-12-23,IT,Consultant,50804.43,roysara@chen.net,"(050) 922 2161","South Danaton",Germany,Resigned
+433,"Joshua Lucero",Female,2000-01-01,2015-08-06,IT,Consultant,58143.64,rachael29@hotmail.com,"(806) 601 3824 x127","West Charlottehaven",Ireland,Terminated
+434,"Paul Massey",Male,1964-07-14,2020-08-09,Operations,Consultant,45346.10,david79@hotmail.com,"(971) 112 1259","Port Garytown",Cuba,Resigned
+435,"Julia Wiley",Female,1981-02-07,2020-07-19,R&D,Executive,46458.25,lancegray@thompson-taylor.com,"(334) 324 4741 x75955",Gallegosburgh,Argentina,Resigned
+436,"Lauren Moore",Female,2003-01-06,2018-11-24,R&D,Intern,88396.18,debbie43@yahoo.com,"(001) 884 1834 374x018","South Donald",Myanmar,Active
+437,"Justin Barrett",Male,1966-08-14,2020-10-18,Finance,Intern,112010.41,misty02@alvarez-rogers.com,"(542) 782 0797",Simonfort,"Syrian Arab Republic",Resigned
+438,"Nathaniel Burke",Female,1997-02-25,2022-02-19,Sales,Analyst,107631.82,arellanonatalie@hotmail.com,"(664) 969 0282",Oliviahaven,Congo,Terminated
+439,"Laura Taylor",Female,1986-12-26,2016-03-24,Marketing,Analyst,35700.24,laura25@foster-murray.com,"(244) 123 3613","Lake Angela",Singapore,Terminated
+440,"John Cooper",Male,1996-05-08,2024-08-31,Operations,Executive,76718.97,robertabarnett@yahoo.com,"(001) 316 2526 546x968","West Tracyshire",Anguilla,Terminated
+441,"Lee Tate",Female,1989-06-07,2021-06-23,Operations,Consultant,87726.40,bishopkaren@gmail.com,"(132) 730 3461 5x6262",Larryfort,"Antigua and Barbuda",Active
+442,"Troy White",Male,1991-05-31,2024-02-11,Sales,Intern,106668.40,wdrake@oconnor.com,"(529) 867 0766","West Ronaldville","Netherlands Antilles",Active
+443,"Susan Shaw",Male,1996-07-16,2021-01-05,Sales,Manager,79544.60,floydtina@hotmail.com,"(001) 612 0594 389x76074","North Mirandamouth",Haiti,Resigned
+444,"Kyle Wood",Female,1993-04-13,2021-01-19,Finance,Intern,70236.13,danielsguy@yahoo.com,"(075) 409 1508 x63218","East Jessicafort",Jersey,Active
+445,"Haley Ellis",Male,1980-12-04,2024-03-21,Sales,Engineer,30015.27,jonesnathan@gmail.com,"(116) 815 4660 2x416","Port Jamesview",Gabon,Active
+446,"Kimberly Leon",Male,1967-08-21,2021-09-05,Operations,Consultant,71058.71,kathleenkim@hotmail.com,"(001) 248 0962 440x630",Sandovalview,Ethiopia,Resigned
+447,"Richard Reid",Female,1970-12-04,2019-01-29,Operations,Consultant,62696.51,fletcherjeffrey@roberts.org,"(958) 678 0555 x57277","New Heidi",Peru,Resigned
+448,"Jamie Guerrero",Female,2003-03-12,2016-08-25,Sales,Engineer,63650.13,christopher85@yahoo.com,"(577) 029 9295 x9660",Angelafort,Dominica,Active
+449,"Joshua Gray",Female,1972-09-19,2016-12-17,Finance,Executive,84976.66,jasonrodriguez@yahoo.com,"(268) 653 6945",Crystalmouth,Macao,Active
+450,"Jenna Trevino",Male,1997-12-27,2023-03-16,Operations,Executive,39698.92,lmoore@yahoo.com,"(085) 721 6966 x6309","East Chelsea",Macao,Resigned
+451,"Ms. Monique Dougherty MD",Female,1981-04-28,2018-02-22,Marketing,Consultant,83038.45,craneandrew@hotmail.com,"(168) 832 7532 7x3524","North Jamiemouth",Kuwait,Terminated
+452,"Larry Fritz",Female,1976-05-08,2023-03-01,R&D,Engineer,73463.88,monica23@bowen-jones.com,"(168) 761 6481 9x80770",Lisaton,Haiti,Terminated
+453,"Timothy Soto",Male,1994-04-05,2022-08-09,Finance,Intern,89176.96,thomasjose@molina.biz,"(152) 373 4151 7x73454",Riveramouth,Reunion,Terminated
+454,"Donald Johnson",Male,1973-11-04,2017-10-30,IT,Intern,116723.42,walkernathan@yahoo.com,"(001) 442 9477 422x294",Scottbury,"Antarctica (the territory South of 60 deg S)",Resigned
+455,"Lauren Hernandez",Female,1965-02-18,2019-09-22,R&D,Consultant,79302.54,kwoods@yahoo.com,"(129) 858 5672 8x7276","Lake Staceymouth","Czech Republic",Resigned
+456,"Danny Ramirez",Female,1972-06-14,2018-08-30,Operations,Executive,112907.26,ostevens@gmail.com,"(001) 833 5061 581x4888","Port Brianshire",Maldives,Active
+457,"David Stevenson",Female,1980-12-28,2019-03-13,Operations,Analyst,98469.75,billylynch@hotmail.com,"(131) 284 0333 x997",Garciaton,Ghana,Terminated
+458,"Angel Mendoza",Female,1994-05-21,2016-09-24,R&D,Intern,102747.43,corylawrence@hotmail.com,"(490) 961 7399 x7046",Travisburgh,Greenland,Terminated
+459,"Kayla Bean",Female,1984-09-14,2019-10-22,R&D,Manager,118517.92,joshua88@garrett-rodriguez.com,"(058) 772 2164 x1758","East Kimberly",Serbia,Terminated
+460,"Eric Torres",Male,2000-05-29,2023-05-05,IT,Intern,39223.20,sara39@moore.com,"(925) 879 6434",Michaelport,"Heard Island and McDonald Islands",Terminated
+461,"Gene Gomez",Male,1985-10-09,2022-12-18,Sales,Consultant,55887.48,welliott@yahoo.com,"(606) 527 4033",Kennethstad,Anguilla,Terminated
+462,"Richard Nguyen",Female,2002-06-03,2018-09-15,Sales,Analyst,31166.87,ggates@sanchez.info,"(001) 970 6734 996x0105",Amandamouth,Uzbekistan,Resigned
+463,"John Gilmore",Male,1969-05-08,2020-10-31,Operations,Consultant,93859.09,morganlawrence@hotmail.com,"(817) 359 8488",Hannahberg,"Sierra Leone",Resigned
+464,"Shelby Lyons",Male,1985-09-05,2021-06-16,IT,Intern,45968.33,jackmcdonald@yahoo.com,"(534) 490 2166 x670","New Nathanielshire",Jordan,Terminated
+465,"Toni Marks MD",Male,2000-12-24,2023-09-07,Marketing,Executive,NULL,cynthia19@gmail.com,"(118) 281 9793 1",Meyersmouth,Korea,Active
+466,"Wendy Hernandez",Male,1986-10-19,2016-07-21,Finance,Manager,113576.54,shawn60@andrews-smith.biz,"(035) 624 3958",Valdezborough,"Sierra Leone",Terminated
+467,"Tammy Barry",Female,2003-07-27,2017-11-28,R&D,Engineer,79514.42,jamiewhite@ferguson.com,"(151) 553 3342 6",Jesseborough,"Sierra Leone",Active
+468,"Chad Nolan",Male,1994-03-26,2017-05-28,R&D,Engineer,44343.34,wallacejulie@hotmail.com,"(607) 763 3691","East Williamshire","Saint Kitts and Nevis",Terminated
+469,"Carla Clark",Female,1997-08-06,2021-05-29,IT,Executive,56421.69,flee@hotmail.com,"(748) 170 0666 x155",Marychester,Yemen,Terminated
+470,"Elizabeth Key",Male,1970-01-23,2021-12-10,Finance,Consultant,61140.66,beanjoshua@hotmail.com,"(023) 290 2822 x70093",Nathanchester,Swaziland,Active
+471,"Christopher Mayer",Female,1974-08-13,2018-05-27,Marketing,Analyst,64728.83,buchanananthony9@gmail.com,"(654) 950 0507 x0260",Farmerhaven,Chile,Terminated
+472,"Adrian Prince",Female,1970-08-01,2022-06-16,Marketing,Analyst,56679.06,novaksteven@chase-herrera.com,"(104) 774 2585 9x177","East Jeffrey",Bulgaria,Terminated
+473,"Brenda Hopkins",Male,1970-10-06,2022-03-08,Operations,Analyst,48970.33,wrightjohn@hotmail.com,"(145) 798 8942 5x65290",Welchborough,"Cocos (Keeling) Islands",Terminated
+474,"Mark Conley",Female,1980-07-01,2018-01-24,Operations,Analyst,97220.17,alexander77@yahoo.com,"(967) 379 4871",Dianahaven,Uzbekistan,Active
+475,"Zachary Lopez",Male,1987-07-09,2023-08-09,R&D,Executive,80227.58,barnettmatthew@hotmail.com,"(156) 082 1371 x184","Port Michael",Korea,Terminated
+476,"William Miller",Female,1998-08-29,2018-06-02,Marketing,Executive,31520.19,donaldbecker2@gmail.com,"(589) 298 8085","Lake Stacey",Malta,Terminated
+477,"Christopher Becker",Male,1979-09-17,2017-11-24,IT,Engineer,39552.20,joshuahaley@yahoo.com,"(686) 775 2401 x4843","North Karinaberg",Cambodia,Terminated
+478,"Mr. William Bray",Female,1980-10-24,2021-12-20,R&D,Consultant,32773.72,mmyers@flowers.com,"(261) 923 7245 x018",Alexandriafort,Djibouti,Active
+479,"Elizabeth Martinez",Female,1995-03-27,2017-12-04,Operations,Manager,56825.09,nancy06@rodriguez-owens.org,"(743) 811 9953",Copelandchester,Italy,Terminated
+480,"Brian Carrillo",Male,1983-02-01,2019-08-05,Finance,Analyst,30452.69,qestrada@yahoo.com,"(017) 397 3964","Port Margaretfort",Moldova,Terminated
+481,"Krystal Obrien",Female,1990-05-08,2016-01-11,HR,Intern,111506.52,johnstondavid@ward.org,"(605) 779 8066 x03920",Coreychester,Spain,Terminated
+482,"Jesus Macdonald",Male,1988-09-18,2021-03-01,HR,Consultant,101969.40,joshuabowers@yahoo.com,"(423) 885 6527 x155","West Maria",Bolivia,Active
+483,"Ann Sullivan",Male,1998-02-23,2018-06-24,IT,Consultant,36062.65,josephzimmerman@yahoo.com,"(752) 250 1394 x88488","South Christine",Belarus,Active
+484,"Brandon Harper",Male,1991-11-07,2019-10-17,Finance,Executive,85756.42,amanda62@garcia-blanchard.com,"(191) 537 0382 4x073","East Nancy",Kazakhstan,Active
+485,"Cindy Smith",Male,1980-11-23,2015-09-01,Sales,Engineer,62804.41,jperry@hotmail.com,"(628) 969 6454",Woodbury,Ghana,Resigned
+486,"Angela Steele",Female,1986-03-15,2019-07-07,IT,Executive,42087.52,pollardkristen@erickson.org,"(583) 749 0797",Garzaland,Zimbabwe,Terminated
+487,"Alison West DDS",Female,1987-12-20,2023-06-03,Sales,Analyst,45819.31,flemingcameron@hill.com,"(001) 976 2637 484x539",Thomasside,"Pitcairn Islands",Terminated
+488,"Shari Arellano",Male,1967-12-02,2021-05-29,IT,Consultant,109770.22,austinalyssa@martin.com,"(071) 511 6966",Hortonberg,Tanzania,Active
+489,"Brendan Kelly",Female,1993-08-07,2019-08-07,R&D,Engineer,49148.46,lopezrichard@gmail.com,"(157) 184 0908 x051","North Tamara",Malta,Active
+490,"Gabriel Torres",Male,2002-12-21,2024-11-23,IT,Intern,50097.60,sosajacob@hotmail.com,"(283) 512 9592 x7282",Johnsonton,Vietnam,Terminated
+491,"Tina Shepard",Female,1985-07-10,2020-04-08,IT,Engineer,30953.25,felicia98@mccullough.com,"(129) 578 6718 1x535","East Susan",Liechtenstein,Active
+492,"Jared Howard",Male,1997-01-02,2016-12-28,Marketing,Manager,46123.07,rhonda99@patel.com,"(527) 346 6661 x7071",Annafurt,Gambia,Terminated
+493,"Dr. Dustin Sutton Jr.",Female,1967-02-23,2018-07-06,Finance,Manager,98532.51,patricia98@davidson.com,"(100) 463 5806 8","New Nathan",Qatar,Active
+494,"Daniel Bryant",Female,1976-12-13,2019-01-30,Marketing,Intern,112611.17,kleintyler@hotmail.com,"(190) 063 1403 5x2635",Williamsberg,Nepal,Active
+495,"Michael Macias",Female,1993-02-01,2025-01-07,R&D,Consultant,53698.45,shelbyvaldez@yahoo.com,"(066) 643 7490 x60723","Lake Dannyburgh","United Arab Emirates",Terminated
+496,"Andrea Herrera",Male,1975-09-14,2019-09-04,Sales,Executive,63869.59,amanda49@yahoo.com,"(163) 187 3280",Mendozaville,Denmark,Active
+497,"James Miller",Female,1968-11-25,2019-06-05,Sales,Analyst,75165.33,samuel27@hotmail.com,"(001) 083 3509 025x42573","South Normanport",Macedonia,Active
+498,"Clinton Lee",Male,1994-03-07,2015-09-29,HR,Manager,62600.06,bridgescarolyn@yahoo.com,"(122) 850 1168 8","New Jennifermouth","Heard Island and McDonald Islands",Terminated
+499,"Steven Sutton",Male,1964-09-18,2021-10-18,Marketing,Consultant,73093.32,cervanteskayla@vincent.com,"(001) 810 7964 967","Lake Tracy","El Salvador",Active
+500,"William Gibson",Male,1974-09-26,2023-01-15,Sales,Engineer,44501.62,drewwalsh@gmail.com,"(425) 064 2076 x8362",Jaredfurt,Italy,Terminated
+501,"Julia Chavez",Male,1990-09-30,2023-03-14,Sales,Intern,83942.18,mark62@hotmail.com,"(333) 393 9578 x65436","South Daniel",Pakistan,Terminated
+502,"Tanner Sosa",Male,1992-05-11,2016-03-06,HR,Intern,84587.33,matthewwu@cruz.info,"(369) 249 2693","South Leslie",Ecuador,Resigned
+503,"Bianca Velazquez",Male,1985-10-31,2024-05-03,Sales,Consultant,75972.44,buchananchristopher@mora.com,"(553) 234 1595",Alvarezburgh,"French Guiana",Active
+504,"Robert Moore",Male,1974-08-29,2018-02-02,Marketing,Intern,41899.19,patelchristine@gmail.com,"(187) 431 2710 2",Kennedyfort,Chile,Active
+505,"Laurie Huerta",Male,1988-12-22,2022-10-24,Sales,Analyst,45968.00,fshannon@knight.com,"(229) 462 1354","West Carriefort",Andorra,Terminated
+506,"Leslie Frey",Male,1989-03-02,2019-08-12,Marketing,Consultant,41729.60,tina077@bullock-williams.com,"(001) 447 6504 715x802","Lake Ashleyport","Hong Kong",Terminated
+507,"John Price",Male,1982-09-15,2021-09-11,Operations,Engineer,68606.06,linda66@hotmail.com,"(254) 837 4417 x15810","Port Kathleen",Ecuador,Resigned
+508,"James Moore",Male,1980-06-09,2016-10-19,Marketing,Manager,52906.62,sharpjill@berg-williamson.com,"(001) 751 9102 312","Lake Stephanietown",Jersey,Active
+509,"Crystal Williams",Female,1969-09-19,2021-11-23,HR,Analyst,10000.00,thomasgonzalez@yahoo.com,"(127) 490 7280 1x234","New Barbara",Comoros,Active
+510,"Michele Jones",Female,1977-01-16,2020-10-12,Marketing,Executive,39592.49,ralphhuff@guzman-hunter.com,"(645) 380 4421","North Troyton",Nicaragua,Resigned
+511,"Jessica Craig",Female,1994-08-29,2015-07-08,Sales,Executive,119261.88,brianna59@chung.com,"(575) 747 5833 x920",Robertmouth,Greece,Resigned
+512,"Sarah Compton",Female,1995-11-12,2023-03-19,Sales,Engineer,73538.41,douglaschristensen@yahoo.com,"(256) 265 0622","East Cody",India,Resigned
+513,"Devin Gonzalez",Male,1998-02-27,2021-12-26,Operations,Manager,70193.54,maria84@lee.info,"(627) 051 1579 x42387","South Tracy",Zimbabwe,Terminated
+514,"Christopher Mccoy",Male,1993-07-04,2017-05-21,HR,Intern,116811.32,matthew52@cunningham-wells.com,"(563) 353 5748 x595","East Tammy",Slovenia,Active
+515,"Tricia Perez",Male,2004-08-27,2019-05-06,Finance,Executive,49959.32,belliott@dixon-davis.com,"(151) 877 9417 6x342",Melanieton,Lebanon,Active
+516,"Mark Murphy",Female,1997-02-24,2024-11-14,Operations,Engineer,35171.67,sue75@ware.com,"(191) 403 8843 6x604",Jamesport,Anguilla,Active
+517,"Mathew Fisher",Female,1989-05-26,2023-03-23,HR,Analyst,100556.35,jgarrett@wheeler.com,"(743) 974 2925 x010",Angelastad,Cambodia,Terminated
+518,"Nathan Pierce",Male,1993-11-12,2020-10-27,Operations,Analyst,117808.13,markhuff@gmail.com,"(145) 990 8027 1x1221","Lake Jimmy","Saudi Arabia",Active
+519,"Howard Miller",Male,1987-09-11,2016-06-30,Sales,Analyst,96323.30,hgardner@yahoo.com,"(162) 813 7214 3x3080","Lake Meganbury",Lesotho,Active
+520,"Daniel Hall",Female,1974-09-13,2017-08-27,IT,Executive,10000.00,paul60@hotmail.com,"(001) 470 6810 390x33970",Jacquelineshire,Turkmenistan,Active
+521,"Steven Martin",Male,1978-10-17,2017-11-26,Sales,Analyst,75285.22,joseph58@moore-harris.org,"(535) 461 4707 x986","East Daniel",Iceland,Resigned
+522,"Natalie Sawyer",Female,1977-12-07,2025-01-05,Operations,Intern,116944.99,oliviameyers@yahoo.com,"(039) 438 0403 x253",Arroyofurt,"Saint Helena",Terminated
+523,"William Guzman",Female,1975-07-24,2023-09-05,Sales,Analyst,73377.31,laura31@hotmail.com,"(009) 004 0476","North Brian",Cuba,Resigned
+524,"Tricia Harmon",Male,1989-09-07,2016-08-09,R&D,Executive,67118.34,tvaldez5@gmail.com,"(424) 731 0720","North Jennymouth","Trinidad and Tobago",Resigned
+525,"Melissa Nelson",Female,1965-11-06,2024-11-22,Finance,Engineer,113825.66,simoneric@gmail.com,"(600) 767 6209 x0144",Harrisview,Anguilla,Resigned
+526,"Tracey Lopez",Male,1994-10-19,2015-05-07,Marketing,Consultant,47969.99,shansen@conner-baldwin.com,"(519) 577 8255 x8825",Richardshire,Iran,Terminated
+527,"William Saunders",Female,1974-05-12,2023-09-22,HR,Analyst,40789.06,susan19@yahoo.com,"(557) 782 0582",Amberburgh,Thailand,Active
+528,"Brenda Velasquez",Male,1978-04-27,2022-01-20,R&D,Intern,63407.69,ggilmore@williams.net,"(123) 571 5586 8x63956","East Daniellemouth","Cape Verde",Resigned
+529,"Stephanie Lopez",Female,1964-05-09,2023-11-23,HR,Engineer,55224.00,ethomas@clements.com,"(113) 000 4132 1","West Shaunville",Jamaica,Active
+530,"Mary Smith",Male,2004-12-23,2020-06-02,Sales,Executive,65434.52,tbrooks@yahoo.com,"(197) 990 7075 5x047",Mullinsville,Jamaica,Terminated
+531,"Lisa Bell",Female,1997-09-05,2015-10-11,Operations,Analyst,31063.80,esteskatherine@gmail.com,"(481) 131 7653 x9705",Angelamouth,Cuba,Active
+532,"Anna Sutton",Male,2004-09-11,2015-10-17,Sales,Executive,51342.52,shawsteven@hotmail.com,"(001) 680 4918 727",Melissaton,"French Guiana",Resigned
+533,"Jessica Mcdaniel",Female,1969-07-17,2018-09-13,Operations,Executive,62857.02,ywright@hotmail.com,"(126) 042 3597 3x7112","East Joy",Yemen,Resigned
+534,"Allison Crawford",Male,1993-07-29,2015-08-30,R&D,Analyst,94873.39,barnesarthur@yahoo.com,"(161) 114 5768 3","North Andrew",Benin,Active
+535,"Mary Griffin",Male,2001-06-18,2021-08-30,Marketing,Analyst,45894.65,yjones@hotmail.com,"(961) 803 3242",Smithton,Madagascar,Resigned
+536,"Ashley Wade",Female,2004-02-29,2024-05-03,R&D,Intern,57003.08,nicole25@valencia.com,"(177) 731 2688 1x22821",Palmerland,Monaco,Terminated
+537,"Mark Gutierrez",Male,1988-12-05,2019-02-23,R&D,Executive,72888.55,bbrown@gmail.com,"(603) 567 9327 x98623",Tylerland,Jersey,Terminated
+538,"Jennifer Hoffman",Female,1974-03-22,2015-12-29,IT,Analyst,67058.48,phillip75@yahoo.com,"(195) 478 7698 9","South Matthew","Puerto Rico",Resigned
+539,"Grant Black DDS",Male,1981-06-08,2019-11-16,R&D,Executive,61959.81,brooke35@yahoo.com,"(935) 435 8644",Santiagoborough,Seychelles,Terminated
+540,"Rachel Pham",Female,1984-05-22,2018-07-18,Marketing,Consultant,116093.50,james79@hotmail.com,"(143) 395 2753",Washingtonview,Venezuela,Active
+541,"Kimberly Thomas",Female,1969-03-20,2019-08-11,R&D,Analyst,37120.07,zli@jones.info,"(894) 896 3406 x791",Kimmouth,"British Indian Ocean Territory (Chagos Archipelago)",Resigned
+542,"Bryce Wolf",Female,1968-01-09,2016-01-04,IT,Intern,100287.66,daniel84@bowers.biz,"(090) 015 9446","East Jeffrey","Netherlands Antilles",Resigned
+543,"Debra Tran",Male,1980-05-25,2017-11-22,HR,Consultant,51116.45,kathryn26@weaver.com,"(994) 711 3633",Lynchburgh,"United States Virgin Islands",Resigned
+544,"Brian Allen",Male,1985-04-22,2022-09-19,Finance,Analyst,114311.43,glewis7@gmail.com,"(772) 696 0843 x76855","South Williamfurt",Taiwan,Resigned
+545,"Daniel Thomas",Male,1969-07-30,2021-09-26,IT,Engineer,43974.69,uclark@sullivan-wright.com,"(697) 093 1706",Michaeltown,Liechtenstein,Terminated
+546,"Jeremy Coleman",Female,1994-01-28,2019-08-26,Operations,Manager,41814.94,josephbuck@yahoo.com,"(223) 989 8306 x5031","North Christina",Mexico,Active
+547,"Bobby Frederick",Female,1995-02-23,2017-11-06,Marketing,Engineer,114137.18,micheleramirez@gmail.com,"(642) 813 1909","West Amy","Western Sahara",Terminated
+548,"Christopher Smith",Female,1977-08-11,2016-08-15,Operations,Consultant,87226.60,adamskrista@martinez.com,"(823) 052 4808","South Denniston",Latvia,Terminated
+549,"Carlos Hensley",Female,1989-04-20,2025-01-27,Sales,Manager,102423.70,lsanchez@hotmail.com,"(329) 016 2047",Byrdfurt,Mayotte,Resigned
+550,"Jennifer Warren",Male,1999-09-05,2021-05-02,IT,Executive,72227.82,alexandra62@hotmail.com,"(203) 195 4196 x6645","West Tonytown",Cuba,Active
+551,"Mark Thomas",Female,2004-06-29,2017-09-09,R&D,Executive,83730.34,bsanchez@gmail.com,"(476) 775 3726 x032","West Nathanielstad","Lao People's Democratic Republic",Active
+552,"Stacy Wiggins",Male,1969-08-18,2020-04-24,HR,Consultant,96340.61,ewilliams@gmail.com,"(534) 820 1284 x008","Lake Adriana",Anguilla,Resigned
+553,"Geoffrey Austin",Female,1987-12-03,2020-11-13,IT,Consultant,96863.42,brent89@gmail.com,"(768) 089 8126 x574","East Kathleen",Congo,Resigned
+554,"James Foster",Female,1967-03-02,2016-01-23,Sales,Intern,54492.07,mckayjames@hotmail.com,"(626) 894 3012","West Jessicaland",Cyprus,Terminated
+555,"William Buckley",Male,1997-11-23,2017-04-03,HR,Analyst,55390.31,vcain@luna.com,"(001) 885 5829 849","East Lisa",Jordan,Active
+556,"Mr. Jordan Porter",Female,1991-11-09,2016-03-08,HR,Executive,67821.87,daniel28@gmail.com,"(372) 188 5666",Kerrybury,"Central African Republic",Resigned
+557,"Tiffany Bates",Male,1985-09-05,2016-04-12,Finance,Executive,99808.76,jbriggs@yahoo.com,"(055) 143 7769 x3663",Johnburgh,Guadeloupe,Active
+558,"Gabriel Bennett",Female,1969-12-14,2017-01-09,R&D,Analyst,40976.54,hoganalan@patterson.com,"(072) 024 5591","East Patriciamouth",Bolivia,Terminated
+559,"Kevin Mcneil",Male,1964-04-30,2018-08-01,HR,Intern,96179.05,fholloway@adams.org,"(194) 217 9428 x17934","South Melissaburgh","Puerto Rico",Active
+560,"Jesse Lynn",Female,1985-03-01,2020-04-22,IT,Manager,86624.78,proman@yahoo.com,"(153) 372 2010 9x12172","Lake Charles","Sierra Leone",Active
+561,"Francisco Allen",Female,1997-02-01,2022-09-20,HR,Executive,109876.76,spearselizabeth@hotmail.com,"(194) 370 5263 5","North Anthonyview",Iceland,Terminated
+562,"Jonathan Barrett",Male,1991-05-13,2020-10-25,R&D,Executive,82622.72,lisamcgee1@hotmail.com,"(592) 024 6175 x20238",Kruegerborough,"Saint Helena",Resigned
+563,"Andrew Smith",Male,1988-11-10,2021-02-23,IT,Analyst,52385.00,aaron78@gmail.com,"(258) 486 8999","South Kayla","Saint Martin",Resigned
+564,"Jordan Ball",Male,2001-07-18,2020-04-01,Finance,Executive,88011.74,mitchellandrew@hotmail.com,"(117) 679 9359 3x7440","Lake Rebecca","Equatorial Guinea",Terminated
+565,"Aaron Perez",Female,1979-05-29,2022-12-15,R&D,Intern,95986.99,dsmith@lang.net,"(160) 849 0793 8",Kimberlybury,Uzbekistan,Active
+566,"Kristina Murphy DDS",Female,1977-12-10,2015-07-22,Operations,Intern,80312.23,murphyjohn@yahoo.com,"(124) 244 6263","West Connor",Venezuela,Terminated
+567,"Zachary Holt",Female,1968-12-24,2016-08-10,IT,Engineer,112302.66,farrellaaron@jones.com,"(751) 887 8179",Kristenstad,"Solomon Islands",Terminated
+568,"Christopher Drake",Female,2001-06-03,2019-07-28,Marketing,Analyst,99832.61,gayfrancis@martin-ochoa.net,"(750) 566 1863","East Christine",Liberia,Terminated
+569,"Nicole Jones",Male,1979-09-29,2023-09-21,IT,Consultant,35700.76,xmorris@gmail.com,"(073) 095 0556","West Michelleland","Burkina Faso",Terminated
+570,"Linda Hoffman",Male,1972-03-29,2017-08-15,Sales,Executive,59034.00,jspencer@hotmail.com,"(001) 519 0534 864x01042",Lisaberg,Fiji,Terminated
+571,"Jason Jones",Male,2000-06-12,2021-07-02,HR,Analyst,48187.11,tparker@johnson-zavala.com,"(128) 991 5114",Lucasville,"Cocos (Keeling) Islands",Resigned
+572,"Lauren Miller",Female,1967-08-27,2020-01-07,Sales,Engineer,93118.26,cainana@hotmail.com,"(001) 848 4160 461x540","North Clinton","Western Sahara",Resigned
+573,"Ashley Woods",Male,1996-03-30,2021-06-15,Operations,Intern,113556.33,bakerbrittany@hotmail.com,"(152) 291 0732","Lake Susan",Tonga,Active
+574,"Cynthia Russell",Female,1999-11-26,2019-12-18,R&D,Executive,101482.46,dkelley@clark-estrada.com,"(452) 696 9443 x91649",Smithville,Iraq,Active
+575,"Nicole Vazquez",Female,2003-07-21,2018-06-13,Finance,Manager,116452.81,davidwilliams@mcgee.com,"(162) 341 9031 0x61537","East Jennifer","Solomon Islands",Active
+576,"Jacob Rowland",Male,1990-02-01,2024-02-21,Sales,Consultant,115275.30,oalvarado@gmail.com,"(653) 377 4604","South Steventon",Slovenia,Terminated
+577,"Amy Ellis",Female,1983-12-26,2018-10-12,Operations,Intern,93229.54,keithdonald@yahoo.com,"(607) 819 7543",Harrisview,Taiwan,Resigned
+578,"James Martin",Female,1979-04-29,2022-10-07,Operations,Manager,78051.04,normandeanna@robinson-fry.net,"(121) 458 4148 4x6019","East Rachelview",Sudan,Terminated
+579,"Tyler Velazquez",Female,2003-05-28,2024-04-29,R&D,Executive,67110.90,amadden@benjamin.net,"(950) 732 1464 x49369",Codyfort,Niger,Terminated
+580,"David Williams",Male,2000-01-01,2021-05-20,Marketing,Engineer,113353.22,amandasnyder@yahoo.com,"(101) 192 3603 7",Nicholsland,"Bosnia and Herzegovina",Resigned
+581,"Vanessa Alexander",Male,1973-07-20,2019-01-25,IT,Engineer,31467.22,nathanjohnson@hull.com,"(973) 153 9114 x983","South Hannahside",Chad,Active
+582,"Melissa Smith",Female,1997-08-17,2018-12-29,Finance,Consultant,104010.37,craig89@gmail.com,"(001) 406 5578 201","Lake Joshuaburgh",Swaziland,Terminated
+583,"Omar Oconnor",Female,1977-08-23,2018-11-14,IT,Manager,42456.74,kennethbrown@perez-taylor.com,"(001) 354 6212 760x2508","Lake Megan",Italy,Resigned
+584,"Phillip Lewis",Female,1974-10-11,2022-05-17,Sales,Manager,96083.94,kperez@reeves-reeves.net,"(001) 957 2989 376","New Mary",Kenya,Terminated
+585,"David Lewis",Male,1965-09-04,2018-08-26,Sales,Consultant,57035.39,nicholas87@gmail.com,"(001) 120 3818 769","North April",Martinique,Terminated
+586,"Rebecca Allen",Female,1967-10-08,2023-12-18,IT,Intern,67486.95,ambermiller@medina.com,"(067) 323 1829",Jonesside,Belgium,Active
+587,"Erica Martin",Male,1983-02-12,2021-01-21,Operations,Consultant,64423.83,cannonkimberly@vazquez.com,"(291) 137 1785 x09025",Nicholasville,"South Africa",Resigned
+588,"Maria Goodwin",Male,1982-01-23,2018-01-08,HR,Analyst,90627.17,carolineray@mitchell-boyd.com,"(248) 905 6708",Mcdonaldton,Nepal,Resigned
+589,"Matthew Blackwell",Female,1990-01-11,2021-03-09,IT,Intern,43321.12,wardzachary@hotmail.com,"(669) 136 2483",Miketon,Haiti,Resigned
+590,"Christopher Ray",Male,1967-03-01,2024-09-17,Marketing,Engineer,69104.20,nbrown@ortiz.net,"(950) 982 2104 x016",Maryville,Tuvalu,Terminated
+591,"Kendra Smith",Male,1981-12-01,2018-05-01,Sales,Engineer,119737.09,pgilmore@hotmail.com,"(638) 164 3212",Montgomeryport,"Saint Kitts and Nevis",Terminated
+592,"Kenneth Caldwell",Male,1985-03-28,2022-03-31,Finance,Consultant,67222.38,andrewsuarez@hotmail.com,"(586) 314 4170",Carterfurt,"Cayman Islands",Resigned
+593,"Paul Todd",Female,1967-03-12,2018-06-27,HR,Executive,85459.89,jenniferwood@hotmail.com,"(124) 301 7646 4x48988","Port Jeremiahville","Heard Island and McDonald Islands",Resigned
+594,"Michael Stone",Female,1983-01-21,2020-12-14,HR,Consultant,106748.77,sbishop@nunez.com,"(043) 333 5384 x9516","Port Donald","Bosnia and Herzegovina",Active
+595,"Michael Gibson",Female,1996-01-21,2017-06-02,Finance,Executive,92441.57,johndavis@gonzalez.com,"(060) 119 8756","South Susanchester","Slovakia (Slovak Republic)",Active
+596,"Sharon Snow",Male,1965-01-15,2018-06-16,HR,Engineer,77093.93,osbornanthony@cook.com,"(129) 803 6577 4",Mackenzieville,"Saint Kitts and Nevis",Resigned
+597,"Sydney Khan",Male,1978-11-09,2021-12-23,Marketing,Engineer,111543.63,dennis01@yahoo.com,"(111) 894 1843 3x687",Maryshire,Burundi,Terminated
+598,"Jennifer Jackson",Female,1975-01-17,2018-12-24,Finance,Intern,88928.21,allenjoshua@barnes-davis.com,"(001) 428 8605 053x766",Burchton,Malaysia,Active
+599,"Audrey Anderson",Female,1965-07-15,2016-01-11,R&D,Analyst,31717.05,meyerjames@sanders-lawson.com,"(271) 531 2345 x5068","South Ashley","Libyan Arab Jamahiriya",Terminated
+600,"Karina Hines",Female,1974-01-07,2018-11-25,Marketing,Engineer,77840.46,kara01@gmail.com,"(808) 735 4378 x8260","East Deanna","New Zealand",Active
+601,"Amy Estrada",Male,1995-01-15,2015-08-15,HR,Engineer,57443.48,victoria91@mitchell-white.com,"(001) 749 2699 969x964",Davishaven,"French Polynesia",Resigned
+602,"Richard Riley",Female,2003-01-07,2019-07-15,HR,Engineer,54829.05,annette40@clay.com,"(312) 342 6698","South Cindytown",Micronesia,Active
+603,"James Wilson",Male,1992-09-27,2015-10-31,Sales,Executive,50302.44,karacollins@hotmail.com,"(893) 595 3828","Port Loriport",Sweden,Resigned
+604,"Gregory Russell",Male,1972-05-01,2017-09-26,Marketing,Manager,81560.87,anthony26@hotmail.com,"(001) 582 6418 696x56130",Stokesville,Peru,Resigned
+605,"Sonya Miranda",Male,2000-04-12,2020-08-25,Operations,Manager,82292.76,kingjames@yahoo.com,"(823) 948 4002 x7300",Burkefurt,Bahrain,Terminated
+606,"Mrs. Veronica Hughes MD",Male,1969-11-03,2018-08-08,Marketing,Manager,89060.86,williamscarl@hotmail.com,"(941) 491 5076","Port Crystal",Congo,Terminated
+607,"Tiffany May",Male,1974-02-02,2016-03-02,HR,Executive,105557.03,dananelson@yahoo.com,"(794) 620 7266 x292",Andrewland,Samoa,Active
+608,"Molly Mckenzie",Female,1990-06-24,2016-02-15,IT,Intern,97104.88,hammondjoseph@zuniga-leonard.com,"(333) 731 2552","West Ruth",Iran,Terminated
+609,"Joshua Miller",Male,1965-01-14,2018-10-19,Finance,Engineer,85525.19,millerfrank@rodriguez-christensen.com,"(527) 789 5613 x37184",Josephton,"Saint Kitts and Nevis",Terminated
+610,"Sharon Morris",Female,1973-11-24,2022-01-16,Finance,Consultant,100184.36,dudleycody@yahoo.com,"(037) 341 6781 x2778","East Charles","Syrian Arab Republic",Active
+611,"Brandon Vasquez",Female,2004-05-24,2024-06-08,Marketing,Intern,42376.15,fullerjose@jackson-payne.info,"(001) 973 6383 182x8560",Jeremymouth,"Saint Vincent and the Grenadines",Active
+612,"Richard Chapman",Female,1993-06-27,2022-03-01,HR,Consultant,90420.52,dmendoza@valencia-crawford.biz,"(205) 068 2122 x35521",Sheltonstad,"American Samoa",Active
+613,"Kimberly West",Female,1971-06-15,2019-10-27,Operations,Executive,108009.74,jessicamills@gmail.com,"(925) 967 9089",Joeside,France,Active
+614,"Shawna Benton",Female,1972-12-12,2015-12-15,Marketing,Engineer,114522.52,beanheather@gmail.com,"(186) 948 4249 5x98811",Michaelside,Macedonia,Terminated
+615,"Robert Durham",Male,1994-05-09,2016-11-14,Marketing,Intern,104430.91,joestephens@yahoo.com,"(738) 209 7461 x9177",Cruzberg,Togo,Active
+616,"Suzanne Wagner",Male,1974-10-15,2017-07-07,Sales,Intern,76451.40,troybrady@hotmail.com,"(158) 062 3504 0",Karlafurt,"Hong Kong",Terminated
+617,"Evelyn Bryant",Female,1966-12-03,2015-11-01,Marketing,Manager,68021.60,joshuaweaver@cooper.net,"(796) 325 9423 x2894",Greerbury,Tonga,Terminated
+618,"Kimberly Valenzuela",Female,2003-04-12,2017-01-24,Finance,Consultant,75059.20,fmartin@hotmail.com,"(152) 857 2562 9x26933",Alyssastad,"Bosnia and Herzegovina",Active
+619,"William Wagner",Female,2002-06-02,2021-12-19,IT,Intern,32242.09,anthony78@yahoo.com,"(850) 957 4430 x3491","Port Danielfort",Nepal,Resigned
+620,"Mr. Joseph Bush",Female,2003-12-02,2019-04-30,IT,Consultant,88371.88,millermichael@yahoo.com,"(154) 715 5313 x2593",Alvarezhaven,Bhutan,Terminated
+621,"Jeffery York",Female,1967-06-07,2015-08-02,Operations,Executive,37677.59,heidischneider@gmail.com,"(105) 276 9819 x8780","Port Timothy","Faroe Islands",Terminated
+622,"David Palmer",Female,2002-04-10,2021-03-28,Sales,Intern,33951.55,pamelamcconnell@hotmail.com,"(001) 660 5986 787x44227",Williamview,Mauritania,Active
+623,"Morgan Henderson",Male,1989-01-24,2020-09-16,HR,Consultant,34617.94,waynetorres@hotmail.com,"(165) 020 0024",Danielleshire,Oman,Resigned
+624,employee_624,Male,1972-03-10,2020-11-09,HR,Manager,30317.96,clarkmario@yahoo.com,"(836) 821 4448",Cruzfort,Cambodia,Resigned
+625,"Dr. William Walker MD",Female,2000-01-01,2020-04-16,HR,Manager,82997.61,julieanderson@hotmail.com,"(001) 254 3183 281x2312","New Douglas",Tajikistan,Resigned
+626,"Lori Hanson",Female,1968-04-30,2021-09-23,Sales,Consultant,80179.38,stonerobert@moore-robbins.info,"(082) 768 1722 x577",Jorgestad,Moldova,Active
+627,"Karen Gray",Male,2003-03-09,2015-11-14,Operations,Engineer,105421.30,christinedixon@hotmail.com,"(001) 768 3160 827x1721",Mcdanielborough,Kenya,Resigned
+628,"Monica Frost",Male,2003-12-16,2018-06-24,Operations,Executive,84998.08,hunter29@browning.com,"(659) 143 8823","West Denise",Reunion,Terminated
+629,"Rachel Foley",Female,2001-01-26,2018-10-08,Finance,Analyst,99166.08,joseph17@hotmail.com,"(177) 326 4309 5x4497","East Patriciashire",Kazakhstan,Resigned
+630,"Kenneth Alexander",Male,1975-05-06,2016-04-03,IT,Intern,42109.12,elizabethcarlson@hotmail.com,"(137) 529 8832 x2012",Randyton,Mayotte,Terminated
+631,"Andrew Williams",Male,2002-01-10,2023-08-19,Sales,Analyst,39837.20,nbailey@hotmail.com,"(001) 585 2386 003x0443",Brewershire,Timor-Leste,Terminated
+632,"Erica Stevens",Female,1987-12-02,2018-01-31,Marketing,Engineer,106301.82,johnsonedward@jackson.com,"(101) 437 4830 9x30967","East Gloriafort",Bermuda,Resigned
+633,"Ashley Sanders",Female,1974-08-02,2017-11-23,Sales,Consultant,86867.18,ericdelacruz@choi.com,"(191) 116 6122","North Christinaton",Kiribati,Resigned
+634,"Grant Newton",Male,2000-04-28,2022-10-04,Finance,Analyst,32158.81,sarafrancis@johnson.com,"(653) 802 7481 x24211",Andrewside,"Pitcairn Islands",Terminated
+635,"Joseph Weeks",Female,1964-11-28,2025-02-12,Marketing,Analyst,60041.30,edwardmitchell@gmail.com,"(935) 561 0399",Davidshire,Luxembourg,Terminated
+636,"Paula Perez",Female,1995-03-11,2017-05-01,R&D,Analyst,57699.53,james58@fernandez-hughes.com,"(041) 202 7061",Christinafort,Djibouti,Terminated
+637,"Diana Jackson",Female,1968-07-02,2022-11-07,Operations,Engineer,85439.40,lsimmons@gutierrez.com,"(815) 542 0340 x3010",Rebeccafurt,Zimbabwe,Active
+638,"Thomas Bowman MD",Female,1985-04-16,2016-06-01,Marketing,Analyst,88108.70,xlawrence@yahoo.com,"(462) 347 1247 x601","New Brianville","South Georgia and the South Sandwich Islands",Resigned
+639,"Barbara Clark",Female,1992-05-22,2024-09-25,R&D,Intern,113501.10,colejoshua@burns.net,"(808) 157 1290","West Janetmouth",Belize,Active
+640,"Andrew Chavez",Male,1981-02-01,2016-03-24,HR,Engineer,91694.40,martinnovak@yahoo.com,"(847) 436 2130 x096","West Amanda",Malta,Resigned
+641,"Jillian Warner",Female,2004-11-18,2019-08-18,Operations,Engineer,105816.52,harrisanna@yahoo.com,"(396) 274 6662","West Brendahaven","Dominican Republic",Terminated
+642,"Melissa Alvarez",Female,1966-07-01,2016-04-16,Operations,Executive,93885.60,gperry@yahoo.com,"(901) 107 9771 x40049","New Kayla",Mexico,Resigned
+643,"Miguel Todd",Female,1982-08-28,2025-01-29,HR,Engineer,57208.65,john15@williams.org,"(094) 976 9873 x13797","Port Robertside","San Marino",Active
+644,"Jason Reyes",Male,1971-02-02,2017-11-02,R&D,Intern,111446.02,dmitchell@castillo-adams.com,"(562) 389 9499","New Seantown",Bangladesh,Active
+645,"Susan Martin",Female,1993-08-18,2017-09-08,HR,Analyst,103992.47,tannerrobertson@richard.com,"(104) 181 3599 8x98972","North Theresatown","Saint Martin",Terminated
+646,"Kathy Matthews",Male,1984-01-13,2023-12-16,Finance,Executive,113910.36,wallersarah@torres-taylor.com,"(588) 397 8570 x820","West Amberchester",Lebanon,Terminated
+647,"Melvin Poole",Male,1976-07-20,2018-07-11,Sales,Consultant,97099.93,evansrichard@hotmail.com,"(112) 879 4296 8x82769",Beckton,Ethiopia,Active
+648,"Henry Reeves",Male,1981-11-30,2016-10-25,IT,Executive,77904.82,gomezbradley@hotmail.com,"(132) 748 8356 5x1796","West Danielle","Turks and Caicos Islands",Resigned
+649,"Jennifer Bowman",Male,1989-12-03,2021-11-03,HR,Engineer,61528.63,selena60@chavez-edwards.com,"(028) 516 2259 x364","North Wayne",Montenegro,Resigned
+650,"Peggy Adams",Male,1991-07-18,2024-05-17,Finance,Executive,85193.66,beardderrick@foster-hernandez.net,"(991) 609 1141 x319","West Donna",Nepal,Resigned
+651,"Carla Hoover",Male,1978-03-27,2022-03-30,Finance,Intern,34841.99,jasoncortez@peterson.com,"(588) 165 0254 x472",Davidville,Japan,Resigned
+652,"Andre Lee",Female,1983-12-28,2019-12-20,Sales,Executive,58119.66,emorales@campos-washington.com,"(001) 824 9898 088x06782","West Christopherview","Isle of Man",Active
+653,"Whitney Cobb",Female,1986-07-12,2018-06-15,Sales,Manager,38362.46,ivalentine@yahoo.com,"(189) 396 9874 8x694","West Matthewview",Germany,Terminated
+654,"Amber Martinez",Female,1973-06-26,2018-05-21,Marketing,Manager,115270.34,pvang@mcfarland.com,"(716) 039 8863",Edwardschester,"Russian Federation",Active
+655,"Ariel Riley",Female,1986-08-11,2021-08-24,R&D,Executive,70795.48,dwashington@wheeler.org,"(248) 942 0466 x4896",Jimenezton,Greece,Active
+656,"Deborah Smith",Female,1985-06-17,2020-08-31,R&D,Executive,84399.62,tracy75@hotmail.com,"(974) 533 8906","East Melody","Heard Island and McDonald Islands",Active
+657,"Jared James",Male,1973-03-20,2018-06-13,R&D,Executive,77947.10,jackie01@yahoo.com,"(159) 953 0062 2x1224","Port Lauren",Japan,Resigned
+658,"Karen Douglas",Female,1985-06-14,2022-02-20,Marketing,Analyst,60664.27,christina60@miller.com,"(584) 886 0080","South Briannafurt",Liberia,Terminated
+659,"Wendy Anderson",Male,1969-09-12,2018-04-03,HR,Consultant,90264.47,agalvan@yahoo.com,"(264) 261 2120 x384","Lake Kathleen",Lesotho,Terminated
+660,"Jeffrey Horton",Female,1990-07-28,2024-05-14,IT,Engineer,38788.85,ospencer@richardson.net,"(421) 838 5454","North Emmachester","Equatorial Guinea",Resigned
+661,"Jacob Pearson",Female,1987-05-09,2017-10-15,IT,Intern,88049.02,rodriguezsheryl@michael.com,"(001) 897 9177 633x42720","Port Marissa",Martinique,Active
+662,"Christopher Jones",Male,1996-08-14,2021-04-30,R&D,Manager,89479.33,soliscarlos@rivers-serrano.com,"(306) 935 8824 x93534","North Michaelaville",Malawi,Resigned
+663,"Shane Alexander",Female,1998-09-09,2020-03-09,IT,Engineer,101491.20,lreed@king-rangel.com,"(460) 838 5179 x937","North Darlenemouth","Dominican Republic",Terminated
+664,"Barbara Herrera",Female,1998-07-01,2024-01-12,Finance,Engineer,30730.73,klara@hotmail.com,"(988) 290 4579 x27147","West Nicholas",Argentina,Terminated
+665,"Shannon Downs",Male,2001-02-02,2021-10-19,Finance,Consultant,80402.72,josephconway@hotmail.com,"(139) 728 3391 2x1870",Moraburgh,"Western Sahara",Resigned
+666,"Christine Jackson",Female,1999-05-04,2016-02-25,Operations,Executive,94059.63,dustinwilliams@smith.com,"(018) 676 6100",Espinozaville,Algeria,Resigned
+667,"Sabrina Lopez",Male,1990-06-05,2016-11-22,Sales,Intern,105899.49,loweryjoe@hotmail.com,"(531) 980 7468 x2354",Clineshire,Germany,Resigned
+668,"Rachel Johnson",Male,1977-10-29,2015-08-08,Finance,Analyst,88355.03,amoon@yahoo.com,"(596) 715 0066 x664","North Alexanderfurt","United States Virgin Islands",Active
+669,"Sean Fletcher",Male,1979-08-12,2020-02-11,HR,Consultant,102534.75,gweaver@mendez-nielsen.org,"(970) 890 5836 x683",Angelafurt,"Marshall Islands",Resigned
+670,"Krystal Sullivan",Female,2000-01-01,2023-02-14,Sales,Intern,79684.50,ambergrant@hurst.info,"(115) 059 6257 1x976","Lake Brookeberg",Angola,Resigned
+671,"Brandi Ibarra",Female,1988-09-16,2023-01-17,R&D,Consultant,51307.50,fsmith@bond.org,"(217) 558 5177 x741","South Kenneth","Netherlands Antilles",Terminated
+672,"Benjamin Weaver",Male,2001-11-02,2017-10-09,Sales,Intern,93439.43,franklinbrittany@gmail.com,"(422) 297 5891 x70454","North Madeline",Guatemala,Active
+673,"Jacqueline Bass",Female,1967-05-27,2020-09-26,Marketing,Engineer,37041.11,aaronlane@gmail.com,"(709) 001 6356 x407","East Margaret",Fiji,Terminated
+674,"Julie Thompson",Male,1975-05-28,2024-11-02,Operations,Consultant,78527.75,adam17@hotmail.com,"(182) 247 3126 1x6850",Jonesstad,"Western Sahara",Terminated
+675,"Melissa Rush",Female,1970-07-16,2017-04-15,Marketing,Engineer,111544.96,bishopmegan@gmail.com,"(115) 261 0537 0x92300",Joneschester,Namibia,Terminated
+676,"Adrian Krueger",Female,1981-10-06,2016-10-14,HR,Analyst,92554.60,holly32@hotmail.com,"(769) 893 6529 x44716","New Laurahaven",Uzbekistan,Terminated
+677,"John Ballard",Female,2000-12-14,2016-09-19,Sales,Manager,81557.40,johnsonmartin@bell.org,"(321) 743 5748 x3526","South Michelleside",Jordan,Terminated
+678,"Jeffrey Lee",Male,2001-08-08,2019-01-15,HR,Engineer,36917.60,sarah83@hotmail.com,"(253) 646 2805 x5077",Janetfurt,Guyana,Resigned
+679,"George Miller",Male,1991-05-03,2018-01-09,Sales,Manager,111911.83,jessicasmith@fernandez.com,"(074) 091 3111",Maxwellfurt,Bhutan,Terminated
+680,"Melissa Thomas",Male,1984-05-20,2022-11-20,Marketing,Manager,101943.48,mcdanielgregory@hotmail.com,"(695) 354 1201","East Samuel",Germany,Active
+681,"Stephanie Howard",Male,1968-05-13,2015-06-29,R&D,Intern,97748.52,smalone@miller.com,"(259) 479 5074","Port Travismouth",Romania,Resigned
+682,"Carl Larson",Male,1967-09-07,2021-05-01,Sales,Consultant,105764.97,mcintyreelizabeth@gmail.com,"(064) 934 0391","West Michaelton",Turkey,Active
+683,"Angel Carr",Female,1983-08-28,2016-05-29,Marketing,Executive,72863.96,courtney13@rogers.net,"(535) 952 0561 x006",Hudsonshire,"American Samoa",Terminated
+684,"Jennifer Patterson",Female,2001-07-28,2016-04-24,Finance,Executive,113450.03,elove@williams-dominguez.com,"(842) 339 4495 x3006",Ellisburgh,Grenada,Resigned
+685,"Daniel Chen",Male,1965-01-24,2016-07-20,Sales,Consultant,61844.53,triciaedwards@gmail.com,"(241) 784 2902 x9233",Markville,Bangladesh,Resigned
+686,"Richard Duncan",Male,1993-01-05,2016-02-07,IT,Consultant,82575.92,adamduran@hotmail.com,"(168) 430 2116 6",Robinsonberg,"New Zealand",Resigned
+687,"Diane Gregory",Male,1995-05-20,2020-12-29,Sales,Executive,90994.63,meredith211@gmail.com,"(001) 964 2603 362","Lake Donaldstad",Guinea,Active
+688,"Angela Murray",Male,1995-11-06,2015-09-25,Sales,Analyst,91694.96,solomondanny@wilkinson-perez.net,"(236) 219 2158","New Ashleyfort","Saint Kitts and Nevis",Resigned
+689,"Jacob Davis",Male,1971-07-22,2017-03-21,Finance,Engineer,89094.50,amandacook@hotmail.com,"(959) 772 1688","Lake Brentmouth","United States Virgin Islands",Active
+690,"Joseph Stokes",Male,1979-01-04,2016-06-15,Marketing,Consultant,98747.20,williamperkins@gmail.com,"(454) 018 2272 x00283",Amandabury,"Burkina Faso",Terminated
+691,"Brittney King",Female,1983-03-12,2020-01-21,IT,Intern,89443.01,diana28@hotmail.com,"(165) 993 0202","Lake Jaredton","Falkland Islands (Malvinas)",Active
+692,"Melissa Robinson",Female,1973-03-30,2017-07-14,IT,Manager,100265.82,ihoward@hotmail.com,"(353) 028 1650",Kingborough,Afghanistan,Resigned
+693,"Samantha Cooper",Female,2004-10-17,2019-03-29,HR,Intern,36245.86,zstevens@hotmail.com,"(983) 210 2916","South Kennethton",Tokelau,Active
+694,"Lauren Sosa",Female,1979-02-28,2017-05-05,HR,Engineer,87900.44,john84@harvey.com,"(913) 167 0805",Grantstad,Tajikistan,Resigned
+695,"Wayne Long",Female,1967-01-28,2021-10-30,R&D,Intern,31688.83,fspears@hunt.com,"(001) 444 0766 349","Lake Jeffrey",Israel,Resigned
+696,"Eric Munoz",Female,1975-09-12,2023-01-11,HR,Consultant,59684.78,meghancruz@macias-wilson.com,"(436) 258 5421","New Jessicaville","Saint Vincent and the Grenadines",Resigned
+697,"Jennifer Fowler",Female,1985-06-27,2016-10-01,Marketing,Consultant,100284.33,jeffrey858@gmail.com,"(472) 505 8333",Stacyton,Sudan,Active
+698,"Angela Mccarthy",Female,1989-03-18,2024-04-24,IT,Consultant,57254.53,ujohnson@yahoo.com,"(769) 475 7694 x535","South Nathan",Latvia,Active
+699,"Denise Hughes PhD",Female,1998-07-12,2021-10-25,Finance,Intern,98440.78,rclark@miller.com,"(080) 959 4815 x269","West Kristin","Holy See (Vatican City State)",Resigned
+700,"Jennifer Richard",Male,1976-09-05,2017-03-26,IT,Consultant,65109.43,chaveztina@allen.org,"(426) 140 4893","Port Phyllis","Wallis and Futuna",Active
+701,"Bruce Frank",Male,1985-05-03,2018-12-11,HR,Analyst,47378.34,oknight@townsend.com,"(817) 852 2115",Davisside,Fiji,Terminated
+702,"Daniel Ochoa",Female,1983-04-29,2018-04-23,Marketing,Engineer,116845.85,rgreen6@hotmail.com,"(170) 173 2086 5x23777","New Russell","Pitcairn Islands",Resigned
+703,"Cole Mcdonald",Male,1971-11-25,2020-01-20,Marketing,Analyst,49051.04,buckleycrystal@ochoa-cervantes.net,"(055) 800 0272","North Kyle",Ghana,Terminated
+704,"Ryan Lee",Male,1993-04-06,2015-10-06,Operations,Engineer,50968.71,tammyschwartz@gmail.com,"(001) 368 1720 313x69552",Thompsontown,Nepal,Active
+705,"Laura Welch",Male,1997-04-17,2019-07-02,HR,Consultant,88390.78,jenniferburch@yahoo.com,"(133) 222 7393 8x99204",Melissabury,Slovenia,Active
+706,"Carl Henderson",Female,1970-03-30,2023-12-11,Sales,Manager,105181.69,harrisonchristopher@gmail.com,"(170) 826 9718 2","South Benjamin","American Samoa",Active
+707,"Christopher Garcia DDS",Male,2001-12-27,2019-02-04,Finance,Manager,68359.03,stuarttrevor@graham.com,"(001) 673 5742 233x22280","Port Catherineview","Cape Verde",Terminated
+708,"William Hodge",Male,2002-11-01,2017-12-08,IT,Manager,98780.51,jessicagomez@bennett.com,"(506) 373 1180",Randyfort,"Falkland Islands (Malvinas)",Terminated
+709,"David Washington",Male,1985-10-07,2019-03-18,Operations,Executive,79806.70,delgadomario@gmail.com,"(113) 626 0846 3x97561",Jessicafort,Aruba,Resigned
+710,"David Jones",Female,1976-03-04,2016-06-16,R&D,Manager,31406.73,pattersonjennifer2@gmail.com,"(955) 640 9196","New Manuel",Mayotte,Resigned
+711,"Robert Brown PhD",Female,1973-08-23,2015-08-15,Marketing,Consultant,102667.06,ryanmoore@gmail.com,"(971) 212 4139","Port Jennifer","United Kingdom",Resigned
+712,"Jennifer Patel",Female,1995-03-15,2022-03-21,HR,Manager,84948.42,klewis@henry-webb.com,"(122) 760 7598 8x978",Gomezborough,"Wallis and Futuna",Active
+713,"Laura Moon",Female,1985-04-29,2018-10-07,IT,Intern,30411.30,sotopatrick@lopez-mckay.org,"(152) 312 0219 1x5057",Nelsonport,Monaco,Active
+714,"Rebecca Mitchell",Male,1964-10-13,2016-02-29,Marketing,Consultant,89339.44,roberthoffman@torres-gardner.biz,"(649) 797 4163 x6560",Michaelaton,Angola,Resigned
+715,"Harry Hale",Female,1996-04-25,2018-09-13,Marketing,Manager,44378.36,kproctor@jensen-mccarty.info,"(195) 296 3530",Brittneytown,"Christmas Island",Active
+716,"Brian Rice",Female,1995-10-19,2022-05-07,Finance,Analyst,96637.52,fevans@mendez-hendricks.org,"(195) 965 4663 4",Karenport,Samoa,Terminated
+717,"Michael Floyd",Male,1985-02-03,2017-05-17,Operations,Intern,83343.60,karensanchez@hotmail.com,"(497) 439 4640 x882","East Brandon",Greenland,Resigned
+718,"Bethany Sharp",Male,1979-03-09,2025-02-07,IT,Manager,38825.77,wrightdale@gmail.com,"(001) 972 0217 075x48534",Woodfort,"South Georgia and the South Sandwich Islands",Terminated
+719,"Shannon Martinez",Female,1980-12-12,2015-06-27,Finance,Intern,43044.71,joshua64@hickman-hernandez.org,"(900) 251 2137",Michelestad,Malta,Terminated
+720,"Jenna Rivera",Female,1987-04-10,2023-05-01,IT,Manager,60230.22,farellano@lynch.com,"(143) 456 6311 3",Brandonborough,"French Polynesia",Active
+721,"Cheryl Russell",Female,1973-07-20,2015-11-19,Marketing,Manager,98430.56,kylecarter@russell-douglas.com,"(379) 686 8008 x5294",Mullinston,"Cape Verde",Active
+722,"Martha Lucas",Male,1997-06-22,2022-10-07,Sales,Engineer,106950.36,owensjacob@gmail.com,"(350) 238 5022 x8946",Morganmouth,"Sao Tome and Principe",Active
+723,"Shane Nielsen",Female,1975-03-02,2018-09-12,R&D,Intern,55125.38,abigailhernandez@smith.com,"(691) 330 3033 x46771","Lake Rachelmouth",Haiti,Terminated
+724,"Alexandra Chase",Male,1973-12-23,2023-06-14,Sales,Manager,112237.92,john02@yahoo.com,"(153) 012 3984 7x2303",Jenniferberg,Aruba,Active
+725,"Edward Jones",Male,2003-11-20,2015-08-04,Marketing,Engineer,65488.81,krobbins@robles.com,"(648) 717 7546 x199","West Brendan",Guyana,Terminated
+726,"Crystal Brennan",Male,1994-04-21,2017-12-07,Operations,Consultant,66595.63,matthewbrennan@gmail.com,"(259) 095 6684",Robinberg,Yemen,Active
+727,"David Lopez",Female,2003-05-03,2016-08-11,Operations,Executive,44562.26,andersonchristopher@wilson.net,"(358) 690 1707",Heatherbury,Nepal,Resigned
+728,"Brian Bonilla",Male,1981-06-13,2021-05-08,R&D,Consultant,10000.00,jill17@thompson.info,"(433) 872 2054 x2216","South Erin",Poland,Resigned
+729,"Leslie Lucas",Female,1977-05-28,2018-08-20,Sales,Analyst,56693.10,jamesroberts@ramos-stein.com,"(887) 899 5047 x0205",Cannonstad,Barbados,Resigned
+730,"Sheri Lopez",Male,1994-10-24,2023-10-07,Sales,Executive,96218.47,raywalters@gmail.com,"(956) 342 7775","East Rhonda",Mongolia,Active
+731,"Jason Blackwell",Female,1988-01-31,2024-07-18,IT,Intern,85722.01,lisaanderson@wood.org,"(115) 630 2955 x9636","South Elizabeth",Sudan,Resigned
+732,"Jason Serrano",Male,1984-07-02,2018-05-16,HR,Executive,51476.94,vbennett@green.net,"(133) 138 0049 x83211","Port Edwin",Zambia,Active
+733,"Rachael Watson",Male,1984-06-17,2024-01-05,R&D,Consultant,98479.73,amanda68@nichols-esparza.com,"(191) 854 8806",Vanessaberg,Taiwan,Resigned
+734,"April Norton",Male,1976-05-27,2025-01-03,IT,Executive,70716.96,elittle@gmail.com,"(856) 646 4196 x23421","Lake Sarah",Sudan,Terminated
+735,"Benjamin White",Female,1985-02-10,2016-05-26,Marketing,Engineer,63133.13,frank48@flynn.com,"(001) 789 1179 726x9999",Barbarahaven,Bhutan,Terminated
+736,"Kayla Gonzalez",Female,2001-09-17,2015-08-26,Finance,Analyst,65161.43,nancyhenderson@mclaughlin.com,"(001) 000 5328 538x631","West Crystalmouth",Sudan,Active
+737,"David Moreno",Male,1980-04-20,2024-08-31,Marketing,Manager,108749.38,angela267@jackson.com,"(768) 627 6332","Port Walter",Uganda,Terminated
+738,"Richard Moyer",Male,1978-11-29,2023-07-17,Marketing,Executive,67811.70,wagnercynthia@hotmail.com,"(162) 671 3684 1","North Jameshaven",Somalia,Terminated
+739,"Steven Love",Male,1974-09-06,2016-12-31,R&D,Engineer,88020.48,rachael79@chase.com,"(776) 106 5920 x8814","Port Charles","Brunei Darussalam",Resigned
+740,"Jeremy Ortiz",Female,1995-08-30,2023-11-15,Marketing,Executive,81052.65,tara69@day.info,"(026) 656 8629",Baileyville,Burundi,Resigned
+741,"Dan Jensen",Male,2004-09-05,2024-12-06,HR,Executive,55594.38,mark94@graham.com,"(990) 747 2966",Bryanmouth,Montenegro,Active
+742,"Kari Hart",Male,2001-12-17,2023-02-03,R&D,Consultant,92357.33,wscott@hotmail.com,"(194) 641 8398 4x167","West Mary",Malaysia,Terminated
+743,"Gwendolyn Ross",Male,2003-11-20,2024-06-09,Marketing,Executive,63270.49,lcarter@johnson.org,"(860) 521 0262",Williamsfurt,"French Guiana",Active
+744,"Stephanie Smith",Female,2001-05-11,2018-05-12,Marketing,Engineer,117791.91,michael13@gmail.com,"(189) 830 5748 8","New Brooke",Lebanon,Terminated
+745,"Scott Cooley",Male,2001-12-20,2021-03-24,Marketing,Executive,44044.79,alexisschaefer@yahoo.com,"(000) 305 6619 x953","West Paulville",Micronesia,Terminated
+746,"Keith Petersen",Female,2001-02-25,2020-04-26,R&D,Engineer,90019.90,ghudson@yahoo.com,"(001) 018 7260 013x6510","West Samantha",Gabon,Terminated
+747,"Darlene Guzman",Female,1967-04-05,2022-01-02,Finance,Manager,91020.75,elizabeth68@yahoo.com,"(240) 622 1559 x967","West Sarah",Seychelles,Active
+748,"Todd White",Male,1964-11-07,2020-12-15,IT,Analyst,84733.61,sarahholland@gonzales-johnson.info,"(764) 845 5939 x6521","New Jeffrey",Albania,Active
+749,"Brad Taylor MD",Male,1987-12-23,2019-01-09,Finance,Engineer,106450.62,jacquelineatkins@brown.com,"(173) 277 2648","New Michael",Gibraltar,Terminated
+750,"Erica Nguyen",Female,1976-08-17,2025-04-03,Sales,Engineer,76040.03,erinreed@hotmail.com,"(161) 857 5917 x10508","West Kyleland",Eritrea,Active
+751,"Eric Ruiz",Female,1989-03-24,2018-12-19,Marketing,Executive,31097.17,kennethrusso@hotmail.com,"(001) 417 1594 973x4493","West Jessehaven","Marshall Islands",Resigned
+752,"Cory Moreno",Female,1992-12-25,2016-09-22,Operations,Intern,102331.70,johnnewman@baird.info,"(828) 152 7873 x04862",Gabriellemouth,"Cocos (Keeling) Islands",Resigned
+753,"Michael Ortiz",Female,1978-10-15,2020-11-18,HR,Engineer,83814.21,yburnett@williams.com,"(734) 467 1776 x29691",Jeffreyfurt,"Burkina Faso",Active
+754,"Laura Oneal",Male,1993-07-29,2019-10-08,Sales,Intern,37960.35,lynchbarbara@gmail.com,"(001) 010 8985 739x083",Frankland,Mauritania,Resigned
+755,"Mary Roberts",Male,1983-11-17,2018-03-17,HR,Manager,104905.54,ghill@hotmail.com,"(997) 957 2857 x5958","New Judy",Tajikistan,Resigned
+756,"Cassidy Jones",Female,2004-01-16,2023-03-09,Marketing,Engineer,96587.04,kevinfernandez5@franklin.info,"(598) 445 1436",Hodgesburgh,Maldives,Active
+757,"Vicki Garcia MD",Female,1979-02-15,2015-10-26,Finance,Consultant,89932.21,karen81@lane.info,"(114) 590 0992 1",Mcdonaldton,"Heard Island and McDonald Islands",Resigned
+758,"Justin Coleman",Male,1993-02-04,2025-04-08,R&D,Executive,74374.52,madelinebrooks@calderon.com,"(001) 705 3260 119x39103","Port Ashley",Lebanon,Active
+759,"Matthew Edwards",Female,1972-07-25,2019-06-15,Operations,Consultant,72843.66,berryhannah@yahoo.com,"(118) 104 5024 3",Clarkland,"United Kingdom",Terminated
+760,"Michael Buchanan",Female,1998-01-29,2018-10-23,HR,Engineer,35265.94,ctaylor@gmail.com,"(589) 693 3539","Lake Adrianmouth",Mauritius,Resigned
+761,"Shane Potter",Female,1993-08-03,2016-11-06,Marketing,Consultant,112089.42,shannon31@hotmail.com,"(663) 979 2551 x16436","Lake Dennishaven","United States Minor Outlying Islands",Resigned
+762,"John Bryant",Male,1975-02-04,2024-07-30,R&D,Consultant,46492.27,vortiz@gmail.com,"(281) 644 1610 x1975","West Amanda","Svalbard & Jan Mayen Islands",Active
+763,"Elizabeth Clayton",Female,1967-03-26,2021-08-30,IT,Consultant,92817.08,lopezann@taylor.com,"(276) 362 8144 x471","New Logan",Croatia,Resigned
+764,"Laura Andrews",Female,1967-05-16,2022-06-06,IT,Intern,67079.51,wgreen@hotmail.com,"(109) 228 8498 7x455","Port Jasminemouth",Martinique,Active
+765,"Jody Singleton",Male,1972-09-14,2023-01-11,Marketing,Intern,112442.80,andrewfaulkner@hotmail.com,"(111) 640 3439 8","New Trevorside",Latvia,Active
+766,"Paul Nixon",Female,1979-06-14,2019-04-18,HR,Intern,110075.37,ecampbell@smith-king.com,"(001) 090 9153 860x282",Andersonview,"Solomon Islands",Terminated
+767,"Andrew Green",Male,1975-11-28,2019-04-09,HR,Manager,107113.37,ramseymichael@anderson-adams.com,"(007) 941 9324",Whitneybury,Tajikistan,Active
+768,"Angela Howell",Female,1985-05-19,2016-12-28,Operations,Analyst,36996.18,karenstephens@johnson-cross.net,"(264) 963 2251 x7422",Alexisborough,China,Resigned
+769,"Brian Poole",Male,1967-10-29,2015-12-01,Marketing,Analyst,111767.64,patrick61@james.net,"(720) 200 9536 x6219",Jamesside,Mozambique,Active
+770,"Gerald Alvarez",Male,1985-08-12,2015-10-28,Sales,Manager,46630.36,simpsonderrick@sheppard.org,"(130) 722 1138 x690",Wilkersonfurt,Lithuania,Resigned
+771,"Bryan Brock",Female,1981-08-04,2020-09-09,IT,Manager,106962.43,fsparks@gmail.com,"(001) 281 7074 436","East Mandyport","French Polynesia",Terminated
+772,"Tara Anderson",Male,1988-11-06,2017-10-07,Sales,Manager,10000.00,vsmith@lewis.com,"(001) 120 9447 726x90326",Lesliebury,Uzbekistan,Resigned
+773,"Jason Pearson",Female,1984-09-26,2024-10-16,IT,Consultant,83044.25,josephcooper@howard.com,"(119) 158 9126",Holderport,"Saint Martin",Resigned
+774,"Kimberly Gutierrez",Female,1996-11-27,2024-10-08,HR,Engineer,50479.88,dmartinez@yahoo.com,"(088) 447 4083",Nicholsonside,Benin,Active
+775,"Ashley Johnson",Female,1984-02-27,2024-12-17,R&D,Executive,93425.78,kimbradley@duncan-barber.net,"(001) 369 2353 484x86470","North Jeffrey",Malta,Terminated
+776,"Donald Lopez",Female,1964-12-22,2018-03-04,Sales,Consultant,58080.62,jamesacosta@mcmillan.com,"(330) 000 8863",Juliafurt,Korea,Resigned
+777,"Brian Smith",Male,1999-06-10,2024-03-05,R&D,Intern,114517.38,kingrichard@johnson.biz,"(001) 232 7379 897","South Alanmouth","French Southern Territories",Resigned
+778,"Sarah Miller",Female,2001-07-30,2022-07-19,Sales,Consultant,90886.68,paul00@gmail.com,"(198) 433 6113 7x118","West Christopherside",Oman,Active
+779,"David Mason",Male,2003-05-01,2020-07-27,Finance,Executive,117768.67,lopezjordan@smith.com,"(660) 756 9994 x494",Reynoldsberg,"Saint Barthelemy",Resigned
+780,"Anthony Taylor",Female,1965-05-28,2017-09-06,Operations,Intern,55066.65,samanthadelgado@griffin.com,"(620) 858 1745","South Jeremy","United States Minor Outlying Islands",Terminated
+781,"Wesley Jenkins",Female,1975-03-10,2019-02-04,IT,Intern,90000.93,ssmith@gmail.com,"(918) 285 1816","Lake Gregorymouth",Guatemala,Resigned
+782,"Donna Cline",Male,1991-05-15,2017-04-04,IT,Intern,74754.64,marshallgerald1@baker.com,"(128) 382 7101","East Tonya","Brunei Darussalam",Terminated
+783,"Wanda Burton",Male,1968-12-26,2021-04-13,HR,Intern,84412.55,anthonyconway@espinoza.biz,"(001) 534 4604 227x63460","New Christopherbury",Albania,Resigned
+784,"Nathan Lindsey",Female,1978-04-06,2020-07-27,R&D,Intern,48173.86,jordanbailey@yahoo.com,"(768) 225 1272",Chaveztown,Madagascar,Terminated
+785,"Jason Lamb",Male,1988-03-16,2022-02-13,R&D,Analyst,119164.04,joshuajones@suarez.net,"(849) 477 1290 x350","South Theresaville","Sri Lanka",Active
+786,"Kathryn Webb",Male,1984-10-26,2017-10-15,HR,Engineer,89346.99,lawrencenelson@parker.biz,"(001) 682 1215 649x5254","North Tara","Palestinian Territory",Resigned
+787,"Rebecca Day",Female,1970-04-19,2017-06-01,Marketing,Analyst,81196.97,ischroeder@miller.biz,"(435) 948 8218",Brendachester,Martinique,Resigned
+788,"Jared Green",Male,1965-07-23,2021-03-22,Sales,Analyst,65224.63,kaiserhunter@ochoa.com,"(412) 301 6049",Smithbury,Luxembourg,Resigned
+789,"Micheal May",Female,1998-09-11,2021-11-11,IT,Analyst,32533.23,harrisbryan@harris.org,"(190) 114 0034 7x131",Adkinsshire,Swaziland,Active
+790,"Matthew Perry",Female,1971-06-16,2021-11-29,Marketing,Analyst,68533.34,gabriela90@romero.info,"(550) 113 7535 x82107","New Allison","Trinidad and Tobago",Resigned
+791,"Kelly Smith",Female,1973-09-05,2023-04-10,Sales,Analyst,111935.01,taylordougherty@simmons.net,"(972) 239 9647",Hamptonside,Congo,Active
+792,"Dr. Andrew Johns",Male,2002-05-26,2017-02-11,Marketing,Consultant,107703.17,laurenpayne@sharp.info,"(002) 443 2362 x21690",Morrisonfurt,Mexico,Terminated
+793,"Jesus Ross",Male,1996-06-11,2015-08-26,IT,Intern,81331.82,wfleming@gmail.com,"(913) 952 1501 x64261","South Sarahborough",Congo,Resigned
+794,"William Friedman",Female,1999-11-19,2019-09-14,Marketing,Engineer,103031.15,melinda19@glenn.com,"(130) 041 6910 x53021",Rhondafurt,Lebanon,Terminated
+795,"Pamela Klein",Female,1990-09-23,2020-04-04,Operations,Analyst,105634.24,jerryparrish@hotmail.com,"(348) 110 5014 x76427",Foleyville,Ghana,Terminated
+796,"Juan Flores",Male,1971-11-18,2017-08-22,Sales,Consultant,116214.70,vvelez@anderson.com,"(001) 978 1554 260x97236","East Kennethport",Jordan,Terminated
+797,"Sarah Wood",Female,1983-05-20,2022-07-04,Marketing,Manager,61258.48,wthomas@gmail.com,"(107) 308 7156 x478","South Elizabeth",Bahamas,Active
+798,"John Parker",Female,1979-11-06,2024-04-30,HR,Intern,66207.09,pamelaphillips@pittman.com,"(001) 726 0292 546x862",Lopezhaven,"Syrian Arab Republic",Terminated
+799,"Angel Butler",Male,1981-05-16,2017-08-17,Sales,Intern,49165.75,ydelgado@clark.com,"(386) 762 5923 x86879","South Paulatown","South Georgia and the South Sandwich Islands",Terminated
+800,"Thomas Mills",Female,1991-01-31,2019-04-16,Sales,Consultant,86408.26,bensonkimberly@green.com,"(189) 273 9615 9x76405","Lake Diana",Gibraltar,Terminated
+801,"Anthony Wells",Female,2004-10-30,2023-03-13,R&D,Intern,66923.42,max26@gmail.com,"(001) 038 4227 362",Chandlerburgh,Bahamas,Active
+802,"Casey Schneider",Male,1997-02-14,2017-01-25,IT,Consultant,84110.90,huffmaria@eaton.info,"(620) 429 8514",Maryfurt,Montserrat,Resigned
+803,"Amanda Thompson",Female,1971-05-13,2022-07-16,Marketing,Intern,80384.25,breannadrake@johnson.biz,"(001) 801 4264 710",Payneland,Korea,Resigned
+804,"Stephen Smith",Male,1979-01-06,2016-09-05,IT,Executive,89280.36,seanosborne@yahoo.com,"(100) 493 3267 2x44693","Port Lindseyburgh",Monaco,Active
+805,"Jeremy Werner",Male,2002-02-04,2015-05-28,R&D,Analyst,58251.43,figueroakatelyn@green-moore.com,"(198) 519 3932 7x272","East Patriciaville",Swaziland,Resigned
+806,"Gregory Williams",Male,2002-08-22,2022-08-13,Marketing,Consultant,105847.52,mariahiggins@foster-rivera.com,"(284) 539 7499 x507","New Michelechester",Gabon,Active
+807,"Jennifer Simpson",Female,1989-01-16,2022-05-02,Marketing,Analyst,51426.92,bradleysmith@nielsen.com,"(102) 215 4390 4x489","New Jeffreyburgh",Guernsey,Active
+808,"Danielle Thompson",Male,1975-09-25,2019-06-23,Marketing,Manager,42985.01,williamslisa@hotmail.com,"(501) 935 4503 x69888",Heatherborough,Niger,Active
+809,"Reginald Lee",Male,1975-05-09,2020-04-28,Marketing,Engineer,63723.45,lellison@anderson-cain.com,"(983) 124 4129 x075",Edwardsberg,Zambia,Active
+810,"Charles Rasmussen",Male,1991-08-21,2018-09-06,IT,Intern,94410.41,lstevens@ramirez-jones.com,"(294) 193 7591 x9226",Jonesbury,Bolivia,Resigned
+811,"Mr. James Raymond",Male,1982-12-19,2023-05-14,Operations,Consultant,51570.82,elizabethromero@yahoo.com,"(612) 096 1730 x099","Lake Judy","Marshall Islands",Terminated
+812,employee_812,Male,1968-06-21,2018-07-25,Sales,Manager,107188.24,brownhayley@gomez-stewart.com,"(219) 143 0877",Littleview,"Lao People's Democratic Republic",Resigned
+813,"Beth Schwartz",Female,1981-06-01,2017-07-18,Finance,Manager,56768.06,shawjoel@fuller-leonard.net,"(920) 487 7067",Gallegosborough,"Cote d'Ivoire",Active
+814,"Nina Chapman",Female,2002-04-19,2022-08-17,R&D,Analyst,54663.29,howardchristina@gmail.com,"(578) 464 0858",Jillhaven,Congo,Active
+815,"Kimberly Kaufman",Female,1986-02-18,2022-10-01,Operations,Intern,108908.51,richardjackson@hotmail.com,"(467) 292 5435 x51962","East Isaiah",Guernsey,Active
+816,"Brian White",Female,1991-12-04,2018-03-03,Marketing,Consultant,32461.58,ajackson@gmail.com,"(001) 420 1223 414","New Alexander","American Samoa",Active
+817,"Mary Foster",Male,1994-06-27,2015-12-28,Marketing,Manager,86546.66,qross@clayton-williams.org,"(632) 174 0039 x101","East Nathan","Cook Islands",Resigned
+818,"Cassandra Martin",Male,1995-11-13,2016-11-26,R&D,Engineer,91717.80,patricksmith@barnes.net,"(770) 564 6160",Cantrellberg,India,Resigned
+819,"Michael Reeves",Female,1988-05-27,2015-06-28,R&D,Executive,47879.73,jeremy23@henderson-wallace.biz,"(123) 133 6109 4x41642","Lake Cory",Guernsey,Resigned
+820,"Robert Wilson",Male,1977-09-11,2023-02-18,Finance,Analyst,113080.11,yharrison@cox.com,"(349) 429 0461 x75518",Smithland,"Syrian Arab Republic",Terminated
+821,"Lisa Cunningham",Female,1976-01-18,2020-05-30,Operations,Manager,34480.47,khanjustin@griffin.com,"(723) 456 5386",Shanetown,Chad,Terminated
+822,"Edward Herrera",Male,1979-08-27,2021-10-01,Finance,Consultant,77325.39,chansen@watts-thompson.net,"(410) 095 3855 x74216",Jimmyshire,"Netherlands Antilles",Resigned
+823,"Robert Perkins",Female,1979-04-24,2023-06-05,IT,Consultant,74475.13,emily04@mathis-reid.com,"(378) 844 3706 x6187",Natalieview,Ukraine,Active
+824,"John Shelton",Male,1990-09-12,2019-04-17,Marketing,Manager,66767.17,richardsonkenneth@hotmail.com,"(858) 990 0277","New Megan",Algeria,Active
+825,"Elizabeth Williams",Male,1995-03-28,2024-11-15,IT,Engineer,91584.04,robertsjoel@yahoo.com,"(001) 605 0337 469x83306",Newmanborough,Angola,Resigned
+826,"Kaitlin Moody",Female,1972-06-30,2024-08-20,Operations,Manager,94200.24,jessicafisher@pruitt-day.com,"(108) 788 6538 5x906",Waltonshire,Israel,Terminated
+827,"Michael Jackson",Male,1999-05-13,2023-11-18,IT,Manager,72383.92,ujohnson@hotmail.com,"(049) 221 7048 x61867","South Peterburgh",Taiwan,Resigned
+828,"Benjamin Hines",Male,2003-08-22,2015-07-26,Finance,Executive,75408.78,sherrycarpenter@gmail.com,"(001) 891 9827 182x65337","South Joantown","Marshall Islands",Resigned
+829,"Ronald Bishop",Male,1975-12-29,2022-03-16,Sales,Manager,53426.25,anthonyrobbins@hotmail.com,"(131) 354 9014 5",Colefurt,Nepal,Terminated
+830,"Luis Weiss",Female,1994-03-15,2018-07-17,HR,Executive,40515.79,jonathan98@benjamin.com,"(184) 302 1781 6",Shawtown,Hungary,Active
+831,"Tiffany Nelson",Female,1979-05-29,2017-04-01,Marketing,Executive,111251.34,garciadebra@yahoo.com,"(001) 928 1503 701x70926",Bradton,"Costa Rica",Resigned
+832,"Mark Johnson",Male,1968-10-11,2023-01-15,IT,Consultant,119510.86,khernandez@bautista.com,"(850) 072 8895 x9274","North Roberttown",Jamaica,Active
+833,"Melissa Ball",Male,1990-07-04,2017-03-09,HR,Analyst,50687.45,isullivan@grant.com,"(391) 702 6344",Jefferyfurt,Niue,Active
+834,"Maria Cook",Female,1999-10-31,2023-07-22,Finance,Intern,62086.81,whitejill@cochran-arias.com,"(253) 690 9123 x7530","New Regina",Mongolia,Terminated
+835,"Rodney Mcintosh",Male,1968-04-25,2019-07-25,Finance,Executive,38422.01,wsmith@yahoo.com,"(652) 405 5364","Lake Amandamouth",Somalia,Resigned
+836,"Todd Frazier",Male,1980-11-08,2022-02-13,Sales,Analyst,77341.39,davidsawyer@hotmail.com,"(738) 546 6232 x360",Powellmouth,"Netherlands Antilles",Terminated
+837,"Tracy Russell",Male,2004-02-22,2016-07-25,IT,Analyst,55585.31,bonnie97@stein.com,"(986) 226 9920",Butlerland,Korea,Terminated
+838,"Laura Russell",Female,1977-03-09,2021-03-06,HR,Analyst,37295.69,briannamclaughlin@hotmail.com,"(133) 587 6887 7",Carrstad,"United States Virgin Islands",Terminated
+839,"Alexandria Martinez",Male,1981-08-27,2024-03-31,IT,Analyst,89055.55,millsmichelle@woodard-li.com,"(398) 391 2260 x00144","Lake Tiffanymouth",Venezuela,Resigned
+840,"Ryan Ramsey",Male,1968-11-23,2020-07-01,HR,Analyst,102140.22,harrelljessica@jones.net,"(001) 752 8720 998",Newmanfurt,"French Southern Territories",Resigned
+841,"Richard Case",Female,1973-07-13,2020-05-12,Finance,Intern,52964.75,christine20@white.org,"(669) 194 8962 x9805",Fergusontown,Belize,Active
+842,"Jacob Burton",Male,1964-07-03,2022-12-11,Marketing,Intern,55644.23,hgarcia@yahoo.com,"(001) 572 4043 474","Lake Frankbury",Barbados,Terminated
+843,"Karen Montgomery",Female,1991-11-08,2016-12-17,Operations,Engineer,41815.80,crawfordtyler@jackson.com,"(619) 202 5999","New Jamesfort",Congo,Terminated
+844,"Andrew Evans",Female,1976-10-28,2020-04-24,Marketing,Executive,80675.14,melanie48@hotmail.com,"(476) 078 6235","North Heatherfort","Isle of Man",Resigned
+845,"Richard Franklin",Female,1996-05-19,2015-11-22,Finance,Analyst,76200.73,webbjohn@hotmail.com,"(895) 145 6340","New Laurahaven",Afghanistan,Resigned
+846,"Joshua Miller",Male,1970-10-23,2020-10-09,IT,Intern,69362.00,joseph96@hotmail.com,"(391) 607 7004 x093","Lake Larryport","British Indian Ocean Territory (Chagos Archipelago)",Resigned
+847,"Victoria Vang",Male,1981-03-27,2024-08-07,Sales,Intern,56593.35,christopherryan@clark.com,"(858) 864 0788","East Peterburgh",Netherlands,Active
+848,"Ann Valenzuela",Female,1983-07-16,2022-10-02,Finance,Intern,89476.97,jennifercooper@anderson-brown.com,"(174) 408 8067 0x898",Riddleton,Nauru,Terminated
+849,"William Baldwin",Male,2005-02-09,2016-11-20,Finance,Consultant,89542.05,christiangonzalez@gmail.com,"(611) 584 8580 x5263","Lake David",Nauru,Active
+850,"Amanda Gamble",Female,1975-02-17,2017-10-22,IT,Engineer,95168.52,jeremiah70@woods-nelson.com,"(708) 231 7146 x1995","New Joseph",Turkey,Terminated
+851,"Regina Cuevas",Male,1973-04-25,2022-03-30,HR,Manager,37039.85,markblake@livingston-cox.com,"(618) 402 5787","East Rebeccahaven",Iran,Terminated
+852,"Timothy Williams",Female,1980-05-29,2016-01-08,Finance,Analyst,45456.18,aallen@yahoo.com,"(281) 640 9891","Port Javierton",Namibia,Resigned
+853,"Christopher Trujillo",Female,1980-06-17,2015-10-21,IT,Engineer,103181.92,derek94@moore-gonzalez.info,"(001) 597 9531 926x00986","East Michellemouth",Guernsey,Terminated
+854,"Theresa Michael",Female,1986-03-16,2019-09-12,Finance,Manager,42160.26,bradleymitchell4@hotmail.com,"(144) 538 1180 8x189",Baileystad,Malta,Active
+855,"Stephen Bruce",Male,1986-10-13,2022-01-31,Operations,Manager,69220.96,michelleharper@hotmail.com,"(217) 970 5660 x361",Pittmanport,Mauritania,Terminated
+856,"Jermaine Phillips",Male,1974-10-24,2022-06-26,Marketing,Intern,31963.51,andersonmichael@gmail.com,"(850) 153 0173 x167","West Rodneystad",Mali,Active
+857,"Antonio Anderson",Male,1981-09-17,2020-06-14,R&D,Intern,82670.36,johnnguyen@bradley-brown.biz,"(531) 579 0571 x918",Grahamport,Tanzania,Active
+858,"Lauren Jordan",Male,1990-09-28,2017-05-28,Operations,Consultant,68860.92,nicolereeves@baker-lambert.info,"(805) 702 3771 x8430","New Jacobtown","Netherlands Antilles",Resigned
+859,"John Robinson",Female,1974-02-02,2023-06-18,Finance,Intern,65971.23,jasonmurillo@roberts-williams.net,"(532) 676 9924","South Thomas",Dominica,Terminated
+860,"Michelle Walker",Female,2000-09-18,2021-01-24,HR,Consultant,35463.42,taylorgina@johnston.com,"(693) 328 4423",Troyland,"Netherlands Antilles",Active
+861,"Brittany Franklin",Female,1997-03-14,2020-12-13,Marketing,Analyst,74530.99,murphyjoseph@yahoo.com,"(607) 569 9913","North Anthony","Saint Barthelemy",Terminated
+862,"Rachel Rollins",Male,1978-11-03,2017-12-11,Marketing,Executive,69429.96,uhaney@mcintyre.info,"(733) 168 0664 x707","East Angelicaton",Dominica,Terminated
+863,"Andrew Mendez",Female,1975-11-06,2023-11-17,HR,Executive,95069.55,crystalmiller@gmail.com,"(174) 027 4067 5x8267",Taylorshire,Vanuatu,Resigned
+864,"Timothy Greer",Female,1965-04-02,2015-12-29,R&D,Manager,85965.81,glee@hendrix.biz,"(614) 974 5979 x318","New Holly",Montenegro,Resigned
+865,"Nicole Roberson",Male,1983-03-21,2016-08-17,Sales,Intern,39081.34,vjohnson@hotmail.com,"(504) 932 6643 x22394",Garciaville,"Cayman Islands",Resigned
+866,"Laurie Michael",Male,2000-08-18,2016-07-31,IT,Executive,62133.95,christina85@king.com,"(762) 239 8474","Port Pamela","Northern Mariana Islands",Active
+867,"James Murray",Female,1998-08-12,2023-09-05,Marketing,Analyst,85580.66,reginaanderson@fox-payne.info,"(584) 168 0613",Barbarastad,Iran,Active
+868,"Paul Andrews",Male,2000-10-27,2019-12-04,R&D,Engineer,54074.21,mullinsmark@yahoo.com,"(179) 496 3830 9x72361","Port Amyshire",Turkmenistan,Active
+869,"Bradley Morales",Male,1964-10-26,2016-12-29,Marketing,Intern,116638.24,michael57@hotmail.com,"(645) 786 5557 x51247",Hilltown,Austria,Active
+870,"Jeremy Meyer",Male,1992-07-20,2024-05-06,R&D,Engineer,33777.25,felicia51@reyes-scott.com,"(244) 418 9974","East Laurieborough","Cook Islands",Active
+871,"Susan Bolton",Female,1965-06-21,2024-01-12,Operations,Intern,98576.82,lori01@smith-sanchez.com,"(944) 238 6020",Jessicaside,"New Caledonia",Resigned
+872,"Courtney Bird",Male,1983-03-26,2016-06-27,Finance,Manager,69519.76,elizabeth098@little-colon.info,"(179) 724 5284 1x356",Alishaport,Ghana,Resigned
+873,"Julie Gomez",Male,1990-01-05,2023-09-08,IT,Executive,94367.98,berrytyrone@hotmail.com,"(940) 598 0260","Lake Christina","Faroe Islands",Resigned
+874,"Shane Gates",Female,1980-03-09,2016-11-04,R&D,Manager,42419.49,martinramirez@gmail.com,"(342) 031 9777 x486",Coxstad,Zimbabwe,Resigned
+875,"Mary Jones",Female,1993-04-05,2019-11-10,Finance,Intern,43102.59,adamboyd@anderson.net,"(841) 962 3326 x0586",Gabrielchester,Taiwan,Active
+876,"Dr. Daniel Sweeney",Female,1994-06-29,2018-08-02,R&D,Manager,69066.51,lpowell@sandoval.com,"(181) 788 2426 x559",Robertside,Namibia,Resigned
+877,"Taylor Reilly",Male,1980-05-06,2017-08-01,Operations,Consultant,101916.37,jeffreywells@yahoo.com,"(189) 022 3790 0x654",Brownside,Fiji,Terminated
+878,employee_878,Female,1981-12-21,2016-07-06,Operations,Consultant,58232.57,ucrawford@gmail.com,"(001) 818 8907 378","West Brandymouth",Lithuania,Resigned
+879,"Kristin Turner",Female,1999-01-06,2021-12-16,Marketing,Consultant,48462.02,nserrano@baker.net,"(207) 612 3961","North Shari","Solomon Islands",Terminated
+880,"Alyssa Atkinson",Female,1970-04-26,2024-08-15,R&D,Manager,109287.72,sarahholland@mills.com,"(207) 066 9010 x79237","New Angela",Iceland,Active
+881,"Stephanie Walker",Male,1999-02-11,2022-09-28,Sales,Engineer,55553.51,pmorse@hotmail.com,"(067) 578 9683 x35570",Ramosville,Seychelles,Active
+882,"Robert Roach",Male,1979-02-24,2017-01-06,Finance,Engineer,83325.32,matthew05@yahoo.com,"(105) 218 7993 8x44404",Tinaside,"Cote d'Ivoire",Active
+883,"Billy Brown",Male,1997-03-17,2016-03-09,R&D,Executive,53378.08,sharonlevine@rosales-gonzalez.net,"(156) 891 0977 x978","Port Nicolebury","Northern Mariana Islands",Terminated
+884,"Regina Burton",Female,1988-08-14,2022-07-26,Sales,Consultant,30469.21,robert79@yahoo.com,"(366) 401 6329",Timothyfort,Macedonia,Resigned
+885,"Sheila Kelly",Male,1998-03-21,2021-07-16,IT,Executive,55608.19,carolynwarner@gmail.com,"(173) 186 8302 9x15854","Port Jeremy",China,Terminated
+886,"James Haney",Male,1989-09-08,2016-06-26,IT,Engineer,82413.21,amanda96@yahoo.com,"(734) 467 4621",Juliashire,Guinea-Bissau,Resigned
+887,"Marie Dorsey",Male,1997-06-16,2019-11-13,Finance,Intern,109965.84,abrown@smith-martin.com,"(816) 981 4134",Elizabethfurt,Qatar,Resigned
+888,"Michele Scott",Female,2002-08-03,2018-10-09,R&D,Executive,82587.34,vroberts@gmail.com,"(001) 286 4330 265","New Jessicashire",Hungary,Terminated
+889,"Chelsea Grant",Female,1977-02-23,2022-05-20,R&D,Manager,42991.16,mstevens@hotmail.com,"(666) 102 5634 x2022","Lake Holly",Cyprus,Active
+890,"Kevin Williams",Male,1978-07-09,2022-10-04,Operations,Manager,70988.91,patriciafreeman@hotmail.com,"(001) 017 7915 244x6144","New Frankbury",Singapore,Active
+891,"Amy Torres",Female,1991-03-24,2021-06-12,Finance,Analyst,63262.74,donald60@gmail.com,"(163) 726 3199 5",Englishmouth,Guinea-Bissau,Resigned
+892,"Brooke White",Female,1994-03-02,2021-09-14,IT,Intern,32518.00,evansbrady@gmail.com,"(150) 255 1344 4",Castilloburgh,"Marshall Islands",Active
+893,employee_893,Female,1996-03-20,2019-06-01,HR,Manager,103721.26,kingmichael@simon-dominguez.com,"(174) 932 5114 9x78879",Jasonberg,Tunisia,Resigned
+894,"Donna Aguilar",Female,1983-09-27,2019-06-18,Sales,Executive,80918.76,bcurtis@gmail.com,"(308) 580 0187 x31439","West Christopherland","El Salvador",Resigned
+895,"John Gutierrez",Male,1971-05-21,2015-07-25,Sales,Consultant,71484.25,dunnconnor@hotmail.com,"(168) 564 2570 6x80269","East Sandra","Saint Helena",Resigned
+896,"Tom White",Female,1977-08-30,2015-07-10,Marketing,Manager,111022.00,brownjames@gmail.com,"(655) 052 2411 x42066",Johnsonmouth,Belarus,Resigned
+897,"Parker Knight",Male,1965-08-12,2016-12-08,R&D,Manager,93648.78,norozco@hotmail.com,"(222) 240 0539 x22205",Taylortown,Bhutan,Terminated
+898,"Nancy Todd",Male,1969-06-15,2017-04-01,HR,Engineer,78765.09,amanda33@garcia.com,"(613) 239 4564 x52342",Evansport,"New Caledonia",Active
+899,"Ricky Thompson",Male,2004-01-12,2024-01-09,Finance,Consultant,114256.36,llee@hotmail.com,"(953) 677 3498",Gregoryfort,Switzerland,Active
+900,"Jared Schroeder",Female,1987-01-31,2018-05-02,Finance,Engineer,84616.93,vwatson@hotmail.com,"(476) 253 8096",Evansview,Lebanon,Resigned
+901,"Jaclyn Wright",Male,2003-11-22,2021-08-15,Marketing,Analyst,107368.36,natalie46@cortez-estrada.com,"(896) 298 5324","Lake Kari",Iceland,Resigned
+902,"Kevin Evans MD",Female,1969-11-18,2017-12-23,HR,Manager,52999.91,vtapia@hotmail.com,"(135) 434 6858 6","Lake Becky","Isle of Man",Active
+903,"Jennifer Ryan",Female,1984-06-16,2024-12-06,HR,Analyst,94197.06,christinagoodwin@hotmail.com,"(116) 153 8116 8x37103","South Lindsayfort",Bulgaria,Resigned
+904,"John Martin",Female,1964-08-04,2016-12-07,R&D,Analyst,34669.03,jolsen@hotmail.com,"(826) 493 1214",Bowersshire,Seychelles,Active
+905,"Raymond Sanders",Female,1986-04-26,2020-01-16,Finance,Executive,35456.88,paulpark@christensen-harris.com,"(117) 299 4036 9x481","East Dawnfurt","Saint Barthelemy",Resigned
+906,"Joe Oliver",Male,1995-01-15,2015-09-30,IT,Engineer,116712.72,jefferywalker@gmail.com,"(161) 259 0163",Jessicaton,Senegal,Terminated
+907,"Chloe Hall",Female,1982-10-26,2018-12-23,Marketing,Analyst,106165.01,qwhitaker@gmail.com,"(148) 140 9841 0x16793","North Virginiaside",Bermuda,Terminated
+908,"Adam Campbell",Male,2004-06-26,2016-09-21,Sales,Intern,116521.69,allisondiana8@english.com,"(866) 168 0199 x03421","West Wayne",Samoa,Terminated
+909,"Elizabeth Green",Male,1974-12-04,2016-05-01,Finance,Analyst,114015.61,james60@woods.org,"(386) 015 7117","East Natalieville",Mozambique,Resigned
+910,"Tammy Montoya",Male,1973-07-11,2020-06-22,Sales,Engineer,55318.02,martinsarah@hotmail.com,"(114) 112 8745 2x7193",Alvarezhaven,"Heard Island and McDonald Islands",Active
+911,"Edward Patterson DDS",Male,1980-07-26,2024-09-27,R&D,Manager,95256.64,hardinvictor@arellano.org,"(232) 154 0131 x5350",Carlsonchester,Panama,Resigned
+912,"Austin Kelley",Female,1987-10-01,2021-01-17,Operations,Executive,118167.63,gregory74@smith.com,"(717) 989 9488 x5669",Williambury,Azerbaijan,Terminated
+913,"Brian Mooney",Female,2000-01-01,2022-09-03,Sales,Executive,31428.72,sheila63@yahoo.com,"(842) 271 7266 x256",Anthonyfurt,Tunisia,Terminated
+914,"Alexander Williams",Male,1984-04-28,2019-12-25,Operations,Manager,67184.67,adamcardenas@wong.com,"(871) 006 6890",Vanessaville,"Libyan Arab Jamahiriya",Terminated
+915,"Charles Ruiz",Male,1975-10-13,2018-08-01,Sales,Analyst,110331.50,belllaura@taylor.net,"(228) 240 8475","New James",Netherlands,Terminated
+916,"Elizabeth Smith",Female,1970-08-05,2015-12-23,Marketing,Manager,105523.12,hjacobs@gmail.com,"(113) 505 3572 x289","Port Adrian",Vanuatu,Terminated
+917,"Bruce Graves",Male,1988-10-08,2023-08-21,HR,Consultant,31780.35,bwarren@house.com,"(419) 453 4195","Port Kathleen",Senegal,Resigned
+918,"Tara Baker",Female,1996-04-07,2024-10-06,R&D,Consultant,49903.29,oroberts@gmail.com,"(102) 188 9306 3",Tylerside,Norway,Resigned
+919,"Allison Cowan",Male,1995-12-08,2024-10-23,Finance,Manager,118583.72,connorholloway@swanson.com,"(001) 699 0558 557x5994","New Katherineburgh",Montserrat,Terminated
+920,"April Barnes",Male,1993-07-27,2024-12-12,Operations,Consultant,80913.63,michael28@owen.com,"(567) 337 4570 x1652",Perrybury,Italy,Terminated
+921,"Andrea Matthews",Male,2001-11-12,2016-04-23,IT,Engineer,106993.11,jeffrey08@lee-sharp.org,"(129) 644 4772 5x084","East Julie","United Arab Emirates",Terminated
+922,"Daniel Hunt",Female,1966-06-27,2019-12-21,Operations,Engineer,109479.17,tfletcher@cortez.com,"(915) 855 7490 x6279",Smithview,Chad,Active
+923,"Antonio Barajas",Female,1978-10-20,2019-01-31,Marketing,Intern,54663.20,emma45@galvan.com,"(182) 863 0402 9x6629","South Ericfort","French Polynesia",Terminated
+924,"Lindsay Calderon",Male,1966-02-11,2020-06-13,Finance,Executive,112655.23,xmarshall4@stein.com,"(001) 266 9370 632",Karenborough,"British Virgin Islands",Terminated
+925,"Laurie Porter",Male,1984-11-13,2024-05-10,Operations,Manager,118028.60,lopezbrandon@gmail.com,"(190) 193 3359 3x79719","North Briantown",Colombia,Resigned
+926,"Maria Jordan",Male,1989-12-14,2017-10-19,Operations,Consultant,38705.35,nicholas476@palmer.com,"(140) 799 2304 5x323","South Debramouth","Lao People's Democratic Republic",Resigned
+927,"Kimberly Jones",Female,1986-11-15,2021-09-21,HR,Executive,104926.58,pgross@yahoo.com,"(194) 539 1177",Costachester,Guam,Resigned
+928,"Christopher Ruiz",Female,1992-10-06,2016-06-13,R&D,Analyst,86281.39,bowersethan@underwood.com,"(806) 190 2231 x1678",Johnsonfort,Niue,Terminated
+929,"George Taylor",Male,1977-10-25,2023-08-02,R&D,Manager,35580.20,brenda12@cardenas-black.com,"(185) 637 1142 9x4300","Lake Johnmouth","Sierra Leone",Resigned
+930,"Laura Medina",Male,1974-06-03,2019-06-14,Sales,Analyst,56542.51,douglaskim@hopkins.org,"(278) 417 8376",Ashleymouth,Ukraine,Resigned
+931,"Joseph Williams",Male,1971-01-03,2019-12-27,Marketing,Intern,71778.82,klara@patterson.com,"(127) 245 5337 x565",Austinchester,Eritrea,Resigned
+932,"Kayla Chapman",Male,1975-03-09,2018-02-11,Marketing,Engineer,59537.43,jean102@yahoo.com,"(250) 692 9656 x85120",Cannonmouth,Turkey,Active
+933,"Johnathan Harper",Male,1980-01-23,2020-09-30,Operations,Engineer,53065.75,nsilva@cohen-adams.com,"(291) 465 0223",Patriciamouth,Mayotte,Resigned
+934,"Miss Sarah Barnett",Male,1964-09-27,2020-03-11,Finance,Manager,58050.02,dsharp@gmail.com,"(184) 070 3398 x214",Petersberg,Singapore,Resigned
+935,"Jeremy Simon",Male,1974-12-07,2016-04-07,HR,Intern,57780.70,caleb67@yahoo.com,"(001) 706 3632 863x01122","Port Stacyton",Uganda,Resigned
+936,"Megan Carter",Male,1982-07-31,2017-06-19,Finance,Manager,75639.71,kerri83@gmail.com,"(001) 367 9608 289x67136","Port Matthewview",Netherlands,Terminated
+937,"Stephanie Mcdowell",Male,2005-02-07,2017-07-29,R&D,Analyst,60739.67,samantha49@flowers.com,"(151) 935 0011 5x461",Cooperhaven,"Saint Barthelemy",Terminated
+938,"Michelle Brown",Female,1967-08-20,2018-12-31,Sales,Executive,67682.58,jonathan10@brown-allen.com,"(685) 135 3814 x8374",Floreshaven,Australia,Active
+939,"Marcus Smith",Male,1991-10-05,2024-02-05,Operations,Manager,92389.85,hcampbell@yahoo.com,"(840) 190 2716 x988","South Jacqueline",Jordan,Resigned
+940,"Jacob Reilly",Female,1993-03-09,2024-02-11,R&D,Consultant,63832.06,millerashley@yahoo.com,"(598) 332 6170 x505","West Jake",Guinea-Bissau,Resigned
+941,"Andrea Bailey",Male,1986-07-30,2022-10-17,Sales,Analyst,42816.18,john33@douglas.com,"(662) 177 5801",Amberview,Vanuatu,Resigned
+942,"Joshua Jacobs",Male,1978-06-21,2015-05-21,HR,Manager,55569.08,hernandezzachary@moore.com,"(669) 834 5150 x2528",Sherrychester,Botswana,Active
+943,"April Stephens",Male,1977-04-10,2015-06-11,HR,Analyst,45846.97,normakirby3@hotmail.com,"(382) 777 7118 x425","Lake Jessica",Palau,Resigned
+944,"Jean Smith",Male,1968-07-01,2015-06-17,IT,Manager,57456.51,thomasbrandon@gmail.com,"(001) 423 4473 057x771",Michaelshire,Mozambique,Active
+945,"Ashley Diaz",Female,1993-11-18,2021-04-06,Operations,Analyst,40664.40,acarrillo@yahoo.com,"(996) 833 4400",Edwinport,"Western Sahara",Active
+946,"Michael Fleming",Female,1989-02-13,2018-08-26,Operations,Manager,112891.22,susanwhite@gmail.com,"(001) 143 9070 547","South Brendan",Brazil,Terminated
+947,"Richard Willis",Male,1969-12-08,2020-11-26,Finance,Consultant,101605.07,williamsrandy@barnes.net,"(265) 893 4759",Boyerborough,Cyprus,Active
+948,"Jordan Reeves",Male,1988-09-08,2023-09-07,R&D,Intern,101189.75,danielduncan@hudson-meyers.biz,"(866) 432 0317","Port Diane",Jamaica,Terminated
+949,"Richard Thomas",Female,1991-01-18,2024-06-23,Marketing,Engineer,71784.05,michele92@hotmail.com,"(240) 002 0860 x1460",Christophertown,Moldova,Resigned
+950,"Diana Holloway",Female,1998-01-12,2017-04-05,IT,Engineer,66085.15,jessicakoch@hotmail.com,"(001) 335 6369 301x0009","New Lorishire",Dominica,Terminated
+951,"Jeremy Wilson",Male,1964-07-22,2020-07-31,Marketing,Manager,57539.91,alisonhaas@rogers.com,"(892) 909 3043 x76613",Longside,"United States Virgin Islands",Resigned
+952,"Kayla Cochran",Male,1973-11-11,2017-08-23,R&D,Analyst,56554.32,baileytracey@hotmail.com,"(747) 053 1105 x8330",Crawfordborough,"Netherlands Antilles",Terminated
+953,"Jonathan Irwin",Female,1970-10-03,2024-10-19,Marketing,Intern,68925.51,donald69@wells.com,"(101) 676 7187 7x6288","South Sara",Jersey,Resigned
+954,"Susan Estrada",Male,1965-12-26,2016-10-21,IT,Consultant,36829.96,stevemorales@hotmail.com,"(266) 678 8093",Schneiderland,Zambia,Active
+955,"Robert Jackson",Female,2001-10-05,2024-06-17,HR,Analyst,40672.91,lcarter@stokes.net,"(255) 977 7265",Jamestown,Mayotte,Resigned
+956,"Susan Wood",Female,2000-07-12,2015-09-25,Operations,Consultant,106090.34,glasssamantha@yahoo.com,"(716) 578 9391","New Susan",Tokelau,Active
+957,"James Solis",Female,2000-09-05,2024-05-18,Finance,Executive,55366.07,wongmckenzie@yahoo.com,"(600) 500 9244 x92878",Baileymouth,Australia,Resigned
+958,"Maria Schroeder",Male,2004-06-09,2018-08-26,Marketing,Consultant,76138.23,garcianatalie@schultz-brown.net,"(074) 290 6952 x2233",Jacobsville,"Norfolk Island",Active
+959,"Janice Tanner",Male,1965-03-30,2023-10-17,Sales,Engineer,100737.72,shepardlisa@conway.biz,"(497) 537 4057","Port Dawnview",Gambia,Resigned
+960,"Matthew Harper",Male,1992-01-30,2023-10-02,Marketing,Consultant,67591.91,leamy@yahoo.com,"(544) 534 5146",Kempside,Panama,Resigned
+961,"Heather Sawyer",Male,1977-10-30,2019-11-13,IT,Consultant,30871.30,anna35@payne.biz,"(366) 485 3207 x7587","New Rachelport",Ecuador,Terminated
+962,"Stephen Ortiz",Female,2002-06-25,2019-01-11,R&D,Consultant,78384.36,john69@hotmail.com,"(805) 045 0509 x28467","Lake Mackenzie",Austria,Resigned
+963,"Douglas Hardin",Female,1977-08-30,2024-12-17,Sales,Consultant,101923.12,vgriffin@meadows-richard.org,"(450) 380 1625 x85150","Lake Heidi",Albania,Terminated
+964,"Greg Barrett",Male,2002-07-31,2016-11-30,Sales,Intern,46950.48,matthewdyer@gmail.com,"(943) 379 5311 x123",Barbaraview,"Trinidad and Tobago",Active
+965,"Hunter Dyer",Male,1982-04-17,2017-11-05,Finance,Consultant,79761.61,zescobar@hotmail.com,"(108) 573 8385 x545","West Crystalchester",Armenia,Active
+966,"Samantha Garrett",Female,2004-02-05,2019-04-06,IT,Manager,50973.55,millerelizabeth@yahoo.com,"(553) 706 2728 x167","East Scott",Hungary,Terminated
+967,"Ryan Singleton",Female,1985-12-01,2023-05-28,R&D,Intern,65199.47,wball@hotmail.com,"(641) 260 8481",Myerstown,Myanmar,Active
+968,"Amy Duncan",Male,1970-01-07,2022-08-27,HR,Manager,57878.15,tylerjimmy@harper.info,"(450) 599 8226",Perezville,Yemen,Terminated
+969,"Philip Ramirez",Male,1979-11-28,2024-05-06,Sales,Consultant,91635.23,wayne14@hernandez.com,"(450) 282 3134 x2755",Grayburgh,Netherlands,Resigned
+970,"Ashley Rivera",Male,2004-06-30,2015-09-22,Sales,Executive,111927.23,james18@hotmail.com,"(436) 953 1029",Webbville,Gibraltar,Resigned
+971,"Charles Richards",Female,1996-02-21,2017-06-19,IT,Consultant,105837.55,lisa73@gmail.com,"(162) 910 8739 x22198","South Ashley",Belarus,Resigned
+972,"Jessica Shelton",Male,1993-12-04,2023-07-19,Sales,Consultant,68886.90,howardannette@hayes.com,"(191) 530 4450 0x202",Newtonhaven,Ecuador,Resigned
+973,"Kristen Johnson",Male,1978-10-24,2020-07-31,HR,Manager,54639.86,jacksonleslie@yahoo.com,"(603) 040 9346 x754","New Jenniferberg","Dominican Republic",Terminated
+974,"Kimberly Davis",Male,1969-06-14,2019-06-16,Marketing,Intern,119315.07,dthompson@garcia-sanchez.biz,"(184) 220 1388","West Laura",China,Terminated
+975,"Joshua Gonzalez",Female,1969-07-16,2021-11-22,Marketing,Intern,44835.52,awalker@medina.com,"(173) 690 7894 7x6720","North Michaelland","Equatorial Guinea",Active
+976,"Ariel Williams",Female,1996-07-24,2015-06-18,Marketing,Executive,97136.17,hamiltonjoseph2@yahoo.com,"(895) 123 7085","Port Danielshire","Sao Tome and Principe",Active
+977,"Dennis Day",Female,1988-12-07,2019-09-23,Marketing,Intern,36141.35,jjacobs@hotmail.com,"(556) 192 7671 x3771",Bradychester,"Dominican Republic",Terminated
+978,"Jennifer Taylor",Female,1991-08-26,2021-10-21,R&D,Manager,45353.02,shelbywatson@yahoo.com,"(713) 887 4022","Lake Diana","Saint Barthelemy",Active
+979,"Donna James",Male,1968-12-31,2020-06-13,Finance,Consultant,98723.01,lblackwell@yahoo.com,"(330) 411 7614 x21524","North Carolyn","Marshall Islands",Terminated
+980,"Christine Leblanc",Male,1982-02-20,2023-06-19,Marketing,Consultant,34298.04,paul68@hughes.com,"(688) 300 4837","South Jessica",Portugal,Terminated
+981,employee_981,Female,1976-08-21,2017-10-11,Operations,Executive,69958.80,timothybrown@george-ramirez.com,"(062) 911 8722 x824",Martinezborough,Angola,Terminated
+982,"Brian Horton",Female,1991-07-26,2016-03-21,HR,Manager,38224.78,erica894@hotmail.com,"(001) 849 7499 799x0522","South Davidview",Mauritius,Resigned
+983,"Rachel Travis",Male,1988-07-15,2024-02-08,R&D,Consultant,45109.46,cooleypatricia@reynolds.com,"(156) 316 3129 7x5572",Garciaport,Netherlands,Active
+984,"John Castro",Male,1969-02-23,2016-10-27,Sales,Manager,114089.46,myerstiffany@wolfe.com,"(107) 167 5321 6x3361","North Theodore",Tokelau,Resigned
+985,"Debra Johnson",Male,1967-05-28,2020-08-05,Finance,Intern,88859.35,thomasmartin@brady-watson.com,"(356) 399 8127 x43922",Kimberlymouth,Botswana,Active
+986,"Dominic Bass",Female,1976-11-07,2020-10-20,Finance,Analyst,109691.40,marilyn62@fuentes.com,"(018) 639 9454 x1384",Jesusmouth,Iceland,Resigned
+987,"Anthony Allen",Male,1996-04-26,2022-02-12,IT,Analyst,83988.04,curtisroy@hotmail.com,"(598) 724 0899 x2177","West Debra",Senegal,Terminated
+988,"Jennifer Romero",Female,1968-11-03,2018-10-27,HR,Consultant,98554.47,blee@johnson-schwartz.com,"(340) 242 2241 x9830",Nunezbury,Colombia,Terminated
+989,"Jessica Parker",Female,1965-04-18,2016-11-29,Marketing,Engineer,87653.28,kelly24@salas.com,"(435) 094 7651","Lake Jillchester","Palestinian Territory",Active
+990,"George Fritz",Male,1964-11-11,2025-02-09,IT,Manager,96412.20,parkermichael@hotmail.com,"(191) 370 5424 5","Lake Cynthiaton",Madagascar,Active
+991,"Cassidy Dalton",Male,1969-02-12,2015-10-10,Marketing,Manager,87783.50,patrick94@curry.com,"(237) 666 9692","New Michael",Djibouti,Active
+992,"Anna Wright",Female,1968-10-07,2024-07-12,HR,Executive,58578.48,houstonlaura@martinez-valdez.com,"(066) 283 4633 x4889","East Jonathan",Latvia,Active
+993,"Todd Rojas",Male,1990-04-04,2022-09-25,HR,Consultant,59814.32,romerokimberly@yahoo.com,"(243) 826 9285 x5074","West Lori",Angola,Active
+994,"Hannah Dickson",Male,2002-05-21,2024-03-18,Sales,Intern,76932.47,natasha708@gmail.com,"(001) 696 4535 917",Murphyview,Kuwait,Active
+995,"Joshua Harris",Male,1966-11-16,2021-02-06,HR,Manager,38258.35,andreaherring@gmail.com,"(496) 686 6798 x994",Smithville,Kuwait,Terminated
+996,"Sarah Johnson",Female,1993-10-17,2025-04-02,Operations,Intern,58031.67,mathischristine@miller.net,"(715) 675 6650 x518",Acevedoville,Hungary,Terminated
+997,"Eduardo Hart DDS",Female,1976-08-11,2018-10-16,Operations,Manager,54467.47,tararichardson@hotmail.com,"(985) 045 0566 x93754","East Malloryview","United Arab Emirates",Resigned
+998,"Justin Jones",Female,2000-11-10,2025-04-24,Marketing,Engineer,84845.48,laurie14@richard.com,"(138) 576 2648 1x63849","Port Kaitlyn",Tokelau,Resigned
+999,"Amber Cruz",Female,1986-04-20,2024-01-10,Marketing,Analyst,98297.25,andrewlarsen@gmail.com,"(001) 127 8969 519x30485","Port Rebecca",Liechtenstein,Resigned
+1000,"Joseph Blake",Female,1967-08-20,2018-12-28,IT,Intern,55490.32,robert03@hotmail.com,"(344) 439 4689 x63318","Lake Sydneyborough",Cyprus,Terminated
